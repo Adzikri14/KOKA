@@ -23,10 +23,17 @@
     "baris": [
       {
         "elemen": "Berpikir Komputasional",
-        "materi": "Bab 1 — Berpikir Komputasional dalam Kehidupan Sehari-hari; Bab 2 — Pengenalan Pemrograman Dasar",
+        "materi": "Berpikir Komputasional dalam Kehidupan Sehari-hari",
         "tp": [
           "Menjelaskan pengertian, manfaat, dan tujuan berpikir komputasional dengan bahasa sendiri.",
-          "Menyebutkan dan memberi contoh empat pilar berpikir komputasional (dekomposisi, pengenalan pola, abstraksi, algoritma).",
+          "Menyebutkan dan memberi contoh empat pilar berpikir komputasional (dekomposisi, pengenalan pola, abstraksi, algoritma)."
+        ],
+        "atp": "Berpikir Komputasional → Empat Pilar → Algoritma (Flowchart/Pseudocode) → Pengenalan Scratch → Proyek Dasar Scratch"
+      },
+      {
+        "elemen": "",
+        "materi": "Pengenalan Pemrograman Dasar",
+        "tp": [
           "Menuliskan langkah-langkah sederhana dalam bentuk flowchart dan pseudocode.",
           "Menjelaskan konsep dasar pemrograman: variabel, perulangan, dan pengondisian.",
           "Membuat proyek dasar sederhana menggunakan aplikasi Scratch."
@@ -35,20 +42,76 @@
       },
       {
         "elemen": "Literasi Digital",
-        "materi": "Bab 3 — Literasi Digital dan Keamanan Informasi",
+        "materi": "Teknologi Digital dan Sisitem Komputer",
         "tp": [
-          "Menjelaskan pengertian literasi digital.",
+          "Menjelaskan pengertian Teknologi Digital.",
           "Menyebutkan manfaat dan dampak teknologi digital dalam kehidupan sehari-hari.",
           "Mengenal bagian-bagian dasar sistem komputer (input, proses, output).",
           "Menerapkan cara menjaga keamanan informasi pribadi saat berkomunikasi daring."
         ],
-        "atp": "Pengertian Literasi Digital → Manfaat & Dampak Teknologi → Sistem Komputer Dasar → Keamanan Informasi Pribadi"
+        "atp": [
+          "Tahap 1: Pengenalan konsep literasi digital.",
+          "Tahap 2: Sejarah dan perkembangan teknologi digital.",
+          "Tahap 3: Identifikasi manfaat teknologi digital.",
+          "Tahap 4: Analisis dampak positif dan negatif teknologi digital.",
+          "Tahap 5: Identifikasi ancaman digital dan langkah pencegahan.",
+          "Tahap 6: Praktik etika dan keamanan berinternet"
+        ]
+      },
+      {
+        "elemen": "",
+        "materi": "Pemanfaatan Teknologi dan Pembuatan Konten Digital  ",
+        "tp": [
+          "Murid dapat menjelaskan pengertian literasi digital dengan bahasa sederhana melalui tanya jawab interaktif dengan benar.",
+          "Murid dapat mengidentifikasi perkembangan teknologi digital dari masa ke masa berdasarkan media visual dengan runtut.",
+          "Murid dapat menyebutkan manfaat teknologi digital dalam kehidupan sehari-hari melalui contoh konkret dengan tepat.",
+          "Murid dapat mengidentifikasi dampak positif dan negatif penggunaan teknologi digital dalam kelompok kecil secara kritis.",
+          "Murid dapat mengenali berbagai ancaman di dunia digital dan cara menghindarinya melalui studi kasus keamanan siber dengan cermat.",
+          "Murid dapat menerapkan perilaku bijak, aman, dan bertanggung jawab saat menggunakan teknologi digital dalam praktik komunikasi daring."
+        ],
+        "atp": [
+          "Tahap 1: Pengenalan alat dan fungsi aplikasi pembuat poster.",
+          "Tahap 2: Pemilihan elemen visual dan tata letak.",
+          "Tahap 3: Perancangan sketsa konten digital.",
+          "Tahap 4: Praktik pembuatan poster digital.",
+          "Tahap 5: Evaluasi dan diseminasi karya digital."
+        ]
+      },
+      {
+        "elemen": "",
+        "materi": "Penggunaan dan Dampak Internet",
+        "tp": [
+         "Murid dapat menjelaskan mekanisme dasar cara kerja internet dalam menghubungkan perangkat melalui analogi sederhana dengan tepat.",
+         "Murid dapat mengidentifikasi pemanfaatan layanan internet untuk pencarian informasi dan pembelajaran secara mandiri.",
+         "Murid dapat menganalisis dampak positif dan negatif penggunaan internet dalam kehidupan sehari-hari secara kritis.",
+         "Murid dapat menerapkan etika berinternet (netiket) dalam interaksi sosial daring dengan benar.",
+         "Murid dapat menyusun solusi pencegahan kecanduan internet dan penyebaran hoaks dalam bentuk infografis sederhana."
+        ],
+        "atp": [
+          "Tahap 1: Memahami dasar koneksi dan kerja internet.",
+          "Tahap 2: Pemanfaatan internet untuk pencarian informasi.",
+          "Tahap 3: Analisis dampak internet (positif & negatif).",
+          "Tahap 4: Penerapan etika berinternet (Netiket).",
+          "Tahap 5: Solusi pencegahan hoaks dan kecanduan internet."
+        ]
       },
       {
         "elemen": "Literasi dan Etika Kecerdasan Artifisial",
-        "materi": "Menyusul",
-        "tp": ["Tujuan pembelajaran bab ini akan ditambahkan oleh guru."],
-        "atp": "Menyusul"
+        "materi": "Kecerdasan Artifisial (AI)",
+        "tp": [
+          "Murid dapat menjelaskan konsep dasar Kecerdasan Artifisial (AI) sederhana melalui contoh sehari-hari dengan tepat.",
+          "Murid dapat membedakan kemampuan penginderaan antara manusia dan komputer melalui observasi langsung secara cermat.",
+          "Murid dapat mengidentifikasi perbedaan antara mesin cerdas (AI) dan mesin non-cerdas berdasarkan karakteristiknya dengan benar.",
+          "Murid dapat menganalisis manfaat dan dampak penerapan Kecerdasan Artifisial dalam kehidupan sehari-hari secara kritis.",
+          "Murid dapat menilai prinsip etika penggunaan AI (empati dan tidak merugikan sesama) melalui studi kasus sederhana."
+        ],
+        "atp": [
+          "Tahap 1: Pengenalan konsep dasar AI.",
+          "Tahap 2: Perbandingan penginderaan manusia dan komputer.",
+          "Tahap 3: Identifikasi mesin cerdas vs non-cerdas.",
+          "Tahap 4: Analisis manfaat dan dampak AI.",
+          "Tahap 5: Pemahaman etika penggunaan AI."
+        ]
       },
       {
         "elemen": "Pemanfaatan dan Pengembangan Kecerdasan Artifisial",
@@ -62,16 +125,26 @@
     "baris": [
       {
         "elemen": "Berpikir Komputasional",
-        "materi": "— Berpikir Komputasional; — Algoritma dan Dasar Pemrograman",
+        "materi": "Berpikir Komputasional",
         "tp": [
           "Menjelaskan pengertian, manfaat, dan ciri-ciri berpikir komputasional.",
-          "Menerapkan 4 pilar berpikir komputasional untuk menyelesaikan masalah sederhana.",
+          "Menerapkan 4 pilar berpikir komputasional untuk menyelesaikan masalah sederhana."
+        ],
+        "atp": [
+          "Berpikir Komputasional → Empat Pilar → Algoritma (Flowchart/Pseudocode) → Dasar Pemrograman → Proyek Lanjutan Scratch"
+        ]
+      },
+      {
+        "elemen": "",
+        "materi": "Algoritma dan Dasar Pemrograman",
+        "tp": [
           "Menyusun algoritma sederhana dalam bentuk pseudocode dan flowchart.",
           "Menjelaskan konsep dasar pemrograman (input, proses, output, variabel, perulangan).",
           "Membuat proyek sederhana lanjutan menggunakan aplikasi Scratch."
         ],
         "atp": [
           "Berpikir Komputasional → Empat Pilar → Algoritma (Flowchart/Pseudocode) → Dasar Pemrograman → Proyek Lanjutan Scratch"
+        ]
       },
       {
         "elemen": "Literasi Digital",
@@ -94,7 +167,7 @@
         ]
       },
       {
-        "elemen": "Literasi dan Etika Kecerdasan Artifisial",
+        "elemen": "",
         "materi": "Pemanfaatan Teknologi dan Pembuatan Konten Digital",
         "tp": [
           "Murid dapat menjelaskan mekanisme dasar cara kerja internet dalam menghubungkan perangkat melalui analogi sederhana dengan tepat.",
@@ -107,13 +180,25 @@
       },
       {
         "elemen": "",
-        "materi": "Penggunaan dan Dampak Internet",
+        "materi": "Sistem dan Jaringan Komputer, dan Internet",
+        "tp": [
+          "Murid dapat menjelaskan mekanisme dasar cara kerja internet dalam menghubungkan perangkat melalui analogi sederhana dengan tepat.",
+          "Murid dapat mengidentifikasi pemanfaatan layanan internet untuk pencarian informasi dan pembelajaran secara mandiri.",
+          "Murid dapat menganalisis dampak positif dan negatif penggunaan internet dalam kehidupan sehari-hari secara kritis.",
+          "Murid dapat menerapkan etika berinternet (netiket) dalam interaksi sosial daring dengan benar.",
+          "Murid dapat menyusun solusi pencegahan kecanduan internet dan penyebaran hoaks dalam bentuk infografis sederhana."
+        ],
+        "atp": "Menyusul"
+      },
+      {
+        "elemen": "Literasi dan Etika Kecerdasan Artifisial",
+        "materi": "Kecerdasan Artifisialan (Pengertian, Pemanfaatan AI, Cara Kerja AI)",
         "tp": ["Tujuan pembelajaran bab ini akan ditambahkan oleh guru."],
         "atp": "Menyusul"
       },
       {
         "elemen": "Pemanfaatan dan Pengembangan Kecerdasan Artifisial",
-        "materi": "Menyusul",
+        "materi": "Kecerdasan Artifisialan (Pengertian, Pemanfaatan AI, Cara Kerja AI)",
         "tp": ["Tujuan pembelajaran bab ini akan ditambahkan oleh guru."],
         "atp": "Menyusul"
       }
