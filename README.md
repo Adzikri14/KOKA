@@ -1,5 +1,5 @@
 # KOKA — Koding dan Kecerdasan Artifisial
-### Smart Learning Lab
+### Explore The World of Coding an Ai
 
 Website pembelajaran interaktif untuk mata pelajaran **Koding dan Kecerdasan Artifisial (KA)** kelas 5 & 6, dibangun dengan HTML5, CSS3, dan JavaScript murni (tanpa framework) — mengikuti gaya teknis proyek AKKA.
 
