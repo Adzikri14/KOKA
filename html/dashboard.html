@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — KOKA</title>
+<link rel="icon" href="../assets/images/icons/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/variables.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body class="halaman-app bg-hias">
+
+  <header class="app-header">
+    <div class="container">
+      <div class="brand">
+        <img src="../assets/images/mascot/maskot-kepala.png" alt="Logo KOKA">
+        <div class="teks-brand">
+          <h1>KOKA</h1>
+          <small>KODING DAN KECERDASAN ARTIFISIAL</small>
+        </div>
+      </div>
+      <button class="btn-keluar" id="btn-keluar">Keluar 🚪</button>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="sambutan-box">
+      <span class="elemen-dekor" style="top:10%;left:36%;font-size:18px;color:rgba(255,255,255,.5);animation-delay:.3s;">✦</span>
+      <span class="elemen-dekor" style="bottom:14%;left:52%;font-size:14px;color:rgba(255,255,255,.5);animation-delay:1s;">•</span>
+      <div class="sambutan-atas">
+        <div class="sambutan-kiri">
+          <h2>Selamat Datang!</h2>
+          <div class="halo">Hai, <span id="nama-siswa">Siswa</span> <span class="tangan maskot-lambai">👋</span></div>
+          <div class="kelas-info">🏫 Kelas <span id="kelas-siswa">-</span></div>
+          <div>Ayo Belajar Seru bersama KOKA!</div>
+        </div>
+        <div class="sambutan-kanan">
+          <img src="../assets/images/mascot/maskot-berdiri.png" alt="Maskot KOKA" class="maskot-mengambang">
+        </div>
+      </div>
+
+      <div class="aksi-cepat">
+        <a class="kartu-aksi-kecil" href="petunjuk.html">
+          <div class="ikon">📖</div>
+          <div><h4>Petunjuk</h4><p> Panduan KOKA</p></div>
+        </a>
+        <a class="kartu-aksi-kecil" href="cp-atp-tp.html">
+          <div class="ikon">🎯</div>
+          <div><h4>CP / TP / ATP</h4><p>Capaian &amp; tujuan belajar</p></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="menu-utama">
+      <h3>Menu Belajar</h3>
+      <div class="grid-menu" id="grid-menu-utama">
+        <a class="kartu-menu-baru" href="materi.html">
+          <div class="gambar-menu gambar-menu-materi"><span class="ikon-menu-besar">📚</span></div>
+          <div class="teks-menu-baru">
+            <h4>Materi</h4>
+            <p>Belajar Koding dan Kecerdasan Artifisial</p>
+            <span class="panah-menu">Mulai belajar →</span>
+          </div>
+        </a>
+        <a class="kartu-menu-baru" href="game.html">
+          <div class="gambar-menu gambar-menu-game"><span class="ikon-menu-besar">🎮</span></div>
+          <div class="teks-menu-baru">
+            <h4>Game</h4>
+            <p>Misi seru berburu koin</p>
+            <span class="panah-menu">Mulai main →</span>
+          </div>
+        </a>
+        <a class="kartu-menu-baru" href="asesmen.html">
+          <div class="gambar-menu gambar-menu-asesmen"><span class="ikon-menu-besar">📝</span></div>
+          <div class="teks-menu-baru">
+            <h4>Asesmen</h4>
+            <p>Uji kemampuanmu</p>
+            <span class="panah-menu">Mulai kerjakan →</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+<footer class="footer-koka">KOKA © 2026<span class="nama-guru">Dibimbing oleh Ananda Dzikri Laila, M.Pd</span></footer>
+
+<script src="../js/app.js"></script>
+<script src="../js/dashboard.js"></script>
+<script src="../js/audio.js"></script>
+</body>
+</html>

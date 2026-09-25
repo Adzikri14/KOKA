@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KOKA — Smart Learning Lab</title>
+<link rel="icon" href="assets/images/icons/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/login.css">
+</head>
+<body class="halaman-login bg-hias">
+
+  <div class="bg-gelombang">
+    <div class="blob" style="width:180px;height:180px;top:8%;left:6%;"></div>
+    <div class="blob" style="width:120px;height:120px;top:65%;left:12%;"></div>
+    <div class="blob" style="width:90px;height:90px;top:20%;right:10%;"></div>
+    <div class="blob" style="width:150px;height:150px;bottom:10%;right:8%;"></div>
+    <div class="blob" style="width:60px;height:60px;top:42%;left:44%;background:var(--mint-500);opacity:.2;"></div>
+
+    <span class="elemen-dekor" style="top:14%;left:20%;font-size:28px;animation-delay:.2s;">✦</span>
+    <span class="elemen-dekor" style="top:78%;left:24%;font-size:20px;animation-delay:1.1s;">⭐</span>
+    <span class="elemen-dekor" style="top:24%;right:22%;font-size:22px;animation-delay:.6s;">✦</span>
+    <span class="elemen-dekor" style="top:60%;right:16%;font-size:30px;animation-delay:1.6s;">⭐</span>
+    <span class="elemen-dekor" style="top:48%;left:8%;font-size:16px;animation-delay:.9s;">•</span>
+    <span class="elemen-dekor" style="top:10%;right:38%;font-size:16px;animation-delay:1.4s;">•</span>
+    <span class="elemen-dekor" style="bottom:8%;left:40%;font-size:24px;animation-delay:.4s;">✦</span>
+  </div>
+
+  <div class="login-wrap">
+    <div class="login-brand">
+      <img src="assets/images/mascot/maskot-wave.png" alt="Maskot KOKA" class="maskot-mengambang">
+      <h1>KOKA</h1>
+      <div class="tagline">Explore the world of coding and AI</div>
+      <p class="subjudul">Koding dan Kecerdasan Artifisial kelas 5 &amp; 6</p>
+    </div>
+
+    <div class="login-card">
+      <h2>SIAP PERTUALANGAN BERSAMA KOKA?</h2>
+      <p class="sub">Isi namamu dan pilih kelas untuk mulai belajar</p>
+
+      <form id="form-login">
+        <div class="input-grup">
+          <label for="nama">Nama Lengkap</label>
+          <input type="text" id="nama" class="input-teks" placeholder="Tulis namamu di sini" required>
+        </div>
+        <div class="input-grup">
+          <label for="kelas">Pilih Kelas</label>
+          <select id="kelas" class="input-teks" required>
+            <option value="" disabled selected>-- Pilih Kelas --</option>
+            <option value="5">Kelas 5</option>
+            <option value="6">Kelas 6</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-oren btn-block">Masuk 🚀</button>
+      </form>
+      <p class="login-footer-note">© KOKA 2026 — Explore the world of coding and AI</p>
+    </div>
+  </div>
+
+<script src="js/app.js"></script>
+<script src="js/login.js"></script>
+<script src="js/audio.js"></script>
+</body>
+</html>

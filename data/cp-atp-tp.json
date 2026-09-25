@@ -1,0 +1,102 @@
+{
+  "fase": "Fase C (Kelas 5–6)",
+  "mapel": "Koding dan Kecerdasan Artifisial (KA)",
+  "cpUmum": [
+    {
+      "elemen": "Berpikir Komputasional",
+      "cp": "Memahami permasalahan sederhana dalam kehidupan sehari-hari, menerapkan pemecahan masalah secara sistematis, serta menuliskan instruksi logis dan terstruktur menggunakan sekumpulan kosakata atau simbol."
+    },
+    {
+      "elemen": "Literasi Digital",
+      "cp": "Memahami konsep dasar, manfaat, dan dampak teknologi digital, memahami sistem komputer tingkat pradasar, menerapkan pengamanan informasi pribadi dalam komunikasi daring, memanfaatkan internet, dan memproduksi serta mendiseminasi konten digital dalam bentuk teks dan gambar."
+    },
+    {
+      "elemen": "Literasi dan Etika Kecerdasan Artifisial",
+      "cp": "Memahami konsep KA sederhana, manfaat dan dampak KA pada kehidupan sehari-hari, prinsip bahwa KA dikembangkan untuk meningkatkan kesejahteraan manusia dan tidak boleh merugikan manusia, mengetahui perbedaan manusia dan komputer dalam melakukan penginderaan, dan mengetahui perbedaan antara mesin cerdas dan mesin non-cerdas. Memahami etika dasar penggunaan KA seperti empati dan tidak menyakiti orang lain."
+    },
+    {
+      "elemen": "Pemanfaatan dan Pengembangan Kecerdasan Artifisial",
+      "cp": "Menyimulasikan secara sederhana kerja KA saat mengenali pola, mengklasifikasi benda konkret berdasarkan sifatnya, dan mengetahui bagaimana prediksi sistem KA dipengaruhi input benda konkret."
+    }
+  ],
+  "kelas5": {
+    "baris": [
+      {
+        "elemen": "Berpikir Komputasional",
+        "materi": "Bab 1 — Berpikir Komputasional dalam Kehidupan Sehari-hari; Bab 2 — Pengenalan Pemrograman Dasar",
+        "tp": [
+          "Menjelaskan pengertian, manfaat, dan tujuan berpikir komputasional dengan bahasa sendiri.",
+          "Menyebutkan dan memberi contoh empat pilar berpikir komputasional (dekomposisi, pengenalan pola, abstraksi, algoritma).",
+          "Menuliskan langkah-langkah sederhana dalam bentuk flowchart dan pseudocode.",
+          "Menjelaskan konsep dasar pemrograman: variabel, perulangan, dan pengondisian.",
+          "Membuat proyek dasar sederhana menggunakan aplikasi Scratch."
+        ],
+        "atp": "Berpikir Komputasional → Empat Pilar → Algoritma (Flowchart/Pseudocode) → Pengenalan Scratch → Proyek Dasar Scratch"
+      },
+      {
+        "elemen": "Literasi Digital",
+        "materi": "Bab 3 — Literasi Digital dan Keamanan Informasi",
+        "tp": [
+          "Menjelaskan pengertian literasi digital.",
+          "Menyebutkan manfaat dan dampak teknologi digital dalam kehidupan sehari-hari.",
+          "Mengenal bagian-bagian dasar sistem komputer (input, proses, output).",
+          "Menerapkan cara menjaga keamanan informasi pribadi saat berkomunikasi daring."
+        ],
+        "atp": "Pengertian Literasi Digital → Manfaat & Dampak Teknologi → Sistem Komputer Dasar → Keamanan Informasi Pribadi"
+      },
+      {
+        "elemen": "Literasi dan Etika Kecerdasan Artifisial",
+        "materi": "Menyusul",
+        "tp": ["Tujuan pembelajaran bab ini akan ditambahkan oleh guru."],
+        "atp": "Menyusul"
+      },
+      {
+        "elemen": "Pemanfaatan dan Pengembangan Kecerdasan Artifisial",
+        "materi": "Menyusul",
+        "tp": ["Tujuan pembelajaran bab ini akan ditambahkan oleh guru."],
+        "atp": "Menyusul"
+      }
+    ]
+  },
+  "kelas6": {
+    "baris": [
+      {
+        "elemen": "Berpikir Komputasional",
+        "materi": "Bab 1 — Berpikir Komputasional; Bab 2 — Algoritma dan Dasar Pemrograman",
+        "tp": [
+          "Menjelaskan pengertian, manfaat, dan ciri-ciri berpikir komputasional.",
+          "Menerapkan 4 pilar berpikir komputasional untuk menyelesaikan masalah sederhana.",
+          "Menyusun algoritma sederhana dalam bentuk pseudocode dan flowchart.",
+          "Menjelaskan konsep dasar pemrograman (input, proses, output, variabel, perulangan).",
+          "Membuat proyek sederhana lanjutan menggunakan aplikasi Scratch."
+        ],
+        "atp": "Berpikir Komputasional → Empat Pilar → Algoritma (Flowchart/Pseudocode) → Dasar Pemrograman → Proyek Lanjutan Scratch"
+      },
+      {
+        "elemen": "Literasi Digital",
+        "materi": "Bab 3 — Perkembangan Teknologi",
+        "tp": [
+          "Menjelaskan pengertian literasi digital dengan bahasa sederhana.",
+          "Mengidentifikasi perkembangan teknologi digital dari masa ke masa.",
+          "Menyebutkan manfaat teknologi digital dalam kehidupan sehari-hari.",
+          "Mengidentifikasi dampak positif dan negatif penggunaan teknologi digital.",
+          "Mengenali berbagai ancaman di dunia digital dan cara menghindarinya.",
+          "Menerapkan perilaku bijak, aman, dan bertanggung jawab saat menggunakan teknologi digital."
+        ],
+        "atp": "Menyusul"
+      },
+      {
+        "elemen": "Literasi dan Etika Kecerdasan Artifisial",
+        "materi": "Menyusul",
+        "tp": ["Tujuan pembelajaran bab ini akan ditambahkan oleh guru."],
+        "atp": "Menyusul"
+      },
+      {
+        "elemen": "Pemanfaatan dan Pengembangan Kecerdasan Artifisial",
+        "materi": "Menyusul",
+        "tp": ["Tujuan pembelajaran bab ini akan ditambahkan oleh guru."],
+        "atp": "Menyusul"
+      }
+    ]
+  }
+}

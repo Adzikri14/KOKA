@@ -1,0 +1,154 @@
+{
+  "kelas": "6",
+  "misi": [
+    {
+      "id": "k6-misi1",
+      "nomor": 1,
+      "judul": "Misi 1: Petualangan Berpikir Komputasional",
+      "babTerkait": "k6-b1",
+      "soal": [
+        {
+          "teks": "Jika cuaca hari ini cerah, maka yang akan dilakukan siswa adalah....",
+          "pilihan": ["Akan pergi ke taman bermain", "tidak akan pergi ke taman bermain", "pergi ke taman bermain bahkan jika cuaca tidak cerah", "pergi ke taman bermain pada malam hari"], 
+          "jawaban": 0 },
+        { "teks": "Di perpustakaan, Dina mengelompokkan buku menjadi buku cerita, pelajaran, dan ensiklopedia agar mudah dicari. Cara berpikir yang digunakan Dina adalah ....", 
+          "pilihan": ["Dekomposisi", "Abstraksi", "Pengenalan Pola", "Algoritma"], 
+          "jawaban": 2 },
+        { "teks": "Bacalah soal berikut.\"Roni memiliki 5 pensil. Ia membeli lagi 3 pensil. Berapa jumlah pensil Roni?\" Untuk menjawab soal tersebut, kita hanya memerlukan informasi yang berhubungan dengan jumlah pensil. Kegiatan tersebut merupakan contoh ....", 
+          "pilihan": ["Algoritma", "Abstraksi", "Dekomposisi", "Pola"], 
+          "jawaban": 1 },
+        { "teks": "manakah yang merupakan contoh berpikir komputasiona?....", 
+          "pilihan": ["menyelesaikan masalah dengan mencoba berbagai cara sampai berhasil", "memecahkan masalah besar menjadi bagian keci yang lebih mudah", "menyelesaikan masalah hanya dengan intuisi atau perasaan", "menyalin jawaban teman agar lebih cepat selesai"], 
+          "jawaban": 1 },
+        { "teks": "Budi berkata, Jika hujan turun, saya akan memakai jas hujan.Kalimat tersebut merupakan contoh ....", 
+          "pilihan": ["Pengulangan","Kondisi [if]", "Algoritma", "Abstraksi"], "jawaban": 1 }
+        ]
+    },
+    {
+      "id": "k6-misi2",
+      "nomor": 2,
+      "judul": "Misi 2: Ekspedisi Algoritma & Scratch",
+      "babTerkait": "k6-b2",
+      "soal": [
+        {
+          "teks": "Cara menuliskan algoritma menggunakan kalimat sederhana yang menyerupai bahasa pemrograman disebut...",
+          "gambar": "",
+          "pilihan": [
+            "Flowchart",
+            "Pseudocode",
+            "Variabel",
+            "Output"
+          ],
+          "jawaban": 1
+        },
+        {
+          "teks": "Simbol belah ketupat pada flowchart digunakan untuk menandai...",
+          "gambar": "images/materi/k6-bab2-flowchart.png",
+          "pilihan": [
+            "Awal dan akhir proses",
+            "Proses input/output",
+            "Keputusan atau kondisi",
+            "Arah alur proses"
+          ],
+          "jawaban": 2
+        },
+        {
+          "teks": "Fani ingin karakternya bergerak maju 10 kali tanpa menuliskan blok gerak berulang-ulang. Fani sebaiknya menggunakan blok...",
+          "gambar": "",
+          "pilihan": [
+            "Variabel",
+            "Perulangan (loop)",
+            "Output",
+            "Input"
+          ],
+          "jawaban": 1
+        },
+        {
+          "teks": "Data atau perintah yang dimasukkan ke dalam program disebut...",
+          "gambar": "",
+          "pilihan": [
+            "Output",
+            "Proses",
+            "Input",
+            "Variabel"
+          ],
+          "jawaban": 2
+        },
+        {
+          "teks": "Rencana langkah-langkah penyelesaian masalah sebelum menulis program disebut...",
+          "gambar": "",
+          "pilihan": [
+            "Algoritma",
+            "Debugging",
+            "Sprite",
+            "Backdrop"
+          ],
+          "jawaban": 0
+        }
+      ]
+    },
+    {
+      "id": "k6-misi3",
+      "nomor": 3,
+      "judul": "Misi 3: Eksplorasi Teknologi Digital",
+      "babTerkait": "k6-b3",
+      "soal": [
+        {
+          "teks": "Cara menuliskan algoritma menggunakan kalimat sederhana yang menyerupai bahasa pemrograman disebut...",
+          "gambar": "",
+          "pilihan": [
+            "Flowchart",
+            "Pseudocode",
+            "Variabel",
+            "Output"
+          ],
+          "jawaban": 1
+        },
+        {
+          "teks": "Simbol belah ketupat pada flowchart digunakan untuk menandai...",
+          "gambar": "images/materi/k6-bab2-flowchart.png",
+          "pilihan": [
+            "Awal dan akhir proses",
+            "Proses input/output",
+            "Keputusan atau kondisi",
+            "Arah alur proses"
+          ],
+          "jawaban": 2
+        },
+        {
+          "teks": "Fani ingin karakternya bergerak maju 10 kali tanpa menuliskan blok gerak berulang-ulang. Fani sebaiknya menggunakan blok...",
+          "gambar": "",
+          "pilihan": [
+            "Variabel",
+            "Perulangan (loop)",
+            "Output",
+            "Input"
+          ],
+          "jawaban": 1
+        },
+        {
+          "teks": "Data atau perintah yang dimasukkan ke dalam program disebut...",
+          "gambar": "",
+          "pilihan": [
+            "Output",
+            "Proses",
+            "Input",
+            "Variabel"
+          ],
+          "jawaban": 2
+        },
+        {
+          "teks": "Rencana langkah-langkah penyelesaian masalah sebelum menulis program disebut...",
+          "gambar": "",
+          "pilihan": [
+            "Algoritma",
+            "Debugging",
+            "Sprite",
+            "Backdrop"
+          ],
+          "jawaban": 0
+        }
+      ]
+    }
+  ]
+}

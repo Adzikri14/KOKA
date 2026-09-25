@@ -1,0 +1,250 @@
+body.halaman-play {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #8567EE 0%, #6C4CE8 55%, #4B35A8 100%);
+  overflow-x: hidden;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.hud-game {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  color: var(--putih);
+}
+.hud-kiri { display: flex; align-items: center; gap: 10px; }
+.hud-kiri a { color: var(--putih); font-size: 20px; }
+.hud-nyawa { font-size: 18px; letter-spacing: 3px; }
+.hud-kanan { display: flex; align-items: center; gap: 14px; }
+.hud-koin {
+  background: rgba(255,255,255,0.18);
+  padding: 6px 14px;
+  border-radius: var(--r-pil);
+  font-weight: 800;
+  display: flex; align-items: center; gap: 6px;
+}
+.hud-progres { font-size: 13px; font-weight: 700; background: rgba(255,255,255,0.18); padding: 6px 14px; border-radius: var(--r-pil); }
+
+.judul-misi-hud {
+  text-align: center;
+  color: rgba(255,255,255,0.9);
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.petunjuk-level {
+  text-align: center;
+  color: rgba(255,255,255,0.75);
+  font-size: 12.5px;
+  margin: 0 0 14px;
+  padding: 0 10px;
+}
+
+.panggung-game {
+  position: relative;
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* ==== Medan permainan (grid 6x6) ==== */
+.medan-game {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 4px;
+  background: rgba(76, 29, 149, 0.35);
+  border: 4px solid rgba(255,255,255,0.25);
+  border-radius: var(--r-lg);
+  padding: 8px;
+  box-shadow: var(--shadow-lg);
+  margin-bottom: 16px;
+}
+.sel-medan {
+  aspect-ratio: 1;
+  border-radius: 7px;
+  background: rgba(255,255,255,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: background .12s ease;
+}
+.sel-medan.terhalang { background: rgba(36, 20, 66, 0.5); }
+.sel-medan.terhalang img { width: 82%; opacity: .95; }
+.sel-medan.ada-koin img.gbr-koin { width: 62%; animation: putarKoin 2.2s linear infinite; }
+.sel-medan .karakter-medan {
+  width: 76%;
+  position: absolute;
+  z-index: 2;
+  filter: drop-shadow(0 3px 3px rgba(0,0,0,0.35));
+}
+.sel-medan.guncang { animation: guncangSel .3s ease; }
+@keyframes guncangSel {
+  0%,100% { transform: translateX(0); }
+  30% { transform: translateX(-4px); }
+  70% { transform: translateX(4px); }
+}
+@keyframes putarKoin {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(360deg); }
+}
+
+/* ==== Panel penyusun perintah (program) ==== */
+.panel-perintah {
+  background: rgba(255,255,255,0.12);
+  border: 2px solid rgba(255,255,255,0.25);
+  border-radius: var(--r-lg);
+  padding: 16px;
+}
+.label-program {
+  color: rgba(255,255,255,0.85);
+  font-size: 12.5px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.susunan-perintah {
+  min-height: 46px;
+  background: rgba(255,255,255,0.9);
+  border-radius: var(--r-md);
+  padding: 8px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.placeholder-kosong { color: var(--abu-500); font-size: 13px; font-style: italic; }
+.chip-perintah {
+  width: 32px; height: 32px;
+  border-radius: 8px;
+  background: var(--grad-oren);
+  color: var(--putih);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 15px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+.chip-perintah.chip-aktif { background: var(--hijau-sukses); transform: scale(1.15); }
+.chip-perintah.chip-gagal { background: var(--merah-gagal); }
+
+.tombol-tambah-arah {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.tombol-tambah-arah .tombol-arah {
+  height: 50px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.22);
+  color: var(--putih);
+  font-size: 20px;
+  border: 2px solid rgba(255,255,255,0.35);
+}
+.tombol-tambah-arah .tombol-arah:active { background: rgba(255,255,255,0.4); }
+.tombol-tambah-arah .tombol-arah:disabled { opacity: .4; }
+
+.tombol-aksi-program {
+  display: flex;
+  gap: 8px;
+}
+.tombol-aksi-program .btn { flex: 1; padding: 10px 8px; font-size: 13px; }
+.tombol-aksi-program .btn:disabled { opacity: .5; }
+
+/* ==== Banner hasil (kena rintangan) ==== */
+.banner-hasil-level {
+  position: fixed;
+  top: 18px; left: 50%;
+  transform: translateX(-50%);
+  z-index: 65;
+  padding: 12px 26px;
+  border-radius: var(--r-pil);
+  font-weight: 800;
+  font-size: 15px;
+  color: var(--putih);
+  box-shadow: var(--shadow-lg);
+  animation: bannerMasuk .25s ease;
+  text-align: center;
+  max-width: 90vw;
+}
+.banner-hasil-level.sukses { background: var(--hijau-sukses); }
+.banner-hasil-level.gagal { background: var(--merah-gagal); }
+@keyframes bannerMasuk {
+  from { transform: translateX(-50%) translateY(-20px); opacity: 0; }
+  to { transform: translateX(-50%) translateY(0); opacity: 1; }
+}
+
+/* ==== Modal soal (muncul saat koin tersentuh) ==== */
+.modal-soal-game {
+  position: fixed; inset: 0;
+  background: rgba(36,27,58,0.72);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 60;
+  padding: 16px;
+}
+.kartu-soal-modal {
+  background: var(--putih);
+  border-radius: var(--r-xl);
+  padding: 24px 22px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: var(--shadow-lg);
+  animation: modalPop .2s ease;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.kartu-soal-modal .label-koin-didapat {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--oren-600);
+  margin-bottom: 4px;
+}
+.kartu-soal-modal p.teks-soal-modal {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ungu-800);
+  text-align: center;
+  margin: 4px 0 14px;
+}
+.kartu-soal-modal .gambar-soal-modal img { max-height: 150px; margin: 0 auto 12px; border-radius: var(--r-md); display: block; }
+.opsi-modal-soal { display: flex; flex-direction: column; gap: 10px; }
+.opsi-modal-soal button {
+  text-align: left;
+  padding: 12px 16px;
+  border-radius: var(--r-md);
+  border: 2px solid var(--ungu-100);
+  background: var(--abu-100);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--abu-700);
+}
+.opsi-modal-soal button:hover:not(:disabled) { border-color: var(--ungu-400); background: var(--ungu-100); }
+.opsi-modal-soal button.dipilih-benar { background: var(--hijau-sukses); color: var(--putih); border-color: var(--hijau-sukses); }
+.opsi-modal-soal button.dipilih-salah { background: var(--merah-gagal); color: var(--putih); border-color: var(--merah-gagal); }
+.opsi-modal-soal button:disabled { opacity: .75; }
+
+.overlay-hasil {
+  position: fixed; inset: 0;
+  background: rgba(36,27,58,0.7);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 70;
+  padding: 20px;
+}
+.kartu-hasil {
+  background: var(--putih);
+  border-radius: var(--r-xl);
+  padding: 34px 30px;
+  text-align: center;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: var(--shadow-lg);
+}
+.kartu-hasil img { width: 100px; margin: 0 auto 12px; }
+.kartu-hasil .bintang-besar { font-size: 34px; margin: 10px 0; }
+.kartu-hasil .skor-besar { font-size: 30px; font-weight: 800; color: var(--ungu-700); }
+.kartu-hasil .tombol-aksi-hasil { display: flex; gap: 10px; margin-top: 20px; }

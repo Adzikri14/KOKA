@@ -1,0 +1,466 @@
+{
+  "kelas": "5",
+  "bab": [
+    {
+      "id": "k5-b1",
+      "nomor": 1,
+      "judul": "Berpikir Komputasional dalam Kehidupan Sehari-hari",
+      "aktif": true,
+      "gambarSampul": "images/materi/k56-bab1.png",
+      "konten": [
+        {
+          "tipe": "judul",
+          "teks": "A. Apa itu Berpikir Komputasional?"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Pernahkah kalian menyusun tas sekolah, merapikan mainan, atau membuat urutan langkah menggosok gigi? Ternyata, kegiatan itu adalah contoh berpikir komputasional!"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Berpikir komputasional (computational thinking) adalah cara berpikir untuk menyelesaikan masalah dengan cara memecahnya menjadi bagian-bagian kecil, mencari kesamaan atau pola, memilih hal yang penting saja, lalu menyusun langkah-langkah penyelesaiannya secara urut."
+        },
+        {
+          "tipe": "info",
+          "judul": "💡 Tahukah Kamu?",
+          "teks": "Berpikir komputasional bukan hanya untuk anak yang jago komputer. Semua orang, termasuk kalian, sudah menggunakannya setiap hari tanpa disadari!"
+        },
+        {
+          "tipe": "judul",
+          "teks": "B. Manfaat Berpikir Komputasional"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Membantu menyelesaikan masalah dengan lebih rapi dan tidak bingung.",
+            "Melatih kita berpikir runtut, teliti, dan tidak asal-asalan.",
+            "Memudahkan kita saat belajar membuat program di Bab 2.",
+            "Berguna untuk mengatur kegiatan sehari-hari, misalnya jadwal belajar atau uang jajan."
+          ]
+        },
+        {
+          "tipe": "judul",
+          "teks": "C. Tujuan Berpikir Komputasional"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Belajar berpikir komputasional bertujuan agar peserta didik:"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Mampu mengenali masalah sederhana di sekitarnya.",
+            "Terbiasa memecahkan masalah secara sistematis, langkah demi langkah.",
+            "Mampu menuliskan penyelesaian masalah secara logis, baik dengan kata-kata maupun simbol.",
+            "Siap mempelajari dasar-dasar pemrograman pada bab berikutnya."
+          ]
+        },
+        {
+          "tipe": "judul",
+          "teks": "D. Empat Pilar Berpikir Komputasional"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Ada empat pilar utama dalam berpikir komputasional. Perhatikan gambar berikut."
+        },
+        {
+          "tipe": "gambar",
+          "src": "images/materi/k5-bab1-4pilar.png",
+          "keterangan": "4 Pilar Berpikir Komputasional: Dekomposisi, Pengenalan Pola, Abstraksi, Algoritma"
+        },
+        {
+          "tipe": "judul",
+          "teks": "E. Aktivitas Latihan"
+        },
+        {
+          "tipe": "aktivitas",
+          "teks": "Coba praktikkan bersama teman sebangku! Pilih satu kegiatan sehari-hari (misalnya: menyiapkan sarapan), lalu jelaskan menggunakan 4 pilar berpikir komputasional. Setelah itu, tuliskan langkah-langkahnya dalam bentuk pseudocode sederhana."
+        },
+        {
+          "tipe": "judul",
+          "teks": "F. Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Berpikir komputasional adalah cara berpikir untuk menyelesaikan masalah secara terstruktur.",
+            "Manfaatnya membantu berpikir runtut dan mempermudah belajar pemrograman.",
+            "Tujuannya agar siswa terbiasa memecahkan masalah secara sistematis dan logis.",
+            "Empat pilarnya adalah dekomposisi, pengenalan pola, abstraksi, dan algoritma.",
+            "Algoritma dapat ditulis dalam bentuk pseudocode dan flowchart."
+          ]
+        }
+      ],
+      "kuisRefleksi": [
+        {
+          "soal": "Menemukan kesamaan dari beberapa masalah yang berbeda disebut...",
+          "pilihan": [
+            "Dekomposisi",
+            "Pengenalan pola",
+            "Abstraksi",
+            "Algoritma"
+          ],
+          "jawaban": 1
+        },
+        {
+          "soal": "Simbol oval pada flowchart digunakan untuk menandai...",
+          "pilihan": [
+            "Proses perhitungan",
+            "Awal dan akhir proses",
+            "Pilihan kondisi",
+            "Arah alur"
+          ],
+          "jawaban": 1
+        },
+        {
+          "soal": "Rani menuliskan langkah membuat susu: siapkan gelas, tuang susu bubuk, tuang air hangat, aduk rata. Rani sedang menerapkan pilar...",
+          "pilihan": [
+            "Pengenalan pola",
+            "Abstraksi",
+            "Algoritma",
+            "Dekomposisi"
+          ],
+          "jawaban": 2
+        }
+      ]
+    },
+    {
+      "id": "k5-b2",
+      "nomor": 2,
+      "judul": "Pengenalan Pemrograman Dasar",
+      "aktif": true,
+      "gambarSampul": "images/materi/k5-bab2.png",
+      "konten": [
+       {
+          "tipe": "judul",
+          "teks": "A. Apa itu Pemrograman?"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Pemrograman adalah kegiatan memberi perintah kepada komputer agar komputer dapat melakukan suatu tugas tertentu. Perintah tersebut ditulis menggunakan bahasa pemrograman yang dapat dipahami oleh komputer, misalnya Scratch, Python, atau bahasa pemrograman lainnya."
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Sebelum menulis program, seorang programmer perlu menyusun rencana langkah-langkah penyelesaian masalah terlebih dahulu. Rencana langkah-langkah inilah yang disebut algoritma."
+        },
+        {
+          "tipe": "judul",
+          "teks": "B. Apa itu Algoritma?"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Algoritma adalah kumpulan langkah-langkah yang disusun secara urut dan logis untuk menyelesaikan suatu masalah. Algoritma dapat dituliskan dalam beberapa bentuk, di antaranya menggunakan kalimat biasa, pseudocode, dan flowchart (diagram alur)."
+        },
+        {
+          "tipe": "subjudul",
+          "teks": "1. Pseudocode"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Pseudocode adalah cara menuliskan algoritma menggunakan kalimat sederhana yang menyerupai bahasa pemrograman, tetapi masih mudah dipahami manusia."
+        },
+        {
+          "tipe": "info",
+          "judul": "💡 Tahukah Kamu?",
+          "teks": "Sebuah resep masakan sebenarnya adalah contoh algoritma! Urutan langkah dari menyiapkan bahan hingga menyajikan makanan disusun secara runtut agar hasil masakan sesuai harapan."
+        },
+        {
+          "tipe": "kode",
+          "judul": "Contoh Pseudocode",
+          "teks": "MULAI\nMASUKKAN angka\nJIKA angka dibagi 2 sisanya 0 MAKA\n    TAMPILKAN \"Bilangan Genap\"\nJIKA TIDAK MAKA\n    TAMPILKAN \"Bilangan Ganjil\"\nSELESAI"
+        },
+        {
+          "tipe": "subjudul",
+          "teks": "2. Flowchart (Diagram Alur)"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Flowchart adalah cara menuliskan algoritma menggunakan simbol-simbol gambar yang menunjukkan urutan proses. Beberapa simbol dasar flowchart adalah sebagai berikut."
+        },
+        {
+          "tipe": "gambar",
+          "src": "images/materi/k6-bab2-flowchart.png",
+          "keterangan": "Contoh flowchart membuat es teh manis"
+        },
+        {
+          "tipe": "judul",
+          "teks": "C. Dasar-Dasar Pemrograman"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Dalam pemrograman, ada beberapa konsep dasar yang perlu dipahami, yaitu:"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Input: data atau perintah yang dimasukkan ke dalam program, contoh: mengetik angka atau menekan tombol.",
+            "Proses: kegiatan pengolahan data yang dilakukan oleh program, contoh: menjumlahkan dua angka.",
+            "Output: hasil yang ditampilkan program setelah data diproses, contoh: menampilkan jawaban di layar.",
+            "Variabel: tempat penyimpanan data sementara di dalam program, contoh: skor, nama pemain, nilai angka.",
+            "Perulangan (loop): perintah yang dijalankan berulang kali sampai kondisi tertentu terpenuhi, contoh: karakter bergerak maju 5 langkah, diulang 3 kali."
+          ]
+        },
+        {
+          "tipe": "judul",
+          "teks": "D. Proyek Lanjutan di Scratch"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Setelah memahami algoritma dan dasar pemrograman, saatnya mempraktikkan pada aplikasi Scratch. Proyek lanjutan ini mengembangkan proyek dasar yang sudah dipelajari di kelas sebelumnya dengan menambahkan variabel dan perulangan."
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Buka aplikasi Scratch, lalu buat sprite karakter baru sesuai keinginan.",
+            "Tambahkan blok variabel, misalnya \"skor\", untuk menyimpan nilai permainan.",
+            "Gunakan blok perulangan (\"ulangi\") agar karakter dapat bergerak berkali-kali secara otomatis.",
+            "Tambahkan blok kondisi (\"jika ... maka\") untuk membuat karakter merespons sentuhan atau tombol tertentu.",
+            "Uji coba proyek, perbaiki jika ada kesalahan (debugging), lalu simpan hasil karya."
+          ]
+        },
+        {
+          "tipe": "gambar",
+          "src": "images/materi/scratch-contoh.png",
+          "keterangan": "Contoh program Scratch menggunakan variabel dan perulangan"
+        },
+        {
+          "tipe": "judul",
+          "teks": "E. Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Pemrograman adalah kegiatan memberi perintah kepada komputer melalui bahasa pemrograman.",
+            "Algoritma dapat dituliskan dalam bentuk pseudocode maupun flowchart.",
+            "Konsep dasar pemrograman meliputi input, proses, output, variabel, dan perulangan.",
+            "Proyek lanjutan di Scratch melatih penerapan variabel dan perulangan secara langsung."
+          ]
+        }
+      ],
+      "kuisRefleksi": [
+        {
+          "soal": "Cara menuliskan algoritma menggunakan kalimat sederhana yang menyerupai bahasa pemrograman disebut...",
+          "pilihan": [
+            "Flowchart",
+            "Pseudocode",
+            "Variabel",
+            "Output"
+          ],
+          "jawaban": 1
+        },
+        {
+          "soal": "Simbol belah ketupat pada flowchart digunakan untuk menandai...",
+          "pilihan": [
+            "Awal dan akhir proses",
+            "Proses input/output",
+            "Keputusan atau kondisi",
+            "Arah alur proses"
+          ],
+          "jawaban": 2
+        },
+        {
+          "soal": "Fani ingin membuat karakter di Scratch bergerak maju sebanyak 10 kali tanpa menuliskan blok gerak berulang-ulang. Fani sebaiknya menggunakan blok...",
+          "pilihan": [
+            "Variabel",
+            "Perulangan (loop)",
+            "Output",
+            "Input"
+          ],
+          "jawaban": 1
+        }
+      ]
+    },
+
+
+    {
+      "id": "k5-b3",
+      "nomor": 3,
+      "judul": "Teknologi Digital dan Sistem Komputer",
+      "aktif": true,
+      "gambarSampul": "images/materi/k5-bab3.png",
+      "konten": [
+        {
+          "tipe": "info",
+          "judul": "💡 Apa itu Literasi Digital?",
+          "teks": "Literasi digital adalah kemampuan memahami, menggunakan, dan memanfaatkan teknologi digital secara bijak dan bertanggung jawab, misalnya komputer, internet, dan gawai (gadget)"
+        },
+        {
+          "tipe": "judul",
+          "teks": "A. Apa itu Teknologi Digital?"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Teknologi digital adalah teknologi yang menggunakan komputer, internet, dan perangkat elektronik untuk mengolah, menyimpan, serta mengirimkan informasi dengan cepat dan mudah."
+        },
+         {
+          "tipe": "paragraf",
+          "teks": "contoh teknologi digital:"
+        },
+        {
+          "tipe": "list",
+          "item": [
+           "📱 Smartphone",
+           "💻 Komputer dan laptop",
+           "🌐 Internet",
+           "📷 Kamera digital",
+           "⌚ Smartwatch",
+           "🤖 Robot",
+           "🧠 Kecerdasan Artifisial (AI)"
+          ]
+        },
+        {
+          "tipe": "judul",
+          "teks": "B. Perkembangan Teknologi Digital"
+        },
+        {
+          "tipe": "gambar",
+          "src": "images/materi/k5-bab3-ptd.png",
+          "keterangan": "Perkembangan Teknologi Digital"
+        },
+        {
+          "tipe": "judul",
+          "teks": "C. Manfaat dan Dampak Teknologi Digital"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Manfaat teknologi digital, antara lain:"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Manfaat teknologi digital, antara lain:"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Memudahkan mencari informasi dan belajar dari mana saja.",
+            "Mempercepat komunikasi dengan keluarga dan teman jarak jauh.",
+            "Membantu menyelesaikan tugas sekolah, misalnya membuat presentasi."
+          ]
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Namun, teknologi digital juga memiliki dampak negatif jika digunakan tidak bijak, misalnya:"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Kecanduan bermain gawai sehingga lupa waktu belajar dan bermain di luar.",
+            "Terpapar informasi atau konten yang tidak sesuai usia.",
+            "Menjadi korban penipuan atau perundungan daring (cyberbullying)."
+          ]
+        },
+        {
+          "tipe": "judul",
+          "teks": "D. Mengenal Sistem Komputer"
+        },
+        {
+          "tipe": "info",
+          "judul": "💡 Sistem Komputer",
+          "teks": "Sistem komputer adalah sekumpulan komponen yang saling bekerja sama untuk menerima, mengolah, menyimpan, dan menghasilkan informasi."
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Komputer bekerja melalui tiga bagian utama, yaitu perangkat input, proses, dan output."
+        },
+        {
+          "tipe": "gambar",
+          "src": "images/materi/k5-bab3-komputer.png",
+          "keterangan": "Bagian-bagian komputer dan fungsinya"
+        },
+        {
+          "tipe": "judul",
+          "teks": "E. Keamanan Informasi Pribadi di Dunia Daring"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Saat menggunakan internet, kita perlu menjaga informasi pribadi agar tidak disalahgunakan orang lain. Informasi pribadi antara lain nama lengkap, alamat rumah, nomor telepon, dan kata sandi (password)."
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Beberapa cara menjaga keamanan informasi pribadi:"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Tidak membagikan kata sandi kepada siapa pun, termasuk teman dekat.",
+            "Tidak mengunggah data pribadi seperti alamat rumah atau nomor telepon di media sosial.",
+            "Meminta izin orang tua sebelum mengunduh aplikasi atau mengklik tautan (link) baru.",
+            "Segera memberi tahu orang tua atau guru jika menerima pesan yang mencurigakan."
+          ]
+        },
+        {
+          "tipe": "judul",
+          "teks": "F. Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Literasi digital adalah kemampuan memahami dan menggunakan teknologi digital secara bijak.",
+            "Teknologi digital memiliki manfaat sekaligus dampak negatif jika disalahgunakan.",
+            "Sistem komputer bekerja melalui tiga bagian: input, proses, dan output.",
+            "Menjaga informasi pribadi penting dilakukan saat berkomunikasi di dunia daring."
+          ]
+        }
+      ],
+      "kuisRefleksi": [
+        {
+          "soal": "Kemampuan memahami dan menggunakan teknologi digital secara bijak disebut...",
+          "pilihan": [
+            "Literasi digital",
+            "Algoritma",
+            "Pemrograman",
+            "Dekomposisi"
+          ],
+          "jawaban": 0
+        },
+        {
+          "soal": "Perangkat yang berfungsi memasukkan data ke dalam komputer adalah...",
+          "pilihan": [
+            "Monitor",
+            "Printer",
+            "Keyboard",
+            "Speaker"
+          ],
+          "jawaban": 2
+        },
+        {
+          "soal": "Ketika menerima pesan mencurigakan yang meminta data pribadi, sebaiknya kita...",
+          "pilihan": [
+            "Membalas dan memberikan data",
+            "Mengabaikan dan memberi tahu orang tua/guru",
+            "Membagikannya ke teman",
+            "Mengklik tautan di dalamnya"
+          ],
+          "jawaban": 1
+        }
+      ]
+    },
+    {
+      "id": "k5-b4",
+      "nomor": 4,
+      "judul": "Bab 4 (Segera Hadir)",
+      "aktif": false,
+      "gambarSampul": "",
+      "konten": [],
+      "kuisRefleksi": []
+    },
+    {
+      "id": "k5-b5",
+      "nomor": 5,
+      "judul": "Bab 5 (Segera Hadir)",
+      "aktif": false,
+      "gambarSampul": "",
+      "konten": [],
+      "kuisRefleksi": []
+    },
+    {
+      "id": "k5-b6",
+      "nomor": 6,
+      "judul": "Bab 6 (Segera Hadir)",
+      "aktif": false,
+      "gambarSampul": "",
+      "konten": [],
+      "kuisRefleksi": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "5": {
+    "k5-b1": { "babJudul": "Bab 1 — Berpikir Komputasional dalam Kehidupan Sehari-hari", "A": "KOKA5B1A", "B": "KOKA5B1B" },
+    "k5-b2": { "babJudul": "Bab 2 — Pengenalan Pemrograman Dasar", "A": "KOKA5B2A", "B": "KOKA5B2B" },
+    "k5-b3": { "babJudul": "Bab 3 — Literasi Digital dan Keamanan Informasi", "A": "KOKA5B3A", "B": "KOKA5B3B" }
+  },
+  "6": {
+    "k6-b1": { "babJudul": "Bab 1 — Berpikir Komputasional", "A": "KOKA6B1A", "B": "KOKA6B1B" },
+    "k6-b2": { "babJudul": "Bab 2 — Algoritma dan Dasar Pemrograman", "A": "KOKA6B2A", "B": "KOKA6B2B" },
+    "k6-b3": { "babJudul": "Bab 3 — Literasi Digital dan Keamanan Informasi", "A": "KOKA6B3A", "B": "KOKA6B3B" }  
+  }
+}

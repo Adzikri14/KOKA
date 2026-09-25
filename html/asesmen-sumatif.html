@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asesmen Sumatif — KOKA</title>
+<link rel="icon" href="../assets/images/icons/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/variables.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/internal.css">
+<link rel="stylesheet" href="../css/asesmen.css">
+<link rel="stylesheet" href="../css/asesmen-menu.css">
+</head>
+<body class="halaman-app">
+
+  <header class="topbar">
+    <div class="container">
+      <a class="btn-kembali" href="asesmen.html">←</a>
+      <div>
+        <h1>Asesmen Sumatif</h1>
+        <div class="topbar-sub">Uji kemampuanmu dengan kode unik dari guru</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container halaman-isi dekorasi-form-asesmen">
+
+    <div class="kartu-info-sumatif">
+      <div class="blob-asesmen blob-1"></div>
+      <div class="blob-asesmen blob-3"></div>
+      <h3>📋 Informasi Pengerjaan</h3>
+      <div class="baris-info"><span>Nama Siswa</span><b id="info-nama">-</b></div>
+      <div class="baris-info"><span>Jumlah Soal</span><b id="info-jumlah">-</b></div>
+      <div class="baris-info"><span>Durasi</span><b id="info-durasi">-</b></div>
+      <div class="baris-info" style="display:block;">
+        <span>Jenis Soal</span><br>
+        <div id="info-jenis" style="margin-top:6px;"></div>
+      </div>
+      <div class="baris-info" style="display:block;">
+        <span>Petunjuk Pengerjaan</span>
+        <p id="info-catatan" style="margin:6px 0 0;font-size:13px;"></p>
+      </div>
+    </div>
+
+    <div class="form-sumatif">
+      <div class="ikon-badge-form ikon-badge-sumatif">📝</div>
+      <h3>Mulai Sumatif</h3>
+      <p class="sub-form">Isi data berikut dengan benar sebelum mengerjakan</p>
+
+      <div class="pesan-error-token" id="pesan-error">Kode unik tidak ditemukan. Periksa kembali penulisannya.</div>
+
+      <form id="form-sumatif">
+        <div class="baris-2kolom">
+          <div class="input-grup">
+            <label for="input-kelas">Kelas</label>
+            <input type="text" id="input-kelas" class="input-teks" readonly>
+          </div>
+          <div class="input-grup">
+            <label for="input-presensi">No. Presensi</label>
+            <input type="number" id="input-presensi" class="input-teks" placeholder="Contoh: 12" required min="1">
+          </div>
+        </div>
+        <div class="input-grup">
+          <label for="input-token">Kode Unik dari Guru</label>
+          <input type="text" id="input-token" class="input-teks" placeholder="Contoh: KOKA5A" required style="text-transform:uppercase;">
+        </div>
+        <button type="submit" class="btn btn-oren btn-block">Mulai Mengerjakan 📝</button>
+      </form>
+    </div>
+
+  </main>
+
+<footer class="footer-koka">KOKA © 2026<span class="nama-guru">Dibimbing oleh Ananda Dzikri Laila, M.Pd</span></footer>
+
+<script src="../js/app.js"></script>
+<script src="../js/asesmen-sumatif.js"></script>
+</body>
+</html>

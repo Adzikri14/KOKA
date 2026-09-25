@@ -1,0 +1,155 @@
+{
+  "kelas": "5",
+  "misi": [
+    {
+      "id": "k5-misi1",
+      "nomor": 1,
+      "judul": "Misi 1: Petualangan Berpikir Komputasional",
+      "babTerkait": "k5-b1",
+      "soal": [
+        {
+          "teks": "Setiap hari kita menghadapi berbagai masalah, mulai dari merapikan kamar hingga mengerjakan tugas sekolah. Agar masalah dapat diselesaikan dengan baik, kita perlu menggunakan cara berpikir yang cepat. berpikir komputasional adalah cara berpikir untuk .....", 
+          "gambar": "","pilihan": ["bermain game lebih lama", "menyelesaikan masalah secara teratur", "menghafal semua pelajaran", "membuat masalah menjadi sulit"], 
+          "jawaban": 1 },
+        { "teks": "Salah satu manfaat berpikir komputasional adalah ....", 
+          "gambar": "","pilihan": ["terampil berhitung", "mudah teralih perhatian", "pandai berkomunikasi", "tidak mudah lupa"], 
+          "jawaban": 2 },
+        { "teks": "Saat membuat jus, ibu mencuci buah, memotong buah, memasukkannya ke dalam blender. Kegiatan tersebut menunjukkan bahwa masalah diselesaikan dengan cara ....", 
+          "gambar": "","pilihan": ["Algoritma", "Dekomposisi", "Abstraksi", "Pengenalan Pola"], 
+          "jawaban": 1 },
+        { "teks": "Andi memperhatikan bahwa setiap hari Senin selalu ada upacara bendera di sekolah. Kemampuan yang digunakan Andi adalah ....", 
+          "gambar": "","pilihan": ["Algoritma", "Abstraksi", "Pengenalan Pola", "Dekomposisi"], 
+          "jawaban": 2 },
+        { "teks": "Bima berada di supermarket untuk membeli jeruk. Untuk itu, Bima pergi menuju ke rak buah-buah. pemecahan masalah terebut dilakukan dengan menerapkan metode...",
+          "gambar": "","pilihan": ["Algoritma", "Abstraksi", "Dekomposisi", "Pengulangan"], 
+          "jawaban": 1 }
+      ]
+    },
+    {
+      "id": "k5-misi2",
+      "nomor": 2,
+      "judul": "Misi 2: Ekspedisi Pemrograman Scratch",
+      "babTerkait": "k5-b2",
+      "soal": [
+        {
+          "teks": "Tempat menyimpan data sementara di dalam program disebut...",
+          "gambar": "",
+          "pilihan": [
+            "Perulangan",
+            "Pengondisian",
+            "Variabel",
+            "Algoritma"
+          ],
+          "jawaban": 2
+        },
+        {
+          "teks": "Perintah yang dijalankan berkali-kali sampai kondisi tertentu terpenuhi disebut...",
+          "gambar": "",
+          "pilihan": [
+            "Variabel",
+            "Perulangan",
+            "Sprite",
+            "Panggung"
+          ],
+          "jawaban": 1
+        },
+        {
+          "teks": "Doni ingin karakternya berubah warna hanya ketika menyentuh musuh. Doni sebaiknya menggunakan konsep...",
+          "gambar": "",
+          "pilihan": [
+            "Variabel",
+            "Perulangan",
+            "Pengondisian",
+            "Panggung"
+          ],
+          "jawaban": 2
+        },
+        {
+          "teks": "Karakter atau objek yang diberi perintah pada Scratch disebut...",
+          "gambar": "",
+          "pilihan": [
+            "Stage",
+            "Sprite",
+            "Blok kode",
+            "Backdrop"
+          ],
+          "jawaban": 1
+        },
+        {
+          "teks": "Tempat menampilkan hasil program yang dijalankan di Scratch disebut...",
+          "gambar": "",
+          "pilihan": [
+            "Panggung (stage)",
+            "Area skrip",
+            "Sprite",
+            "Variabel"
+          ],
+          "jawaban": 0
+        }
+      ]
+    },
+    {
+      "id": "k5-misi3",
+      "nomor": 3,
+      "judul": "Misi 3: Misteri Literasi Digital",
+      "babTerkait": "k5-b3",
+      "soal": [
+        {
+          "teks": "Kemampuan memahami dan menggunakan teknologi digital secara bijak disebut...",
+          "gambar": "",
+          "pilihan": [
+            "Literasi digital",
+            "Algoritma",
+            "Pemrograman",
+            "Dekomposisi"
+          ],
+          "jawaban": 0
+        },
+        {
+          "teks": "Perangkat yang berfungsi memasukkan data ke dalam komputer adalah...",
+          "gambar": "",
+          "pilihan": [
+            "Monitor",
+            "Printer",
+            "Keyboard",
+            "Speaker"
+          ],
+          "jawaban": 2
+        },
+        {
+          "teks": "Ketika menerima pesan mencurigakan yang meminta data pribadi, sebaiknya kita...",
+          "gambar": "",
+          "pilihan": [
+            "Membalas dan memberikan data",
+            "Mengabaikan dan memberi tahu orang tua/guru",
+            "Membagikannya ke teman",
+            "Mengklik tautan di dalamnya"
+          ],
+          "jawaban": 1
+        },
+        {
+          "teks": "Bagian komputer yang berfungsi menampilkan hasil pengolahan data adalah...",
+          "gambar": "images/materi/k5-bab3-komputer.png",
+          "pilihan": [
+            "Input",
+            "Proses",
+            "Output",
+            "CPU"
+          ],
+          "jawaban": 2
+        },
+        {
+          "teks": "Berikut ini termasuk informasi pribadi yang harus dijaga, KECUALI...",
+          "gambar": "",
+          "pilihan": [
+            "Kata sandi",
+            "Nomor telepon",
+            "Warna favorit",
+            "Alamat rumah"
+          ],
+          "jawaban": 2
+        }
+      ]
+    }
+  ]
+}

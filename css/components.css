@@ -1,0 +1,206 @@
+/* ==========================================================================
+   KOKA — komponen UI yang dipakai ulang di banyak halaman
+   ========================================================================== */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: var(--r-pil);
+  font-weight: 700;
+  font-size: 16px;
+  transition: transform .12s ease, box-shadow .12s ease, filter .12s ease;
+}
+.btn:active { transform: translateY(3px); box-shadow: none !important; }
+.btn:hover { filter: brightness(1.05); transform: translateY(-1px); }
+
+.btn-oren {
+  background: var(--grad-oren);
+  color: var(--putih);
+  box-shadow: var(--shadow-tombol), 0 6px 0 var(--oren-700), 0 0 22px rgba(255, 126, 182, 0.45);
+}
+.btn-oren:active { box-shadow: none; }
+.btn-oren:hover { box-shadow: var(--shadow-tombol), 0 6px 0 var(--oren-700), 0 0 30px rgba(255, 138, 76, 0.6); }
+.btn-ungu {
+  background: var(--grad-ungu);
+  color: var(--putih);
+  box-shadow: 0 6px 0 var(--ungu-900);
+}
+.btn-ungu:active { box-shadow: none; }
+.btn-putih {
+  background: var(--putih);
+  color: var(--ungu-700);
+  box-shadow: 0 6px 0 var(--ungu-300);
+}
+.btn-putih:active { box-shadow: none; }
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--putih);
+  color: var(--putih);
+}
+.btn:disabled { opacity: .5; cursor: not-allowed; transform: none; }
+.btn-block { width: 100%; }
+.btn-sm { padding: 10px 18px; font-size: 14px; }
+
+/* Kartu dasar */
+.kartu {
+  background: var(--grad-kartu);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-md);
+  padding: 24px;
+}
+.kartu-oren {
+  background: var(--grad-oren);
+  color: var(--putih);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-md);
+  padding: 20px 24px;
+}
+.kartu-oren h2, .kartu-oren h3, .kartu-oren p { color: var(--putih); }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: var(--r-pil);
+  font-size: 13px;
+  font-weight: 700;
+}
+.badge-aktif { background: var(--hijau-sukses); color: var(--putih); }
+.badge-nonaktif { background: var(--abu-500); color: var(--putih); }
+.badge-ungu { background: var(--ungu-100); color: var(--ungu-700); }
+.badge-oren { background: var(--oren-100); color: var(--oren-700); }
+
+/* Input form */
+.input-grup { margin-bottom: 18px; text-align: left; }
+.input-grup label {
+  display: block;
+  font-weight: 700;
+  color: var(--ungu-800);
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+.input-teks, select.input-teks {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: var(--r-md);
+  border: 2px solid var(--ungu-100);
+  background: var(--putih);
+  font-size: 15px;
+  font-family: var(--font-body);
+  color: var(--abu-700);
+  outline: none;
+  transition: border-color .15s ease;
+}
+.input-teks:focus { border-color: var(--ungu-500); }
+
+/* Modal umum */
+.modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(36, 27, 58, 0.55);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 100;
+  padding: 16px;
+}
+.modal-box {
+  background: var(--putih);
+  border-radius: var(--r-lg);
+  padding: 28px;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  box-shadow: var(--shadow-lg);
+  animation: modalPop .25s ease;
+}
+@keyframes modalPop {
+  from { transform: scale(.85); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 14px;
+  background: var(--ungu-100);
+  border-radius: var(--r-pil);
+  overflow: hidden;
+}
+.progress-bar > span {
+  display: block;
+  height: 100%;
+  background: var(--grad-oren);
+  border-radius: var(--r-pil);
+  transition: width .3s ease;
+}
+
+.chip-koin {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--putih);
+  color: var(--oren-600);
+  font-weight: 800;
+  padding: 8px 16px;
+  border-radius: var(--r-pil);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Animasi lambaian tangan maskot */
+@keyframes lambai {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-14deg); }
+  75% { transform: rotate(10deg); }
+}
+.maskot-lambai { animation: lambai 1.6s ease-in-out infinite; transform-origin: 70% 30%; }
+
+@keyframes mengambang {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+.maskot-mengambang { animation: mengambang 3s ease-in-out infinite; }
+
+.footer-koka {
+  text-align: center;
+  padding: 16px 10px;
+  margin-top: 30px;
+  font-size: 12.5px;
+  color: var(--putih);
+  font-weight: 600;
+  background: var(--grad-ungu);
+  box-shadow: var(--shadow-md);
+}
+.footer-koka .nama-guru {
+  display: block;
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--ungu-100);
+  margin-top: 2px;
+}
+
+.tombol-audio-mengambang {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+  z-index: 40;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--putih);
+  box-shadow: var(--shadow-md);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: transform .15s ease;
+}
+.tombol-audio-mengambang:hover { transform: scale(1.08); }

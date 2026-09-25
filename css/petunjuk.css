@@ -1,0 +1,73 @@
+.petunjuk-hero {
+  background: var(--grad-utama);
+  border-radius: var(--r-xl);
+  padding: 40px 30px;
+  color: var(--putih);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+.petunjuk-hero::before {
+  content: "";
+  position: absolute; inset: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.18), transparent 40%),
+              radial-gradient(circle at 85% 75%, rgba(255,255,255,0.14), transparent 45%);
+}
+.petunjuk-hero img { width: 110px; margin: 0 auto 10px; position: relative; z-index: 1; }
+.petunjuk-hero h2 { color: var(--putih); font-size: 30px; position: relative; z-index: 1; }
+.petunjuk-hero p { color: var(--ungu-100); position: relative; z-index: 1; max-width: 480px; margin: 0 auto; }
+
+.jalur-petunjuk {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.langkah-petunjuk {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  background: var(--putih);
+  border-radius: var(--r-lg);
+  padding: 20px 22px;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  border-left: 6px solid var(--ungu-500);
+  transition: transform .15s ease;
+}
+.langkah-petunjuk:nth-child(2) { border-color: var(--oren-500); }
+.langkah-petunjuk:nth-child(3) { border-color: var(--hijau-sukses); }
+.langkah-petunjuk:nth-child(4) { border-color: var(--ungu-500); }
+.langkah-petunjuk:nth-child(5) { border-color: var(--oren-500); }
+.langkah-petunjuk:hover { transform: translateX(6px); }
+.no-langkah {
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  background: var(--grad-ungu);
+  color: var(--putih);
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 20px;
+  flex-shrink: 0;
+}
+.langkah-petunjuk:nth-child(2) .no-langkah { background: var(--grad-oren); }
+.langkah-petunjuk:nth-child(3) .no-langkah { background: var(--hijau-sukses); }
+.isi-langkah h4 { margin-bottom: 4px; font-size: 17px; }
+.isi-langkah p { margin: 0; color: var(--abu-500); font-size: 14px; }
+
+.kotak-tips {
+  margin-top: 34px;
+  background: var(--oren-100);
+  border-radius: var(--r-lg);
+  padding: 20px 24px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  max-width: 720px;
+  margin-left: auto; margin-right: auto;
+}
+.kotak-tips .emoji { font-size: 34px; }
+.kotak-tips h4 { color: var(--oren-700); margin-bottom: 2px; }
+.kotak-tips p { margin: 0; color: var(--abu-700); font-size: 14px; }

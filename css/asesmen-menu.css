@@ -1,0 +1,141 @@
+/* ==== Menu Asesmen (pilih Sumatif / Pengumpulan Proyek) ==== */
+.grid-menu-asesmen {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.kartu-menu-asesmen {
+  border-radius: var(--r-xl);
+  padding: 30px 22px;
+  text-align: center;
+  color: var(--putih);
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+  transition: transform .18s ease, box-shadow .18s ease;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.kartu-menu-asesmen:hover { transform: translateY(-6px) scale(1.02); box-shadow: var(--shadow-lg); }
+.kartu-menu-asesmen::after {
+  content: "";
+  position: absolute;
+  width: 160px; height: 160px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.12);
+  bottom: -70px; right: -50px;
+}
+.kartu-menu-asesmen .emoji-menu { font-size: 44px; margin-bottom: 10px; }
+.kartu-menu-asesmen h4 { color: var(--putih); font-size: 18px; margin-bottom: 4px; }
+.kartu-menu-asesmen p { color: rgba(255,255,255,0.9); font-size: 13px; margin: 0; }
+.menu-sumatif-asesmen { background: var(--grad-ungu); }
+.menu-proyek-asesmen { background: var(--grad-oren); }
+
+@media (max-width: 620px) {
+  .grid-menu-asesmen { grid-template-columns: 1fr; }
+}
+
+/* ==== Hero dekoratif di menu Asesmen ==== */
+.hero-asesmen {
+  position: relative;
+  background: var(--grad-utama);
+  border-radius: var(--r-xl);
+  padding: 30px 24px;
+  text-align: center;
+  color: var(--putih);
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+.hero-asesmen h2 { color: var(--putih); margin-bottom: 4px; position: relative; z-index: 2; }
+.hero-asesmen p { color: var(--ungu-100); margin: 0; max-width: 420px; margin: 0 auto; position: relative; z-index: 2; }
+.maskot-hero-asesmen { width: 90px; margin: 0 auto 8px; position: relative; z-index: 2; }
+.blob-asesmen {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.14);
+}
+.blob-asesmen.blob-1 { width: 140px; height: 140px; top: -50px; left: -30px; }
+.blob-asesmen.blob-2 { width: 90px; height: 90px; bottom: -30px; right: 10%; background: rgba(255,255,255,0.1); }
+.blob-asesmen.blob-3 { width: 50px; height: 50px; top: 20px; right: 8%; background: var(--kuning-koin); opacity: .8; }
+
+/* ==== Kotak jenis asesmen: Sumatif vs Pengumpulan Proyek, dibuat jelas terpisah ==== */
+.kotak-jenis-asesmen {
+  display: block;
+  background: var(--putih);
+  border: 3px solid var(--ungu-200, var(--ungu-300));
+  border-radius: var(--r-xl);
+  padding: 26px 22px;
+  text-align: left;
+  box-shadow: var(--shadow-sm);
+  transition: transform .15s ease, box-shadow .15s ease;
+  position: relative;
+}
+.kotak-jenis-asesmen:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
+.kotak-jenis-asesmen.kotak-sumatif { border-color: var(--ungu-400); }
+.kotak-jenis-asesmen.kotak-proyek { border-color: var(--oren-400); }
+.ikon-kotak-asesmen {
+  width: 52px; height: 52px;
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+.kotak-sumatif .ikon-kotak-asesmen { background: var(--ungu-100); }
+.kotak-proyek .ikon-kotak-asesmen { background: var(--oren-100); }
+.kotak-jenis-asesmen h4 { font-size: 17px; margin-bottom: 6px; }
+.kotak-sumatif h4 { color: var(--ungu-700); }
+.kotak-proyek h4 { color: var(--oren-600); }
+.kotak-jenis-asesmen p { color: var(--abu-500); font-size: 13.5px; margin: 0 0 14px; }
+.kotak-jenis-asesmen .panah-menu { font-weight: 700; font-size: 13px; }
+.kotak-sumatif .panah-menu { color: var(--ungu-600); }
+.kotak-proyek .panah-menu { color: var(--oren-600); }
+
+/* ==== Form Pengumpulan Proyek ==== */
+.pilihan-metode {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.pilihan-metode button {
+  flex: 1;
+  padding: 12px;
+  border-radius: var(--r-md);
+  background: var(--ungu-100);
+  color: var(--ungu-700);
+  font-weight: 700;
+  font-size: 14px;
+  border: 2px solid transparent;
+}
+.pilihan-metode button.aktif {
+  background: var(--grad-oren);
+  color: var(--putih);
+}
+
+.wadah-upload-file {
+  border: 2px dashed var(--ungu-300);
+  border-radius: var(--r-md);
+  padding: 22px;
+  text-align: center;
+  color: var(--abu-500);
+  font-size: 13.5px;
+  cursor: pointer;
+  background: var(--abu-100);
+}
+.wadah-upload-file:hover { border-color: var(--ungu-500); }
+.wadah-upload-file input[type="file"] { display: none; }
+.nama-file-terpilih { margin-top: 8px; font-weight: 700; color: var(--ungu-700); font-size: 13px; }
+
+.pesan-sukses-proyek {
+  background: #DCFCE7;
+  color: #15803D;
+  padding: 10px 14px;
+  border-radius: var(--r-md);
+  font-size: 13px;
+  margin-bottom: 14px;
+  display: none;
+}

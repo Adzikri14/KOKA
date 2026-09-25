@@ -1,0 +1,304 @@
+/* Latar Dashboard: dibuat lebih terang dari header/kartu Materi (yang
+   pakai --grad-ungu pekat) supaya tidak "nabrak" alias menyatu jadi satu
+   warna. Pola ikon + blob putih transparan ditambahkan biar nuansanya
+   tetap senada dengan Login tapi lebih lembut. Halaman lain (Materi/
+   Asesmen/dll) TIDAK memakai file ini, jadi tidak ikut berubah. */
+body.halaman-app {
+  position: relative;
+  background: linear-gradient(160deg, #A190F2 0%, #8FC8F5 60%, #A6DDFF 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+body.halaman-app.bg-hias {
+  background-image: linear-gradient(160deg, #A190F2 0%, #8FC8F5 60%, #A6DDFF 100%), url('../assets/images/icons/pola-dashboard.svg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover, 260px 260px;
+}
+body.halaman-app::before,
+body.halaman-app::after {
+  content: "";
+  position: fixed;
+  z-index: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  background: rgba(255,255,255,0.28);
+  filter: blur(1px);
+}
+body.halaman-app::before { width: 200px; height: 200px; top: -50px; left: -60px; }
+body.halaman-app::after { width: 160px; height: 160px; bottom: 40px; right: -50px; background: rgba(255,255,255,0.2); }
+/* Konten utama & footer perlu ditegaskan di atas blob dekoratif (header
+   sudah punya posisi sendiri jadi tidak perlu disentuh); tombol audio
+   mengambang (ditambahkan lewat JS ke <body>) sengaja TIDAK disentuh
+   supaya posisi "fixed"-nya tidak rusak. */
+body.halaman-app > main.container,
+body.halaman-app > .footer-koka {
+  position: relative;
+  z-index: 1;
+}
+
+.app-header {
+  background: var(--grad-ungu);
+  color: var(--putih);
+  padding: 16px 0;
+  box-shadow: var(--shadow-md);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+.app-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app-header .brand { display: flex; align-items: center; gap: 12px; }
+.app-header .brand img { width: 44px; }
+.app-header .brand .teks-brand h1 {
+  color: var(--putih);
+  font-size: 22px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+.app-header .brand .teks-brand small {
+  display: block;
+  color: var(--ungu-100);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+.btn-keluar {
+  background: rgba(255,255,255,0.15);
+  color: var(--putih);
+  padding: 9px 18px;
+  border-radius: var(--r-pil);
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.btn-keluar:hover { background: rgba(255,255,255,0.25); }
+
+.sambutan-box {
+  background: var(--grad-oren);
+  border-radius: var(--r-xl);
+  margin: 24px auto 0;
+  padding: 26px 28px;
+  color: var(--putih);
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
+}
+.sambutan-atas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+.sambutan-box::after {
+  content: "";
+  position: absolute;
+  width: 220px; height: 220px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 50%;
+  right: -60px; top: -80px;
+}
+.sambutan-kiri h2 { color: var(--putih); font-size: 26px; margin-bottom: 2px; }
+.sambutan-kiri .halo { font-size: 18px; font-weight: 600; }
+.sambutan-kiri .halo .tangan { display: inline-block; }
+.sambutan-kiri .kelas-info {
+  margin-top: 10px;
+  display: inline-flex;
+  background: rgba(255,255,255,0.2);
+  padding: 6px 16px;
+  border-radius: var(--r-pil);
+  font-weight: 700;
+  font-size: 14px;
+}
+.sambutan-kanan { position: relative; z-index: 1; }
+.sambutan-kanan img { width: 120px; }
+
+.aksi-cepat {
+  display: flex;
+  gap: 14px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+.kartu-aksi-kecil {
+  flex: 1;
+  min-width: 200px;
+  background: rgba(255,255,255,0.16);
+  backdrop-filter: blur(2px);
+  border-radius: var(--r-lg);
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: transform .15s ease, background .15s ease;
+  border: 2px solid rgba(255,255,255,0.35);
+}
+.kartu-aksi-kecil:hover { transform: translateY(-3px); background: rgba(255,255,255,0.28); }
+.kartu-aksi-kecil .ikon {
+  width: 42px; height: 42px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.9);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+.kartu-aksi-kecil h4 { margin: 0; font-size: 14px; color: var(--putih); }
+.kartu-aksi-kecil p { margin: 0; font-size: 11px; color: rgba(255,255,255,0.85); }
+
+.menu-utama {
+  margin-top: 30px;
+}
+.menu-utama h3 { margin-bottom: 16px; font-size: 18px; color: var(--ungu-800); text-shadow: 0 2px 6px rgba(0,0,0,0.15); }
+.grid-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.kartu-menu {
+  border-radius: var(--r-xl);
+  padding: 28px 20px;
+  text-align: center;
+  color: var(--putih);
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+  transition: transform .18s ease, box-shadow .18s ease;
+  min-height: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.kartu-menu:hover { transform: translateY(-6px) scale(1.02); box-shadow: var(--shadow-lg); }
+.kartu-menu::after {
+  content: "";
+  position: absolute;
+  width: 160px; height: 160px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.12);
+  bottom: -70px; right: -50px;
+}
+.kartu-menu .emoji-menu { font-size: 46px; margin-bottom: 10px; }
+.kartu-menu h4 { color: var(--putih); font-size: 19px; margin-bottom: 4px; }
+.kartu-menu p { color: rgba(255,255,255,0.9); font-size: 13px; margin: 0; }
+
+.menu-materi { background: var(--grad-ungu); }
+.menu-game { background: linear-gradient(135deg,#FF5FA8,#FF8FC4); }
+.menu-asesmen { background: linear-gradient(135deg,#4DB8FF,#65D6B3); }
+
+/* ==== Kartu menu gaya e-learning: gambar/ikon di atas, teks di bawah ====
+   Versi playful: kartu lurus rapi, tepi bawah zona warna berbentuk
+   gelombang/scallop (bukan garis lurus) yang menyatu ke area putih,
+   ikon mengambang pelan, dan tiap kartu punya warna bayangan & pil
+   "mulai" sendiri sesuai warna aksennya. */
+@keyframes munculKartuMenu {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes mengambangIkonMenu {
+  0%, 100% { transform: translateY(0) rotate(-4deg); }
+  50%      { transform: translateY(-7px) rotate(4deg); }
+}
+.kartu-menu-baru {
+  --clr-bayangan: rgba(75, 53, 168, 0.20);
+  background: var(--putih);
+  border-radius: var(--r-xl);
+  overflow: hidden;
+  box-shadow: 0 10px 24px var(--clr-bayangan);
+  transition: transform .2s ease, box-shadow .2s ease;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  animation: munculKartuMenu .5s ease both;
+}
+.kartu-menu-baru:nth-child(2) { --clr-bayangan: rgba(214, 62, 130, 0.22); animation-delay: .1s; }
+.kartu-menu-baru:nth-child(3) { --clr-bayangan: rgba(31, 127, 204, 0.22); animation-delay: .2s; }
+.kartu-menu-baru:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 38px var(--clr-bayangan);
+}
+.gambar-menu {
+  height: 136px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+/* Blob cahaya lembut mengambang di pojok, bukan sekadar lingkaran statis */
+.gambar-menu::before {
+  content: "";
+  position: absolute;
+  width: 90px; height: 90px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.22);
+  top: -30px; left: -20px;
+}
+/* Tepi bawah lurus—tidak perlu elemen tambahan, batas warna otomatis lurus */
+.ikon-menu-besar {
+  font-size: 56px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  filter: drop-shadow(0 8px 10px rgba(0,0,0,0.18));
+  animation: mengambangIkonMenu 3.2s ease-in-out infinite;
+}
+.kartu-menu-baru:nth-child(2) .ikon-menu-besar { animation-delay: .3s; }
+.kartu-menu-baru:nth-child(3) .ikon-menu-besar { animation-delay: .6s; }
+.gambar-menu-materi {
+  background:
+    radial-gradient(circle at 22% 28%, rgba(255,255,255,0.20) 0 3px, transparent 4px),
+    radial-gradient(circle at 78% 60%, rgba(255,255,255,0.16) 0 3px, transparent 4px),
+    radial-gradient(circle at 55% 85%, rgba(255,255,255,0.14) 0 2px, transparent 3px),
+    var(--grad-ungu);
+}
+.gambar-menu-game {
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255,255,255,0.22) 0 3px, transparent 4px),
+    radial-gradient(circle at 80% 65%, rgba(255,255,255,0.16) 0 3px, transparent 4px),
+    radial-gradient(circle at 50% 85%, rgba(255,255,255,0.14) 0 2px, transparent 3px),
+    linear-gradient(135deg,#FF5FA8,#FF8FC4);
+}
+.gambar-menu-asesmen {
+  background:
+    radial-gradient(circle at 25% 25%, rgba(255,255,255,0.22) 0 3px, transparent 4px),
+    radial-gradient(circle at 78% 62%, rgba(255,255,255,0.16) 0 3px, transparent 4px),
+    radial-gradient(circle at 50% 85%, rgba(255,255,255,0.14) 0 2px, transparent 3px),
+    linear-gradient(135deg,#4DB8FF,#65D6B3);
+}
+.teks-menu-baru { padding: 16px 18px 18px; text-align: left; }
+.teks-menu-baru h4 { color: var(--ungu-800); font-size: 17px; margin-bottom: 3px; }
+.teks-menu-baru p { color: var(--abu-500); font-size: 13px; margin: 0 0 12px; }
+.panah-menu {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: var(--r-pil);
+  background: var(--ungu-100);
+  color: var(--ungu-700);
+  font-weight: 800;
+  font-size: 12.5px;
+  transition: transform .15s ease, letter-spacing .15s ease;
+}
+.kartu-menu-baru:hover .panah-menu { transform: translateX(4px); letter-spacing: .3px; }
+.kartu-menu-baru:nth-child(2) .panah-menu { background: var(--oren-100); color: var(--oren-700); }
+.kartu-menu-baru:nth-child(3) .panah-menu { background: var(--biru-100); color: var(--biru-700); }
+
+/* Footer khusus di halaman Dashboard: karena latarnya sekarang gradasi
+   ungu-biru pekat (bukan abu polos seperti halaman lain), teks footer
+   dibuat terang di sini saja supaya tetap kebaca. */
+.footer-koka { color: rgba(255,255,255,0.85); }
+
+@media (max-width: 760px) {
+  .grid-menu { grid-template-columns: 1fr; }
+  .sambutan-box { flex-direction: column; text-align: center; }
+  .sambutan-kanan img { width: 90px; }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bermain — KOKA</title>
+<link rel="icon" href="../assets/images/icons/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/variables.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/game-play.css">
+</head>
+<body class="halaman-play">
+
+  <div class="hud-game">
+    <div class="hud-kiri">
+      <a href="game.html">✕</a>
+      <span class="hud-nyawa" id="hud-nyawa">❤️❤️❤️</span>
+    </div>
+    <div class="hud-progres" id="hud-progres">Koin 0/5</div>
+    <div class="hud-kanan">
+      <span class="hud-koin">🪙 <span id="hud-koin">0</span></span>
+    </div>
+  </div>
+
+  <div class="panggung-game">
+    <div class="judul-misi-hud" id="judul-misi-aktif">MISI</div>
+    <p class="petunjuk-level">🎯 Susun urutan panah untuk membawa robot ke koin, lalu tekan Jalankan! Hindari rintangan.</p>
+
+    <div class="medan-game" id="medan-game"></div>
+
+    <div class="panel-perintah">
+      <div class="label-program">Programmu:</div>
+      <div class="susunan-perintah" id="susunan-perintah">
+        <span class="placeholder-kosong" id="placeholder-kosong">(belum ada perintah)</span>
+      </div>
+
+      <div class="tombol-tambah-arah">
+        <button class="tombol-arah" id="tambah-atas">▲</button>
+        <button class="tombol-arah" id="tambah-kiri">◀</button>
+        <button class="tombol-arah" id="tambah-kanan">▶</button>
+        <button class="tombol-arah" id="tambah-bawah">▼</button>
+      </div>
+
+      <div class="tombol-aksi-program">
+        <button class="btn btn-putih btn-sm" id="btn-hapus-terakhir">↩️ Hapus</button>
+        <button class="btn btn-putih btn-sm" id="btn-reset-program">🔄 Reset</button>
+        <button class="btn btn-oren" id="btn-jalankan">▶️ Jalankan</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner hasil (kena rintangan) -->
+  <div class="banner-hasil-level" id="banner-hasil-level" style="display:none;"></div>
+
+  <!-- Modal soal muncul saat robot menyentuh koin -->
+  <div class="modal-soal-game" id="modal-soal" style="display:none;">
+    <div class="kartu-soal-modal">
+      <div class="label-koin-didapat">🪙 KAMU MENEMUKAN KOIN!</div>
+      <p class="teks-soal-modal" id="teks-soal-modal">Memuat soal...</p>
+      <div class="gambar-soal-modal" id="gambar-soal-modal"></div>
+      <div class="opsi-modal-soal" id="opsi-soal-modal"></div>
+    </div>
+  </div>
+
+  <div class="overlay-hasil" id="overlay-hasil" style="display:none;">
+    <div class="kartu-hasil">
+      <img src="../assets/images/mascot/maskot-pose1.png" alt="Maskot" id="gambar-hasil">
+      <h3 id="judul-hasil">Misi Selesai!</h3>
+      <div class="skor-besar" id="skor-hasil">0/5</div>
+      <div class="bintang-besar" id="bintang-hasil">⭐⭐⭐</div>
+      <p id="pesan-hasil">Kerja bagus, Sahabat KOKA!</p>
+      <div class="tombol-aksi-hasil">
+        <button class="btn btn-putih btn-block" id="btn-ulangi">Ulangi</button>
+        <a class="btn btn-oren btn-block" href="game.html">Misi Lain</a>
+      </div>
+    </div>
+  </div>
+
+<script src="../js/app.js"></script>
+<script src="../js/game-play.js"></script>
+<script src="../js/audio.js"></script>
+</body>
+</html>

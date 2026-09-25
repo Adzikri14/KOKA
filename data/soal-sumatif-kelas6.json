@@ -1,0 +1,619 @@
+{
+  "kelas": "6",
+  "petunjukUmum": {
+    "jumlahSoal": 25,
+    "jenisSoal": [" 10 Pilihan Ganda", "5 Pilihan Ganda Kompleks", " 5 Benar/Salah", " 5 Menjodohkan"],
+    "durasiMenit": 35,
+    "catatan": "Kerjakan dengan jujur dan teliti."
+  },
+  "bab": [
+    {
+      "babId": "k6-b1",
+      "babJudul": "Bab 1 — Berpikir Komputasional",
+      "paket": {
+        "A": [
+         {"id": "s1",
+          "jenis": "pg",
+          "teks": "Berpikir komputasional adalah....",
+          "pilihan": [
+            "Membersihkan masalah dan solusi",
+            "Menyelesaikan masalah dengan memberikan solusi",
+            "Mencari masalah untuk informasi",
+            "Membuat masalah dan informasi"
+          ],
+          "kunci": 1, "bobot": 4
+        },
+        {
+          "id": 2,
+          "jenis": "pg",
+          "teks": "Cabang ilmu komputer yang berfokus pada pembuatan sistem agar dapat meniru kecerdasan manusia disebut....",
+          "pilihan": [
+            "Artificial Intelligence",
+            "Automatic Internet",
+            "Advanced Information",
+            "Auto Install"
+          ],
+          "kunci": 0, "bobot": 4
+        },
+        {
+          "id": 3,
+          "jenis": "pg",
+          "teks": "Setiap sore, Dimas merapikan meja belajarnya dengan mengelompokkan buku, pensil, dan penggaris pada tempatnya masing-masing. Manfaat berpikir komputasional yang diterapkan Dimas adalah ....",
+          "pilihan": [
+            "Membuat suasana kamar menjadi berantakan.",
+            "Membantu menemukan barang dengan lebih cepat dan teratur.",
+            "Menghilangkan semua tugas sekolah.",
+            "Membuat waktu belajar menjadi lebih lama."
+          ],
+          "kunci": 1, "bobot": 4
+        },
+        {
+          "id": 4,
+          "jenis": "pg",
+          "teks": "Sinta ingin merencanakan acara ulang tahunnya. Sebelum mulai, ia membagi persiapannya menjadi beberapa bagian, yaitu membuat undangan, memesan kue, menyiapkan dekorasi, dan menyusun acara. Pemecahan masalah di atas dilakukan dengan menerapkan metode.... ",
+          "pilihan": [
+            "algoritma",
+            "abstraksi",
+            "dekomposisi",
+            "pengenalan pola"
+          ],
+          "kunci": 2, "bobot": 4
+        },
+        {
+          "id": 5,
+          "jenis": "pg",
+          "teks": "Raka memperhatikan bahwa setiap hari Senin semua siswa memakai seragam merah putih, sedangkan setiap hari Jumat memakai seragam pramuka. Setelah beberapa minggu, ia mengetahui bahwa pola tersebut selalu berulang. Cara berpikir komputasional yang dilakukan Raka adalah ....",
+          "pilihan": [
+            "algoritma",
+            "abstraksi",
+            "dekomposisi",
+            "pengenalan pola"
+          ],
+          "kunci": 3, "bobot": 4
+        },
+        {
+          "id": 6,
+          "jenis": "pgk",
+          "teks": "Benda yang tidak sesuai untuk pola tersebut adalah .... (Pilih lebih dari satu jawaban)",
+          "gambar": "images/soal/22.png",
+          "pilihan": [
+            "Bola",
+            "jam",
+            "Handuk",
+            "papan tulis"
+          ],
+          "kunci": [2, 3],
+          "bobot": 4
+        },
+        {
+          "id": 7,
+          "jenis": "pgk",
+          "teks": "Pilih pernyataan yang benar mengenai manfaat dari berpikir komputasional! (Pilih dua jawaban)",
+          "pilihan": [
+            "Melatih diri untuk menyelesaikan masalah secara logis dan terstruktur",
+            "Membuat semua masalah menjadi jauh lebih rumit dan sulit dipahami",
+            "Membantu memecahkan masalah besar menjadi bagian yang lebih kecil",
+            "Menghilangkan kebutuhan untuk berpikir kreatif"
+          ],
+          "kunci": [0, 2],
+          "bobot": 4
+        },
+        {
+          "id": 8,
+          "jenis": "pgk",
+          "teks": "Manakah di bawah ini yang merupakan contoh algoritma atau urutan langkah yang benar dalam kehidupan sehari-hari? (Pilih lebih dari satu jawaban)",
+          "pilihan": [
+            "Langkah-langkah menyalakan televisi dengan remote",
+            "Kumpulan nama hewan berkaki empat di dunia",
+            "Urutan langkah memakai sepatu dan kaos kaki",
+            "Daftar tinggi badan seluruh siswa di sekolah"
+          ],
+          "kunci": [0, 2],
+          "bobot": 4
+        },
+        {
+          "id": 9,
+          "jenis": "pgk",
+          "teks": "Manakah di bawah ini yang menunjukkan ciri-ciri dari pengenalan pola? (Pilih lebih dari satu jawaban)",
+          "pilihan": [
+            "Menemukan kesamaan bentuk pada beberapa daun pohon yang berbeda",
+            "Menuliskan instruksi komputer menggunakan bahasa pemrograman",
+            "Mengetahui keteraturan jadwal pelajaran berdasarkan hari dalam seminggu",
+            "Memotong kertas menjadi bagian-bagian kecil secara acak"
+          ],
+          "kunci": [0, 2],
+          "bobot": 4
+        },
+        {
+          "id": 10,
+          "jenis": "pgk",
+          "teks": "Manakah di bawah ini yang merupakan contoh penerapan abstraksi? (Pilih lebih dari satu jawaban)",
+          "pilihan": [
+            "Mengabaikan warna gedung saat menggambar denah jalan menuju sekolah",
+            "Menghafalkan seluruh percintaan dalam sebuah buku cerita tebal",
+            "Memilih informasi yang paling penting saja untuk mencatat inti pelajaran",
+            "Menuliskan seluruh kata secara lengkap tanpa ada yang diringkas"
+          ],
+          "kunci": [0, 2],
+          "bobot": 4
+        },
+        {
+          "id": 11,
+          "jenis": "benarsalah",
+          "teks": "Tina akan membuat secangkir teh manis. Ia merebus air, memasukkan kantong teh ke cangkir, menuang air panas, lalu menambahkan gula dan mengaduknya. Tentukan Benar atau Salah!",
+          "pernyataan": [
+            { "teks": "Tina menyusun langkah-langkah membuat teh secara berurutan", "kunci": "benar" },
+            { "teks": "Kegiatan membuat teh tersebut merupakan contoh penerapan algoritma.", "kunci": "benar" },
+            { "teks": "Urutan langkah membuat teh manis boleh dibolak-balik secara acak.", "kunci": "salah" }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": 12,
+          "jenis": "benarsalah",
+          "teks": "Tentukan Benar atau Salah untuk pernyataan berikut mengenai hal-hal yang dapat dipertimbangkan ketika membeli sayuran di tukang sayur!",
+          "pernyataan": [
+            { "teks": "Rasa sayuran", "kunci": "salah" },
+            { "teks": "Harga Sayuran", "kunci": "benar" },
+            { "teks": "Ketersediaan sayuran.", "kunci": "benar" }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": 13,
+          "jenis": "benarsalah",
+          "teks": "Pernyataan terkait konsep dasar berpikir komputasional dan kecerdasan artifisial. Tentukan Benar atau Salah!",
+          "pernyataan": [
+            { "teks": "Algoritma membantu merancang solusi masalah langkah demi langkah.", "kunci": "benar" },
+            { "teks": "Kecerdasan artifisial dapat belajar dari data dan pengalaman tanpa campur tangan manusia sama sekali sejak awal.", "kunci": "salah" },
+            { "teks": "Komputer memerlukan instruksi atau program agar dapat menjalankan tugas dengan benar.", "kunci": "benar" }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": 14,
+          "jenis": "benarsalah",
+          "teks": "Tentukan Benar atau Salah untuk setiap pernyataan berikut mengenai elemen berpikir komputasional:",
+          "pernyataan": [
+            { "teks": "Abstraksi berfokus pada informasi penting dan mengabaikan detail yang tidak diperlukan.", "kunci": "benar" },
+            { "teks": "Pengenalan pola digunakan untuk mencari kesamaan atau keteraturan dari suatu data atau kejadian.", "kunci": "benar" },
+            { "teks": "Dekomposisi adalah cara menyusun instruksi bercabang seperti struktur keputusan.", "kunci": "salah" }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": 15,
+          "jenis": "benarsalah",
+          "teks": "Tentukan Benar atau Salah untuk setiap pernyataan berikut mengenai penerapan teknologi dalam kehidupan:",
+          "pernyataan": [
+            { "teks": "Teknologi pengenal wajah di ponsel pintar memanfaatkan kecerdasan artifisial.", "kunci": "benar" },
+            { "teks": "Berpikir komputasional hanya berguna saat menggunakan komputer jinjing.", "kunci": "salah" },
+            { "teks": "Penerapan algoritma dapat mempermudah kita menyelesaikan pekerjaan rumah sehari-hari.", "kunci": "benar" }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": 16,
+          "jenis": "menjodohkan",
+          "teks": "Jodohkan istilah berpikir komputasional berikut dengan definisinya yang tepat.",
+          "pasangan": [
+            { "kiri": "Pengenalan pola", "kanan": "Mencari persamaan atau keteraturan dari berbagai hal" },
+            { "kiri": "Abstraksi", "kanan": "Memfokuskan perhatian hanya pada informasi yang penting" },
+            { "kiri": "Algoritma", "kanan": "Menuliskan urutan langkah logis untuk menyelesaikan masalah" }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": 17,
+          "jenis": "menjodohkan",
+          "teks": "Pasangkan ilustrasi cerita berikut dengan metode berpikir komputasional yang sesuai.",
+          "pasangan": [
+            { "kiri": "Santi memecah tugas membersihkan halaman menjadi menyapu dan membuang sampah.", "kanan": "Dekomposisi" },
+            { "kiri": "Galih mencatat urutan langkah-langkah mengirim surel (email).", "kanan": "Algoritma" },
+            { "kiri": "Fajar melihat adanya kesamaan urutan warna pada lampu lalu lintas setiap hari.", "kanan": "Pengenalan pola" }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": 18,
+          "jenis": "menjodohkan",
+          "teks": "Pasangkan manfaat penerapan konsep berpikir komputasional berikut dengan tepat.",
+          "pasangan": [
+            { "kiri": "Manfaat dekomposisi", "kanan": "Mempermudah penyelesaian masalah besar dengan memecahnya" },
+            { "kiri": "Manfaat algoritma", "kanan": "Menghindari kebingungan karena langkah kerja teratur" },
+            { "kiri": "Manfaat abstraksi", "kanan": "Menyederhanakan masalah dengan membuang detail tidak penting" }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": 19,
+          "jenis": "menjodohkan",
+          "teks": "Jodohkan contoh aktivitas sehari-hari dengan konsep berpikir komputasional yang digunakan.",
+          "pasangan": [
+            { "kiri": "Menggambar denah kelas dengan hanya menggambar letak meja utama", "kanan": "Abstraksi" },
+            { "kiri": "Menulis urutan nomor telepon darurat secara berurutan", "kanan": "Algoritma" },
+            { "kiri": "Membagi kelompok piket kebersihan kelas berdasarkan hari", "kanan": "Dekomposisi" }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": 20,
+          "jenis": "menjodohkan",
+          "teks": "Pasangkan istilah teknologi dan istilah umum dengan arti atau penjelasannya yang sesuai.",
+          "pasangan": [
+            { "kiri": "Artificial Intelligence", "kanan": "Kecerdasan buatan pada sistem komputer" },
+            { "kiri": "Dekomposisi", "kanan": "Pemecahan masalah menjadi bagian kecil" },
+            { "kiri": "Pengenalan pola", "kanan": "Kemampuan melihat tren atau kesamaan data" }
+          ],
+          "bobot": 6
+        }
+      ]
+    },
+        "B": [
+          { "id": "s1", "jenis": "pg", "teks": "Menemukan kesamaan atau pola dari beberapa masalah agar bisa diselesaikan dengan cara serupa disebut...", "gambar": "", "pilihan": ["Dekomposisi", "Pengenalan pola", "Abstraksi", "Algoritma"], "jawaban": 1, "bobot": 1 },
+          { "id": "s2", "jenis": "pg", "teks": "Merencanakan pesta ulang tahun dipecah menjadi: undangan, dekorasi, makanan, dan permainan. Ini contoh pilar...", "gambar": "", "pilihan": ["Dekomposisi", "Pengenalan pola", "Abstraksi", "Algoritma"], "jawaban": 0, "bobot": 1 },
+          { "id": "s3", "jenis": "pgk", "teks": "Berikut ini contoh penerapan ALGORITMA dalam kehidupan sehari-hari adalah... (pilih 2 jawaban)", "gambar": "", "pilihan": ["Langkah membuat teh: didihkan air, seduh, gula, aduk", "Menghafal nama teman sekelas", "Langkah menyikat gigi secara urut", "Menonton televisi"], "jawabanBenar": [0, 2], "bobot": 2 },
+          { "id": "s4", "jenis": "benarsalah", "teks": "Perhatikan pernyataan berikut tentang berpikir komputasional:", "pernyataan": [
+            { "teks": "Peta jalur bus yang hanya menampilkan halte penting adalah contoh abstraksi.", "jawaban": true },
+            { "teks": "Berpikir komputasional membuat kita berpikir secara acak dan tergesa-gesa.", "jawaban": false },
+            { "teks": "Empat pilar berpikir komputasional adalah dekomposisi, pengenalan pola, abstraksi, algoritma.", "jawaban": true }
+          ], "bobot": 3 },
+          { "id": "s5", "jenis": "menjodohkan", "teks": "Jodohkan pilar berpikir komputasional dengan penjelasannya:", "pasangan": [
+            { "kiri": "Algoritma", "kanan": "Menyusun langkah penyelesaian secara urut" },
+            { "kiri": "Pengenalan Pola", "kanan": "Menemukan kesamaan dari beberapa masalah" },
+            { "kiri": "Dekomposisi", "kanan": "Memecah masalah besar jadi bagian kecil" }
+          ], "bobot": 3 }
+        ]
+      },  
+    {
+      "babId": "k6-b2",
+      "babJudul": "Bab 2 — Algoritma dan Dasar Pemrograman",
+      "paket": {
+        "A": [
+          {
+            "id": "s1",
+            "jenis": "pg",
+            "teks": "Hubungan algoritma dan pemrograman adalah....",
+            "gambar": "",
+            "pilihan": [
+              "Algoritma merupakan langkah-langkah penyelesaian masalah yang dapat diterapkan dalam pemrograman.",
+              "Pemrograman digunakan untuk menggantikan algoritma dalam menyelesaikan masalah.",
+              "Algoritma dan pemrograman merupakan dua hal yang tidak saling berkaitan.",
+              "Pemrograman hanya digunakan untuk membuat gambar dan tulisan."
+            ],
+            "jawaban": 0,
+            "bobot": 2
+          },
+          {
+            "id": "s2",
+            "jenis": "pg",
+            "teks": "Perhatikan beberapa konsep berikut dalam pemrograman: variabel, pengondisian, pengulangan, dan perangkat keras. Yang tidak termasuk dasar pemrograman adalah ....",
+            "gambar": "",
+            "pilihan": [
+              "Variabel",
+              "Pengondisian",
+              "Pengulangan",
+              "Perangkat keras"
+            ],
+            "jawaban": 3,
+            "bobot": 2
+          },
+          {
+            "id": "s3",
+            "jenis": "pg",
+            "teks": "Rani membuat program untuk menyimpan nama dan umur pengguna. Agar data tersebut dapat digunakan dalam program, Rani membutuhkan ....",
+            "gambar": "",
+            "pilihan": [
+              "Pengulangan",
+              "Variabel",
+              "Pengondisian",
+              "Algoritma"
+            ],
+            "jawaban": 1,
+            "bobot": 2
+          },
+          {
+            "id": "s4",
+            "jenis": "pg",
+            "teks": "Cara pemrograman python menggunakan pengulangan adalah ....",
+            "gambar": "",
+            "pilihan": [
+              "Menggunakan sintak 'for' atau 'while'.",
+              "Menggunakan sintak def dan return.",
+              "Menggunakan sintak 'if-else'.",
+              "Menggunakan sintak 'print' dan 'input'."
+            ],
+            "jawaban": 0,
+            "bobot": 2
+          },
+          {
+            "id": "s5",
+            "jenis": "pg",
+            "teks": "Manfaat pengulangan dalam pemrograman adalah ........",
+            "gambar": "",
+            "pilihan": [
+              "Menjalankan perintah yang sama berkali-kali tanpa menuliskannya berulang-ulang",
+              "Menghapus semua perintah dalam program",
+              "Menghentikan program secara otomatis",
+              "Mengubah tampilan komputer"
+            ],
+            "jawaban": 0,
+            "bobot": 2
+          },
+          {
+            "id": "s6",
+            "jenis": "pg",
+            "teks": "Budi membuat program yang memberikan pesan 'Selamat belajar' jika nilai siswa lebih dari atau sama dengan 75. Konsep pemrograman yang digunakan Budi adalah ....",
+            "gambar": "",
+            "pilihan": [
+              "Variabel",
+              "Pengulangan",
+              "Pengondisian",
+              "Input"
+            ],
+            "jawaban": 2,
+            "bobot": 2
+          },
+          {
+            "id": "s7",
+            "jenis": "pg",
+            "teks": "Cara pemrograman python menggunakan pengondisian adalah ....",
+            "gambar": "",
+            "pilihan": [
+              "Menggunakan sintak 'for' atau 'while'.",
+              "Menggunakan sintak def dan return.",
+              "Menggunakan sintak 'if-else'.",
+              "Menggunakan sintak 'print' dan 'input'."
+            ],
+            "jawaban": 2,
+            "bobot": 2
+          },
+          {
+            "id": "s8",
+            "jenis": "pg",
+            "teks": "Manfaat pengondisian dalam pemrograman adalah ....",
+            "gambar": "",
+            "pilihan": [
+              "Menjalankan perintah yang sama secara terus-menerus",
+              "Menjalankan perintah berdasarkan kondisi tertentu",
+              "Menghapus perintah dalam program",
+              "Membuat program tidak membutuhkan algoritma"
+            ],
+            "jawaban": 1,
+            "bobot": 2
+          },
+          {
+            "id": "s9",
+            "jenis": "pg",
+            "teks": "Dalam sebuah game, karakter akan bertambah skornya jika berhasil melompati batu. Logika pemrograman yang digunakan untuk situasi tersebut adalah ....",
+            "gambar": "",
+            "pilihan": [
+              "Percabangan (If - Then)",
+              "Perulangan tanpa henti",
+              "Mematikan komputer",
+              "Mencetak dokumen"
+            ],
+            "jawaban": 0,
+            "bobot": 2
+          },
+          {
+            "id": "s10",
+            "jenis": "pg",
+            "teks": "Manfaat utama mempelajari koding dan algoritma sejak di sekolah dasar adalah ....",
+            "gambar": "",
+            "pilihan": [
+              "Abstraksi",
+              "Agar siswa bisa merusak komputer orang lain",
+              "Supaya siswa tidak perlu belajar matematika lagi",
+              "Agar bisa bermain game seharian tanpa batas"
+            ],
+            "jawaban": 0,
+            "bobot": 2
+          },
+          {
+            "id": "s11",
+            "jenis": "pgk",
+            "teks": "Algoritma adalah langkah-langkah yang digunakan untuk menyelesaikan suatu masalah. Ciri-ciri algoritma yang baik adalah .... (Pilih 2 jawaban yang benar!)",
+            "gambar": "",
+            "pilihan": [
+              "Langkahnya boleh dilakukan secara acak",
+              "Memiliki langkah-langkah yang jelas",
+              "Memiliki tujuan untuk menyelesaikan masalah",
+              "Harus selalu menggunakan komputer"
+            ],
+            "jawabanBenar": [1, 2],
+            "bobot": 4
+          },
+          {
+            "id": "s12",
+            "jenis": "pgk",
+            "teks": "Perhatikan kegiatan berikut! Manakah yang termasuk contoh algoritma dalam kehidupan sehari-hari? (Pilih 2 jawaban yang benar!)",
+            "gambar": "",
+            "pilihan": [
+              "Langkah-langkah membuat mi instan",
+              "Menebak hasil pertandingan tanpa aturan",
+              "Langkah-langkah mencuci tangan",
+              "Memilih warna kesukaan"
+            ],
+            "jawabanBenar": [0, 2],
+            "bobot": 4
+          },
+          {
+            "id": "s13",
+            "jenis": "pgk",
+            "teks": "Perhatikan contoh berikut:",
+            "gambar": "images/soal/k52-12.png",
+            "pilihan": [
+              "Program menggunakan pengondisian.",
+              "Program menggunakan pengulangan.",
+              "Hasil program bergantung pada nilai yang diperiksa.",
+              "Program tidak menggunakan aturan atau kondisi."
+            ],
+            "jawabanBenar": [0, 2],
+            "bobot": 4
+          },
+          {
+            "id": "s14",
+            "jenis": "pgk",
+            "teks": "Manakah contoh penggunaan pengulangan dalam pemrograman? (Pilih lebih dari satu jawaban)",
+            "gambar": "",
+            "pilihan": [
+              "Menampilkan tulisan \"Halo\" sebanyak 10 kali.",
+              "Menentukan apakah nilai siswa lulus atau tidak.",
+              "Menyimpan nama siswa ke dalam sebuah variabel.",
+              "Mengulangi gerakan karakter sampai mencapai tujuan."
+            ],
+            "jawabanBenar": [0, 3],
+            "bobot": 4
+          },
+          {
+            "id": "s15",
+            "jenis": "pgk",
+            "teks": "Manakah pernyataan yang benar tentang hubungan algoritma dan pemrograman? (Pilih lebih dari satu jawaban)",
+            "gambar": "",
+            "pilihan": [
+              "Langkah membuat teh: didihkan air, seduh, gula, aduk",
+              "Pemrograman tidak memerlukan langkah-langkah yang teratur.",
+              "Algoritma dapat diterapkan dalam program menggunakan bahasa pemrograman.",
+              "Algoritma hanya dapat digunakan untuk masalah yang berkaitan dengan komputer."
+            ],
+            "jawabanBenar": [0, 2],
+            "bobot": 4
+          },
+          {
+            "id": "s16",
+            "jenis": "benarsalah",
+            "teks": "Tentukan apakah setiap pernyataan berikut Benar (B) atau Salah (S) tentang algoritma!",
+            "pernyataan": [
+              { "teks": "Algoritma membantu merancang solusi masalah langkah demi langkah.", "jawaban": true },
+              { "teks": "Langkah-langkah dalam algoritma sebaiknya disusun secara logis dan berurutan.", "jawaban": true },
+              { "teks": "Algoritma hanya dapat digunakan untuk membuat program komputer.", "jawaban": false }
+            ],
+            "bobot": 6
+          },
+          {
+            "id": "s17",
+            "jenis": "benarsalah",
+            "teks": "Tentukan Benar atau Salah untuk pernyataan berikut mengenai variabel dalam pemrograman!",
+            "pernyataan": [
+              { "teks": "Variabel dapat digunakan untuk menyimpan data dalam program.", "jawaban": true },
+              { "teks": "Nilai dalam sebuah variabel tidak boleh berubah.", "jawaban": false },
+              { "teks": "Contoh data yang dapat disimpan dalam variabel adalah angka dan teks.", "jawaban": true }
+            ],
+            "bobot": 6
+          },
+          {
+            "id": "s18",
+            "jenis": "benarsalah",
+            "teks": "Pernyataan terkait konsep dasar pengondisian dalam pemrograman. Tentukan Benar atau Salah!",
+            "pernyataan": [
+              { "teks": "Pengondisian digunakan ketika program perlu mengambil keputusan berdasarkan suatu kondisi.", "jawaban": true },
+              { "teks": "Pernyataan \"Jika hujan, maka membawa payung\" merupakan contoh pengondisian.", "jawaban": true },
+              { "teks": "Pengondisian digunakan untuk mengulang perintah berkali-kali.", "jawaban": false }
+            ],
+            "bobot": 6
+          },
+          {
+            "id": "s19",
+            "jenis": "benarsalah",
+            "teks": "Tentukan apakah setiap pernyataan berikut Benar (B) atau Salah (S)!",
+            "pernyataan": [
+              { "teks": "Pengulangan digunakan untuk menjalankan perintah lebih dari satu kali.", "jawaban": true },
+              { "teks": "Menampilkan tulisan \"Halo\" sebanyak 10 kali dapat menggunakan pengulangan.", "jawaban": true },
+              { "teks": "Pengulangan digunakan untuk menyimpan data ke dalam variabel.", "jawaban": false }
+            ],
+            "bobot": 6
+          },
+          {
+            "id": "s20",
+            "jenis": "benarsalah",
+            "teks": "Tentukan apakah setiap pernyataan berikut Benar (B) atau Salah (S) tentang output program!",
+            "pernyataan": [
+              { "teks": "Output adalah hasil yang ditampilkan program setelah data diproses.", "jawaban": true },
+              { "teks": "Simbol oval pada flowchart digunakan untuk menandai proses perhitungan.", "jawaban": false },
+              { "teks": "Flowchart membantu menggambarkan alur suatu program secara visual.", "jawaban": true }
+            ],
+            "bobot": 6
+          },
+          {
+            "id": "s21",
+            "jenis": "menjodohkan",
+            "teks": "Jodohkan setiap pernyataan berikut dengan jawaban yang tepat mengenai algoritma!",
+            "pasangan": [
+              { "kiri": "Langkah-langkah untuk menyelesaikan suatu masalah.", "kanan": "Algoritma" },
+              { "kiri": "Urutan langkah dalam algoritma harus disusun secara ...", "kanan": "Berurutan dan logis" },
+              { "kiri": "Contoh algoritma dalam kehidupan sehari-hari.", "kanan": "Membuat mi instan" }
+            ],
+            "bobot": 6
+          },
+          {
+            "id": "s22",
+            "jenis": "menjodohkan",
+            "teks": "Jodohkan setiap pernyataan berikut dengan jawaban yang tepat mengenai variabel!",
+            "pasangan": [
+              { "kiri": "Tempat untuk menyimpan data dalam program.", "kanan": "Variabel" },
+              { "kiri": "Contoh data yang dapat disimpan dalam variabel.", "kanan": "Angka atau teks" },
+              { "kiri": "Jika nilai sebuah variabel berubah, maka ...", "kanan": "Nilai yang tersimpan dapat diperbarui" }
+            ],
+            "bobot": 6
+          },
+          {
+            "id": "s23",
+            "jenis": "menjodohkan",
+            "teks": "Jodohkan setiap pernyataan berikut dengan jawaban yang tepat mengenai pengondisian!",
+            "pasangan": [
+              { "kiri": "Digunakan ketika program harus memilih berdasarkan suatu kondisi.", "kanan": "Pengondisian" },
+              { "kiri": "Contoh pengondisian dalam kehidupan sehari-hari.", "kanan": "Jika hujan, maka membawa payung" },
+              { "kiri": "Kata yang sering digunakan untuk menyatakan suatu kondisi.", "kanan": "Jika ... maka ..." }
+            ],
+            "bobot": 6
+          },
+          {
+            "id": "s24",
+            "jenis": "menjodohkan",
+            "teks": "Jodohkan setiap pernyataan berikut dengan jawaban yang tepat mengenai pengulangan!",
+            "pasangan": [
+              { "kiri": "Digunakan untuk menjalankan perintah secara berulang.", "kanan": "Pengulangan" },
+              { "kiri": "Contoh kegiatan yang menggunakan pengulangan.", "kanan": "Melompat sebanyak 10 kali" },
+              { "kiri": "Jika sebuah perintah dilakukan 10 kali, maka perintah tersebut ...", "kanan": "Dilakukan berulang kali" }
+            ],
+            "bobot": 6
+          },
+          {
+            "id": "s25",
+            "jenis": "menjodohkan",
+            "teks": "Jodohkan setiap pernyataan berikut dengan konsep dasar pemrograman yang tepat!",
+            "pasangan": [
+              { "kiri": "Digunakan untuk menyimpan data.", "kanan": "Variabel" },
+              { "kiri": "Digunakan untuk mengambil keputusan berdasarkan kondisi.", "kanan": "Pengondisian" },
+              { "kiri": "Digunakan untuk menjalankan perintah berulang kali.", "kanan": "Pengulangan" }
+            ],
+            "bobot": 6
+          }
+        ],
+        "B": [
+          { "id": "s1", "jenis": "pg", "teks": "Hasil yang ditampilkan program setelah data diproses disebut...", "gambar": "", "pilihan": ["Input", "Proses", "Output", "Variabel"], "jawaban": 2, "bobot": 1 },
+          { "id": "s2", "jenis": "pg", "teks": "Simbol oval (elips) pada flowchart digunakan untuk menandai...", "gambar": "", "pilihan": ["Awal dan akhir proses", "Proses perhitungan", "Keputusan atau kondisi", "Arah alur proses"], "jawaban": 0, "bobot": 1 },
+          { "id": "s3", "jenis": "pgk", "teks": "Berikut ini termasuk simbol dasar flowchart adalah... (pilih 2 jawaban)", "gambar": "", "pilihan": ["Oval (terminator)", "Bintang", "Belah ketupat (keputusan)", "Hati"], "jawabanBenar": [0, 2], "bobot": 2 },
+          { "id": "s4", "jenis": "benarsalah", "teks": "Perhatikan pernyataan berikut tentang pemrograman:", "pernyataan": [
+            { "teks": "Sebelum menulis program, programmer perlu menyusun algoritma terlebih dahulu.", "jawaban": true },
+            { "teks": "Variabel adalah perintah yang dijalankan berulang-ulang.", "jawaban": false },
+            { "teks": "Pemrograman adalah kegiatan memberi perintah kepada komputer.", "jawaban": true }
+          ], "bobot": 3 },
+          { "id": "s5", "jenis": "menjodohkan", "teks": "Jodohkan istilah berikut dengan penjelasannya:", "pasangan": [
+            { "kiri": "Pseudocode", "kanan": "Algoritma ditulis dengan kalimat sederhana" },
+            { "kiri": "Flowchart", "kanan": "Algoritma ditulis dengan simbol gambar" },
+            { "kiri": "Variabel", "kanan": "Tempat menyimpan data sementara" }
+          ], "bobot": 3 }
+        ]
+      }
+    },
+    {
+      "babId": "k6-b3",
+      "babJudul": "Bab 3 — Literasi Digital dan Keamanan Informasi",
+      "paket": {
+        "A": []
+      }
+    }
+  ]
+}
