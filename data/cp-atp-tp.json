@@ -62,7 +62,7 @@
     "baris": [
       {
         "elemen": "Berpikir Komputasional",
-        "materi": "Bab 1 — Berpikir Komputasional; Bab 2 — Algoritma dan Dasar Pemrograman",
+        "materi": "— Berpikir Komputasional; — Algoritma dan Dasar Pemrograman",
         "tp": [
           "Menjelaskan pengertian, manfaat, dan ciri-ciri berpikir komputasional.",
           "Menerapkan 4 pilar berpikir komputasional untuk menyelesaikan masalah sederhana.",
@@ -70,11 +70,12 @@
           "Menjelaskan konsep dasar pemrograman (input, proses, output, variabel, perulangan).",
           "Membuat proyek sederhana lanjutan menggunakan aplikasi Scratch."
         ],
-        "atp": "Berpikir Komputasional → Empat Pilar → Algoritma (Flowchart/Pseudocode) → Dasar Pemrograman → Proyek Lanjutan Scratch"
+        "atp": [
+          "Berpikir Komputasional → Empat Pilar → Algoritma (Flowchart/Pseudocode) → Dasar Pemrograman → Proyek Lanjutan Scratch"
       },
       {
         "elemen": "Literasi Digital",
-        "materi": "Bab 3 — Perkembangan Teknologi",
+        "materi": "Perkembangan Teknologi",
         "tp": [
           "Menjelaskan pengertian literasi digital dengan bahasa sederhana.",
           "Mengidentifikasi perkembangan teknologi digital dari masa ke masa.",
@@ -83,11 +84,30 @@
           "Mengenali berbagai ancaman di dunia digital dan cara menghindarinya.",
           "Menerapkan perilaku bijak, aman, dan bertanggung jawab saat menggunakan teknologi digital."
         ],
-        "atp": "Menyusul"
+        "atp": [
+          "Tahap 1: Pengenalan konsep literasi digital.",
+          "Tahap 2: Sejarah dan perkembangan teknologi digital.",
+          "Tahap 3: Identifikasi manfaat teknologi digital.",
+          "Tahap 4: Analisis dampak positif dan negatif teknologi digital.",
+          "Tahap 5: Identifikasi ancaman digital dan langkah pencegahan.",
+          "Tahap 6: Praktik etika dan keamanan berinternet."
+        ]
       },
       {
         "elemen": "Literasi dan Etika Kecerdasan Artifisial",
-        "materi": "Menyusul",
+        "materi": "Pemanfaatan Teknologi dan Pembuatan Konten Digital",
+        "tp": [
+          "Murid dapat menjelaskan mekanisme dasar cara kerja internet dalam menghubungkan perangkat melalui analogi sederhana dengan tepat.",
+          "Murid dapat mengidentifikasi pemanfaatan layanan internet untuk pencarian informasi dan pembelajaran secara mandiri.",
+          "Murid dapat menganalisis dampak positif dan negatif penggunaan internet dalam kehidupan sehari-hari secara kritis.",
+          "Murid dapat menerapkan etika berinternet (netiket) dalam interaksi sosial daring dengan benar.",
+          "Murid dapat menyusun solusi pencegahan kecanduan internet dan penyebaran hoaks dalam bentuk infografis sederhana."
+        ],
+        "atp": "Menyusul"
+      },
+      {
+        "elemen": "",
+        "materi": "Penggunaan dan Dampak Internet",
         "tp": ["Tujuan pembelajaran bab ini akan ditambahkan oleh guru."],
         "atp": "Menyusul"
       },
