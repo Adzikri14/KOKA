@@ -20,7 +20,6 @@ async function muat() {
           <th class="kolom-cp">CP</th>
           <th class="kolom-materi">Materi</th>
           <th class="kolom-tp">TP</th>
-          <th class="kolom-atp">ATP</th>
         </tr>
       </thead>
       <tbody>
