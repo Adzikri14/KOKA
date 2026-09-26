@@ -33,7 +33,6 @@ async function muat() {
             <td class="kolom-cp">${cpTeks}</td>
             <td class="kolom-materi">${baris.materi}</td>
             <td class="kolom-tp"><ul class="list-tp-tabel">${baris.tp.map(t => `<li>${t}</li>`).join('')}</ul></td>
-            <td class="kolom-atp">${baris.atp}</td>
           </tr>`;
         }).join('')}
       </tbody>
