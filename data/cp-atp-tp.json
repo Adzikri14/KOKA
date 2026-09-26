@@ -25,7 +25,7 @@
         "elemen": "Berpikir Komputasional",
         "materi": "Berpikir Komputasional dalam Kehidupan Sehari-hari",
         "tp": [
-          "Menjelaskan pengertian, manfaat, dan tujuan berpikir komputasional dengan bahasa sendiri.",
+          "Memahami pengertian, manfaat, dan tujuan berpikir komputasional dengan bahasa sendiri.",
           "Menyebutkan dan memberi contoh empat pilar berpikir komputasional (dekomposisi, pengenalan pola, abstraksi, algoritma)."
         ],
         "atp": "Berpikir Komputasional → Empat Pilar → Algoritma (Flowchart/Pseudocode) → Pengenalan Scratch → Proyek Dasar Scratch"
@@ -34,9 +34,9 @@
         "elemen": "",
         "materi": "Pengenalan Pemrograman Dasar",
         "tp": [
-          "Menuliskan langkah-langkah sederhana dalam bentuk flowchart dan pseudocode.",
+          "Menuliskan langkah-langkah sederhana dalam bentuk flowchart dan pseudocode sederhana.",
           "Menjelaskan konsep dasar pemrograman: variabel, perulangan, dan pengondisian.",
-          "Membuat proyek dasar sederhana menggunakan aplikasi Scratch."
+          "Membuat proyek dasar sederhana menggunakan aplikasi Scratch dasar."
         ],
         "atp": "Berpikir Komputasional → Empat Pilar → Algoritma (Flowchart/Pseudocode) → Pengenalan Scratch → Proyek Dasar Scratch"
       },
@@ -62,7 +62,7 @@
         "elemen": "",
         "materi": "Pemanfaatan Teknologi dan Pembuatan Konten Digital  ",
         "tp": [
-          "Murid dapat menjelaskan pengertian literasi digital dengan bahasa sederhana melalui tanya jawab interaktif dengan benar.",
+          "Murid dapat memahami pengertian teknologi digital dengan bahasa sederhana melalui tanya jawab interaktif dengan benar.",
           "Murid dapat mengidentifikasi perkembangan teknologi digital dari masa ke masa berdasarkan media visual dengan runtut.",
           "Murid dapat menyebutkan manfaat teknologi digital dalam kehidupan sehari-hari melalui contoh konkret dengan tepat.",
           "Murid dapat mengidentifikasi dampak positif dan negatif penggunaan teknologi digital dalam kelompok kecil secara kritis.",
@@ -138,8 +138,9 @@
         "elemen": "",
         "materi": "Algoritma dan Dasar Pemrograman",
         "tp": [
-          "Menyusun algoritma sederhana dalam bentuk pseudocode dan flowchart.",
-          "Menjelaskan konsep dasar pemrograman (input, proses, output, variabel, perulangan).",
+          "memperagakan instruksi komputer seperti perintah dalam kejadian nyata",
+          "Menyusun algoritma sederhana dalam bentuk pseudocode",
+          "Memahami variabel, kondisional, dan pengulangan dalam pemrograman",
           "Membuat proyek sederhana lanjutan menggunakan aplikasi Scratch."
         ],
         "atp": [
@@ -170,11 +171,9 @@
         "elemen": "",
         "materi": "Pemanfaatan Teknologi dan Pembuatan Konten Digital",
         "tp": [
-          "Murid dapat menjelaskan mekanisme dasar cara kerja internet dalam menghubungkan perangkat melalui analogi sederhana dengan tepat.",
-          "Murid dapat mengidentifikasi pemanfaatan layanan internet untuk pencarian informasi dan pembelajaran secara mandiri.",
-          "Murid dapat menganalisis dampak positif dan negatif penggunaan internet dalam kehidupan sehari-hari secara kritis.",
-          "Murid dapat menerapkan etika berinternet (netiket) dalam interaksi sosial daring dengan benar.",
-          "Murid dapat menyusun solusi pencegahan kecanduan internet dan penyebaran hoaks dalam bentuk infografis sederhana."
+          "Membuat konten digital secara berkelompok",
+          "Menggunakan aplikasi dan media untuk membuat konten digital",
+          "Membuat dokumentasi pembuatan konten digital"
         ],
         "atp": "Menyusul"
       },
