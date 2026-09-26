@@ -181,11 +181,10 @@
         "elemen": "",
         "materi": "Sistem dan Jaringan Komputer, dan Internet",
         "tp": [
-          "Murid dapat menjelaskan mekanisme dasar cara kerja internet dalam menghubungkan perangkat melalui analogi sederhana dengan tepat.",
-          "Murid dapat mengidentifikasi pemanfaatan layanan internet untuk pencarian informasi dan pembelajaran secara mandiri.",
-          "Murid dapat menganalisis dampak positif dan negatif penggunaan internet dalam kehidupan sehari-hari secara kritis.",
-          "Murid dapat menerapkan etika berinternet (netiket) dalam interaksi sosial daring dengan benar.",
-          "Murid dapat menyusun solusi pencegahan kecanduan internet dan penyebaran hoaks dalam bentuk infografis sederhana."
+          "Mengenal perangkat sistem dan jaringan komputer",
+          "Menggunakan perangkat sistem kompter",
+          "Menggunakan internet secara bertanggung jawa",
+          "Mengetahui aspek keamanan dalam penggunaan internet"
         ],
         "atp": "Menyusul"
       },
@@ -198,7 +197,11 @@
       {
         "elemen": "Pemanfaatan dan Pengembangan Kecerdasan Artifisial",
         "materi": "Kecerdasan Artifisialan (Pengertian, Pemanfaatan AI, Cara Kerja AI)",
-        "tp": ["Tujuan pembelajaran bab ini akan ditambahkan oleh guru."],
+        "tp": [
+          "Menyimulasikan secara sederhana cara kerja kecerdasan artifisial",
+          "Memahami konsep Klasifikasi, pengenalan pola, dan prediksi",
+          "Memahami bagaimana kecerdasan artifisial mengklasifikasi benda, mengenali pola, dan melakukan prediksi"
+        ],
         "atp": "Menyusul"
       }
     ]
