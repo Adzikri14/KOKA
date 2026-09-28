@@ -1,0 +1,67 @@
+.tab-kelas {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+.tab-kelas button {
+  padding: 10px 26px;
+  border-radius: var(--r-pil);
+  background: var(--putih);
+  color: var(--ungu-700);
+  font-weight: 700;
+  box-shadow: var(--shadow-sm);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.tab-kelas button:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.tab-kelas button.aktif {
+  background: var(--grad-oren);
+  color: var(--putih);
+  box-shadow: var(--shadow-tombol), 0 6px 0 var(--oren-700);
+}
+
+.daftar-bab-tp {
+  overflow-x: auto;
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-md);
+  border: 3px solid var(--putih);
+}
+.tabel-atp-tp {
+  width: 100%;
+  min-width: 1000px;
+  border-collapse: collapse;
+  background: var(--putih);
+  font-size: 13px;
+}
+.tabel-atp-tp th {
+  background: var(--grad-ungu);
+  color: var(--putih);
+  text-align: left;
+  padding: 14px 14px;
+  font-size: 12.5px;
+  font-family: var(--font-heading);
+  letter-spacing: .3px;
+  position: sticky;
+  top: 0;
+}
+.tabel-atp-tp td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--ungu-100);
+  vertical-align: top;
+  color: var(--abu-700);
+  transition: background .12s ease;
+}
+.tabel-atp-tp tr:last-child td { border-bottom: none; }
+.tabel-atp-tp tr:nth-child(even) td { background: var(--ungu-100); }
+.tabel-atp-tp tr:hover td { background: var(--kuning-100); }
+
+.kolom-no { width: 36px; text-align: center; font-weight: 700; color: var(--ungu-700); }
+.kolom-elemen { width: 130px; font-weight: 700; color: var(--ungu-800); }
+.kolom-cp { width: 260px; }
+.kolom-materi { width: 190px; font-weight: 600; color: var(--oren-700); }
+.kolom-tp { width: 230px; }
+.kolom-atp { width: 200px; font-style: italic; color: var(--abu-500); }
+
+.list-tp-tabel { margin: 0; padding-left: 16px; }
+.list-tp-tabel li { margin-bottom: 6px; }
+.list-tp-tabel li:last-child { margin-bottom: 0; }

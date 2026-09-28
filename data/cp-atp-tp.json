@@ -1,0 +1,209 @@
+{
+  "fase": "Fase C (Kelas 5–6)",
+  "mapel": "Koding dan Kecerdasan Artifisial (KA)",
+  "cpUmum": [
+    {
+      "elemen": "Berpikir Komputasional",
+      "cp": "Murid mampu memahami permasalahan sederhana dalam kehidupan sehari-hari, menerapkan pemecahan masalah secara sistematis, serta menuliskan instruksi logis dan terstruktur menggunakan sekumpulan kosakata atau simbol."
+    },
+    {
+      "elemen": "Literasi Digital",
+      "cp": "Murid mampu memahami konsep dasar, manfaat, dan dampak teknologi digital, memahami sistem komputer tingkat pradasar, menerapkan pengamanan informasi pribadi dalam komunikasi daring, memanfaatkan internet, dan memproduksi serta mendiseminasi konten digital dalam bentuk teks dan gambar."
+    },
+    {
+      "elemen": "Literasi dan Etika Kecerdasan Artifisial",
+      "cp": "Murid mampu memahami konsep KA sederhana, manfaat dan dampak KA pada kehidupan sehari-hari, prinsip bahwa KA dikembangkan untuk meningkatkan kesejahteraan manusia dan tidak boleh merugikan manusia, mengetahui perbedaan manusia dan komputer dalam melakukan penginderaan, dan mengetahui perbedaan antara mesin cerdas dan mesin non-cerdas. Murid mampu memahami etika dasar penggunaan KA seperti empati dan tidak menyakiti orang lain."
+    },
+    {
+      "elemen": "Pemanfaatan dan Pengembangan Kecerdasan Artifisial",
+      "cp": "Murid mampu menyimulasikan secara sederhana kerja KA saat mengenali pola, mengklasifikasi benda konkret berdasarkan sifatnya, dan mengetahui bagaimana prediksi sistem KA dipengaruhi input benda konkret."
+    }
+  ],
+  "kelas5": {
+    "baris": [
+      {
+        "elemen": "Berpikir Komputasional",
+        "materi": "Berpikir Komputasional dalam Kehidupan Sehari-hari",
+        "tp": [
+          "Memahami pengertian, manfaat, dan tujuan berpikir komputasional dengan bahasa sendiri.",
+          "Menyebutkan dan memberi contoh empat pilar berpikir komputasional (dekomposisi, pengenalan pola, abstraksi, algoritma)."
+        ],
+        "atp": "Berpikir Komputasional → Empat Pilar → Algoritma (Flowchart/Pseudocode) → Pengenalan Scratch → Proyek Dasar Scratch"
+      },
+      {
+        "elemen": "",
+        "materi": "Pengenalan Pemrograman Dasar",
+        "tp": [
+          "Menuliskan langkah-langkah sederhana dalam bentuk flowchart dan pseudocode sederhana.",
+          "Menjelaskan konsep dasar pemrograman: variabel, perulangan, dan pengondisian.",
+          "Membuat proyek dasar sederhana menggunakan aplikasi Scratch dasar."
+        ],
+        "atp": "Berpikir Komputasional → Empat Pilar → Algoritma (Flowchart/Pseudocode) → Pengenalan Scratch → Proyek Dasar Scratch"
+      },
+      {
+        "elemen": "Literasi Digital",
+        "materi": "Teknologi Digital dan Sisitem Komputer",
+        "tp": [
+          "Menjelaskan pengertian Teknologi Digital.",
+          "Menyebutkan manfaat dan dampak teknologi digital dalam kehidupan sehari-hari.",
+          "Mengenal bagian-bagian dasar sistem komputer (input, proses, output).",
+          "Menerapkan cara menjaga keamanan informasi pribadi saat berkomunikasi daring."
+        ],
+        "atp": [
+          "Tahap 1: Pengenalan konsep literasi digital.",
+          "Tahap 2: Sejarah dan perkembangan teknologi digital.",
+          "Tahap 3: Identifikasi manfaat teknologi digital.",
+          "Tahap 4: Analisis dampak positif dan negatif teknologi digital.",
+          "Tahap 5: Identifikasi ancaman digital dan langkah pencegahan.",
+          "Tahap 6: Praktik etika dan keamanan berinternet"
+        ]
+      },
+      {
+        "elemen": "",
+        "materi": "Pemanfaatan Teknologi dan Pembuatan Konten Digital  ",
+        "tp": [
+          "Murid dapat memahami pengertian teknologi digital dengan bahasa sederhana melalui tanya jawab interaktif dengan benar.",
+          "Murid dapat mengidentifikasi perkembangan teknologi digital dari masa ke masa berdasarkan media visual dengan runtut.",
+          "Murid dapat menyebutkan manfaat teknologi digital dalam kehidupan sehari-hari melalui contoh konkret dengan tepat.",
+          "Murid dapat mengidentifikasi dampak positif dan negatif penggunaan teknologi digital dalam kelompok kecil secara kritis.",
+          "Murid dapat mengenali berbagai ancaman di dunia digital dan cara menghindarinya melalui studi kasus keamanan siber dengan cermat.",
+          "Murid dapat menerapkan perilaku bijak, aman, dan bertanggung jawab saat menggunakan teknologi digital dalam praktik komunikasi daring."
+        ],
+        "atp": [
+          "Tahap 1: Pengenalan alat dan fungsi aplikasi pembuat poster.",
+          "Tahap 2: Pemilihan elemen visual dan tata letak.",
+          "Tahap 3: Perancangan sketsa konten digital.",
+          "Tahap 4: Praktik pembuatan poster digital.",
+          "Tahap 5: Evaluasi dan diseminasi karya digital."
+        ]
+      },
+      {
+        "elemen": "",
+        "materi": "Penggunaan dan Dampak Internet",
+        "tp": [
+         "Murid dapat menjelaskan mekanisme dasar cara kerja internet dalam menghubungkan perangkat melalui analogi sederhana dengan tepat.",
+         "Murid dapat mengidentifikasi pemanfaatan layanan internet untuk pencarian informasi dan pembelajaran secara mandiri.",
+         "Murid dapat menganalisis dampak positif dan negatif penggunaan internet dalam kehidupan sehari-hari secara kritis.",
+         "Murid dapat menerapkan etika berinternet (netiket) dalam interaksi sosial daring dengan benar.",
+         "Murid dapat menyusun solusi pencegahan kecanduan internet dan penyebaran hoaks dalam bentuk infografis sederhana."
+        ],
+        "atp": [
+          "Tahap 1: Memahami dasar koneksi dan kerja internet.",
+          "Tahap 2: Pemanfaatan internet untuk pencarian informasi.",
+          "Tahap 3: Analisis dampak internet (positif & negatif).",
+          "Tahap 4: Penerapan etika berinternet (Netiket).",
+          "Tahap 5: Solusi pencegahan hoaks dan kecanduan internet."
+        ]
+      },
+      {
+        "elemen": "Literasi dan Etika Kecerdasan Artifisial",
+        "materi": "Kecerdasan Artifisial (AI)",
+        "tp": [
+          "Murid dapat menjelaskan konsep dasar Kecerdasan Artifisial (AI) sederhana melalui contoh sehari-hari dengan tepat.",
+          "Murid dapat membedakan kemampuan penginderaan antara manusia dan komputer melalui observasi langsung secara cermat.",
+          "Murid dapat mengidentifikasi perbedaan antara mesin cerdas (AI) dan mesin non-cerdas berdasarkan karakteristiknya dengan benar.",
+          "Murid dapat menganalisis manfaat dan dampak penerapan Kecerdasan Artifisial dalam kehidupan sehari-hari secara kritis.",
+          "Murid dapat menilai prinsip etika penggunaan AI (empati dan tidak merugikan sesama) melalui studi kasus sederhana."
+        ],
+        "atp": [
+          "Tahap 1: Pengenalan konsep dasar AI.",
+          "Tahap 2: Perbandingan penginderaan manusia dan komputer.",
+          "Tahap 3: Identifikasi mesin cerdas vs non-cerdas.",
+          "Tahap 4: Analisis manfaat dan dampak AI.",
+          "Tahap 5: Pemahaman etika penggunaan AI."
+        ]
+      },
+      {
+        "elemen": "Pemanfaatan dan Pengembangan Kecerdasan Artifisial",
+        "materi": "kelas 6",
+        "tp": ["kelas 6"],
+        "atp": "kelas 6"
+      }
+    ]
+  },
+  "kelas6": {
+    "baris": [
+      {
+        "elemen": "Berpikir Komputasional",
+        "materi": "Berpikir Komputasional",
+        "tp": [
+          "Menjelaskan pengertian, manfaat, dan ciri-ciri berpikir komputasional.",
+          "Menerapkan 4 pilar berpikir komputasional untuk menyelesaikan masalah sederhana."
+        ],
+        "atp": [
+          "Berpikir Komputasional → Empat Pilar → Algoritma (Flowchart/Pseudocode) → Dasar Pemrograman → Proyek Lanjutan Scratch"
+        ]
+      },
+      {
+        "elemen": "",
+        "materi": "Algoritma dan Dasar Pemrograman",
+        "tp": [
+          "memperagakan instruksi komputer seperti perintah dalam kejadian nyata",
+          "Menyusun algoritma sederhana dalam bentuk pseudocode",
+          "Memahami variabel, kondisional, dan pengulangan dalam pemrograman",
+          "Membuat proyek sederhana lanjutan menggunakan aplikasi Scratch."
+        ],
+        "atp": [
+          "Berpikir Komputasional → Empat Pilar → Algoritma (Flowchart/Pseudocode) → Dasar Pemrograman → Proyek Lanjutan Scratch"
+        ]
+      },
+      {
+        "elemen": "Literasi Digital",
+        "materi": "Perkembangan Teknologi",
+        "tp": [
+          "Menjelaskan pengertian literasi digital dengan bahasa sederhana.",
+          "Mengidentifikasi perkembangan teknologi digital dari masa ke masa.",
+          "Menyebutkan manfaat teknologi digital dalam kehidupan sehari-hari.",
+          "Mengidentifikasi dampak positif dan negatif penggunaan teknologi digital.",
+          "Mengenali berbagai ancaman di dunia digital dan cara menghindarinya.",
+          "Menerapkan perilaku bijak, aman, dan bertanggung jawab saat menggunakan teknologi digital."
+        ],
+        "atp": [
+          "Tahap 1: Pengenalan konsep literasi digital.",
+          "Tahap 2: Sejarah dan perkembangan teknologi digital.",
+          "Tahap 3: Identifikasi manfaat teknologi digital.",
+          "Tahap 4: Analisis dampak positif dan negatif teknologi digital.",
+          "Tahap 5: Identifikasi ancaman digital dan langkah pencegahan.",
+          "Tahap 6: Praktik etika dan keamanan berinternet."
+        ]
+      },
+      {
+        "elemen": "",
+        "materi": "Pemanfaatan Teknologi dan Pembuatan Konten Digital",
+        "tp": [
+          "Membuat konten digital secara berkelompok",
+          "Menggunakan aplikasi dan media untuk membuat konten digital",
+          "Membuat dokumentasi pembuatan konten digital"
+        ],
+        "atp": "Menyusul"
+      },
+      {
+        "elemen": "",
+        "materi": "Sistem dan Jaringan Komputer, dan Internet",
+        "tp": [
+          "Mengenal perangkat sistem dan jaringan komputer",
+          "Menggunakan perangkat sistem kompter",
+          "Menggunakan internet secara bertanggung jawa",
+          "Mengetahui aspek keamanan dalam penggunaan internet"
+        ],
+        "atp": "Menyusul"
+      },
+      {
+        "elemen": "Literasi dan Etika Kecerdasan Artifisial",
+        "materi": "Kelas 5",
+        "tp": ["Kelas 5"],
+        "atp": "Kelas 5"
+      },
+      {
+        "elemen": "Pemanfaatan dan Pengembangan Kecerdasan Artifisial",
+        "materi": "Kecerdasan Artifisialan (Pengertian, Pemanfaatan AI, Cara Kerja AI)",
+        "tp": [
+          "Menyimulasikan secara sederhana cara kerja kecerdasan artifisial",
+          "Memahami konsep Klasifikasi, pengenalan pola, dan prediksi",
+          "Memahami bagaimana kecerdasan artifisial mengklasifikasi benda, mengenali pola, dan melakukan prediksi"
+        ],
+        "atp": "Menyusul"
+      }
+    ]
+  }
+}

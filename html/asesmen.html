@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asesmen — KOKA</title>
+<link rel="icon" href="../assets/images/icons/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/variables.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/internal.css">
+<link rel="stylesheet" href="../css/asesmen.css">
+<link rel="stylesheet" href="../css/asesmen-menu.css">
+</head>
+<body class="halaman-app">
+
+  <header class="topbar">
+    <div class="container">
+      <a class="btn-kembali" href="dashboard.html">←</a>
+      <div>
+        <h1>Asesmen</h1>
+        <div class="topbar-sub">Pilih jenis asesmen yang ingin kamu kerjakan</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container halaman-isi">
+    <div class="hero-asesmen">
+      <div class="blob-asesmen blob-1"></div>
+      <div class="blob-asesmen blob-2"></div>
+      <div class="blob-asesmen blob-3"></div>
+      <img src="../assets/images/mascot/maskot-pose1.png" alt="Maskot KOKA" class="maskot-hero-asesmen">
+      <h2>Menu Asesmen 🎯</h2>
+      <p>Kerjakan Sumatif dengan kode unik, atau kumpulkan tugas proyekmu di sini.</p>
+    </div>
+
+    <div class="grid-menu-asesmen">
+      <a class="kotak-jenis-asesmen kotak-sumatif" href="asesmen-sumatif.html">
+        <div class="ikon-kotak-asesmen">📝</div>
+        <h4>Sumatif</h4>
+        <p>Kerjakan soal dengan kode unik dari guru</p>
+        <span class="panah-menu">Mulai kerjakan →</span>
+      </a>
+      <a class="kotak-jenis-asesmen kotak-proyek" href="asesmen-proyek.html">
+        <div class="ikon-kotak-asesmen">📁</div>
+        <h4>Pengumpulan Proyek</h4>
+        <p>Kumpulkan tugas proyek Scratch atau lainnya</p>
+        <span class="panah-menu">Kumpulkan →</span>
+      </a>
+    </div>
+  </main>
+
+  <footer class="footer-koka">KOKA © 2026<span class="nama-guru">Dibimbing oleh Ananda Dzikri Laila, M.Pd</span></footer>
+
+<script src="../js/app.js"></script>
+<script>KOKA.wajibLogin();</script>
+</body>
+</html>

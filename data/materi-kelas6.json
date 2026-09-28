@@ -1,0 +1,473 @@
+{
+  "kelas": "6",
+  "bab": [
+    {
+      "id": "k6-b1",
+      "nomor": 1,
+      "judul": "Berpikir Komputasional",
+      "aktif": true,
+      "gambarSampul": "images/materi/k56-bab1.png",
+      "konten": [
+        {
+          "tipe": "judul",
+          "teks": "A. Apa itu Berpikir Komputasional?"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Pernahkah kalian menyusun jadwal piket kelas, merapikan kamar, atau menyusun langkah membuat mi instan? Tanpa disadari, kalian sedang berlatih berpikir komputasional!"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Berpikir komputasional (computational thinking) adalah cara berpikir untuk memecahkan masalah dengan memecahnya menjadi bagian-bagian kecil, mencari pola, menyederhanakan hal yang rumit, lalu menyusun langkah-langkah penyelesaian secara runtut — persis seperti cara kerja komputer menyelesaikan tugas, tetapi dilakukan oleh manusia."
+        },
+        {
+          "tipe": "judul",
+          "teks": "B. Manfaat Berpikir Komputasional"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Membantu menyelesaikan masalah rumit dengan lebih terstruktur dan tidak membingungkan.",
+            "Melatih berpikir logis, kritis, dan sistematis dalam mengambil keputusan.",
+            "Mempermudah proses belajar coding dan pemrograman di bab-bab selanjutnya.",
+            "Berguna dalam kehidupan sehari-hari, misalnya menyusun jadwal belajar atau mengatur uang jajan.",
+            "Meningkatkan kemampuan bekerja sama karena masalah besar dapat dibagi menjadi tugas-tugas kecil."
+          ]
+        },
+        {
+          "tipe": "judul",
+          "teks": "C. Ciri-Ciri Berpikir Komputasional"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Seseorang yang menerapkan berpikir komputasional biasanya memiliki ciri-ciri berikut:"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Mampu memecah masalah besar menjadi bagian-bagian kecil yang lebih mudah dipahami.",
+            "Mampu mengenali pola atau kemiripan dari beberapa masalah yang berbeda.",
+            "Mampu fokus pada hal penting saja dan mengabaikan detail yang tidak diperlukan.",
+            "Mampu menyusun langkah-langkah penyelesaian secara urut dan jelas.",
+            "Tidak mudah menyerah dan mau mencoba cara lain jika langkah pertama belum berhasil."
+          ]
+        },
+        {
+          "tipe": "judul",
+          "teks": "D. Empat Pilar Berpikir Komputasional"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Ada empat pilar utama yang menjadi dasar berpikir komputasional. Simak penjelasan dan contohnya berikut ini."
+        },
+        {
+          "tipe": "gambar",
+          "src": "images/materi/k6-bab1-4pilar.png",
+          "keterangan": "4 Pilar Berpikir Komputasional beserta contoh sehari-hari"
+        },
+        {
+          "tipe": "judul",
+          "teks": "E. Aktivitas Latihan"
+        },
+        {
+          "tipe": "aktivitas",
+          "teks": "Coba praktikkan bersama teman sebangku! Pilih salah satu masalah sehari-hari (misalnya: menyiapkan bekal ke sekolah), lalu selesaikan menggunakan 4 pilar berpikir komputasional di atas. Tuliskan hasilnya di buku catatan kalian."
+        },
+        {
+          "tipe": "judul",
+          "teks": "F. Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Berpikir komputasional adalah cara berpikir untuk memecahkan masalah secara terstruktur.",
+            "Manfaatnya membantu berpikir logis, kritis, dan mempermudah belajar pemrograman.",
+            "Empat pilarnya adalah dekomposisi, pengenalan pola, abstraksi, dan algoritma."
+          ]
+        }
+      ],
+      "kuisRefleksi": [
+        {
+          "soal": "Memecah masalah besar menjadi bagian-bagian kecil yang lebih sederhana disebut...",
+          "pilihan": [
+            "Algoritma",
+            "Dekomposisi",
+            "Abstraksi",
+            "Pengenalan pola"
+          ],
+          "jawaban": 1
+        },
+        {
+          "soal": "Berikut ini yang BUKAN merupakan manfaat berpikir komputasional adalah...",
+          "pilihan": [
+            "Melatih berpikir logis dan sistematis",
+            "Membantu menyelesaikan masalah lebih terstruktur",
+            "Membuat seseorang harus jago coding",
+            "Mempermudah belajar pemrograman"
+          ],
+          "jawaban": 2
+        },
+        {
+          "soal": "Seorang siswa menyusun jadwal belajar dengan hanya mencantumkan mata pelajaran dan jam belajar tanpa detail lain yang tidak penting. Siswa tersebut menerapkan pilar...",
+          "pilihan": [
+            "Algoritma",
+            "Dekomposisi",
+            "Abstraksi",
+            "Pengenalan pola"
+          ],
+          "jawaban": 2
+        }
+      ]
+    },
+    {
+      "id": "k6-b2",
+      "nomor": 2,
+      "judul": "Algoritma dan Dasar Pemrograman",
+      "aktif": true,
+      "gambarSampul": "images/materi/k6-bab2.png",
+      "konten": [
+        {
+          "tipe": "judul",
+          "teks": "A. Apa itu Pemrograman?"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Pemrograman adalah kegiatan memberi perintah kepada komputer agar komputer dapat melakukan suatu tugas. Perintah tersebut ditulis menggunakan bahasa pemrograman yang dapat dipahami komputer, misalnya Scratch."
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Sebelum membuat program, kita perlu menyusun algoritma terlebih dahulu, yaitu langkah-langkah penyelesaian masalah yang sudah kalian pelajari di Bab 1."
+        },
+        {
+          "tipe": "judul",
+          "teks": "B. Konsep Dasar Pemrograman"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Ada tiga konsep dasar yang penting dipahami dalam pemrograman:"
+        },
+        {
+          "tipe": "subjudul",
+          "teks": "1. Variabel"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Variabel adalah tempat menyimpan data sementara di dalam program. Contoh: skor permainan, nama pemain, nyawa (life)."
+        },
+        {
+          "tipe": "subjudul",
+          "teks": "2. Perulangan"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Perulangan (loop) adalah perintah yang dijalankan berkali-kali sampai kondisi tertentu terpenuhi. Contoh: karakter melompat sebanyak 3 kali secara berturut-turut."
+        },
+        {
+          "tipe": "subjudul",
+          "teks": "3. Pengondisian"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Pengondisian adalah perintah yang membuat program mengambil keputusan berbeda tergantung suatu syarat. Contoh: \"jika karakter menyentuh bola, maka skor bertambah\"."
+        },
+        {
+          "tipe": "info",
+          "judul": "💡 Tahukah Kamu?",
+          "teks": "Scratch adalah bahasa pemrograman visual yang dibuat khusus untuk anak-anak belajar coding dengan cara menyusun balok-balok perintah, tanpa perlu mengetik kode yang rumit."
+        },
+        {
+          "tipe": "judul",
+          "teks": "C. Hubungan Algoritma dan Pemrograman"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Algoritma dan pemrograman saling berhubungan dalam pembuatan sebuah program. Algoritma digunakan untuk menentukan urutan langkah-langkah yang harus dilakukan untuk menyelesaikan suatu masalah. Setelah langkah-langkah tersebut dibuat, algoritma kemudian diterjemahkan ke dalam bahasa atau blok pemrograman agar dapat dipahami dan dijalankan oleh komputer."
+        },
+        {
+          "tipe": "judul",
+          "teks": "D. Mengenal Aplikasi Pemrograman Scratch"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Scratch memiliki beberapa bagian utama pada tampilannya:"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Panggung (stage): tempat menampilkan hasil program yang dijalankan.",
+            "Sprite: karakter atau objek yang akan diberi perintah.",
+            "Blok kode: kumpulan perintah berwarna-warni yang disusun seperti puzzle.",
+            "Area skrip: tempat menyusun blok-blok kode menjadi satu program."
+          ]
+        },
+        {
+          "tipe": "gambar",
+          "src": "images/materi/k6-bab2-scratch.png",
+          "keterangan": "Contoh program Scratch menggunakan variabel dan perulangan"
+        },
+        {   
+          "tipe": "info",
+          "judul": "Link scratch",
+          "teks": "https://scratch.mit.edu/"
+        },
+        {
+          "tipe": "judul",
+          "teks": "E. Proyek Praktik di Scratch"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Ayo praktikkan konsep dasar pemrograman dengan membuat proyek sederhana di Scratch."
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Buka aplikasi Scratch, lalu pilih atau buat sprite karakter baru.",
+            "Tambahkan blok gerak agar karakter dapat bergerak ke kanan.",
+            "Gunakan blok perulangan (\"ulangi\") agar karakter bergerak berkali-kali.",
+            "Tambahkan blok variabel, misalnya \"skor\", lalu buat skor bertambah setiap karakter bergerak.",
+            "Uji coba proyek, perbaiki jika ada kesalahan (debugging), lalu simpan hasil karya."
+          ]
+        },
+        {
+          "tipe": "gambar",
+          "src": "images/materi/scratch-contoh.png",
+          "keterangan": "Contoh program Scratch menggunakan variabel dan perulangan"
+        },
+        {
+          "tipe": "judul",
+          "teks": "F. Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Pemrograman adalah kegiatan memberi perintah kepada komputer melalui bahasa pemrograman.",
+            "Konsep dasar pemrograman meliputi variabel, perulangan, dan pengondisian.",
+            "Scratch adalah aplikasi pemrograman visual untuk anak-anak.",
+            "Proyek dasar di Scratch melatih penerapan gerak, perulangan, dan variabel."
+          ]
+        }
+      ],
+      "kuisRefleksi": [
+        {
+          "soal": "Tempat menyimpan data sementara di dalam program disebut...",
+          "pilihan": [
+            "Perulangan",
+            "Pengondisian",
+            "Variabel",
+            "Algoritma"
+          ],
+          "jawaban": 2
+        },
+        {
+          "soal": "Perintah yang dijalankan berkali-kali sampai kondisi tertentu terpenuhi disebut...",
+          "pilihan": [
+            "Variabel",
+            "Perulangan",
+            "Sprite",
+            "Panggung"
+          ],
+          "jawaban": 1
+        },
+        {
+          "soal": "Doni ingin karakternya berubah warna hanya ketika menyentuh musuh. Doni sebaiknya menggunakan konsep...",
+          "pilihan": [
+            "Variabel",
+            "Perulangan",
+            "Pengondisian",
+            "Panggung"
+          ],
+          "jawaban": 2
+        }
+      ]
+    },
+
+
+    {
+      "id": "k6-b3",
+      "nomor": 3,
+      "judul": "Perkembangan Teknologi Digital",
+      "aktif": true,
+      "gambarSampul": "images/materi/k6-bab3.png",
+      "konten": [
+        {
+          "tipe": "info",
+          "judul": "💡 Tahukah Kamu?",
+          "teks": "Perkembangan teknologi digital yang pesat membawa dampak positif dan"
+        },
+          {
+          "tipe": "judul",
+          "teks": "A. Apa Itu Teknologi Digital?"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Teknologi digital adalah penggunaan teknologi yang berbasis komputer dan internet untuk menyimpan, memproses, dan mengirimkan informasi."
+        },       
+        {
+          "tipe": "judul",
+          "teks": "B. Perkembangan Teknologi Digital 🚀"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Teknologi terus berkembang untuk membantu manusia melakukan berbagai aktivitas. Berikut beberapa contoh perubahannya dari dulu ke sekarang:"
+        },
+        {
+          "tipe": "gambar",
+          "src": "images/materi/k6-bab3-teknologi.png",
+          "keterangan": "Contoh flowchart membuat es teh manis"
+        },
+        {
+          "tipe": "judul",
+          "teks": "C. Manfaat Teknologi Digital ✨"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Pendidikan: Membantu mencari materi dan belajar secara online.",
+            "Komunikasi: Memudahkan berkomunikasi dengan orang lain.",
+            "Informasi: Memudahkan kita mendapatkan berbagai informasi.",
+            "Kreativitas: Membantu membuat gambar, video, animasi, dan karya digital.",
+            "Pekerjaan: Membantu manusia bekerja dan berkolaborasi.",
+            "Kehidupan sehari-hari: Memudahkan belanja, pembayaran, transportasi, dan berbagai kebutuhan lainnya."
+          ]
+        },
+        {
+          "tipe": "judul",
+          "teks": "D. Dampak Teknologi Digital ⚖️"
+        },
+        {
+          "tipe": "subjudul",
+          "teks": "✅ Dampak Positif"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Informasi lebih mudah diperoleh.",
+            "Komunikasi menjadi lebih cepat.",
+            "Belajar dapat dilakukan di mana saja.",
+            "Meningkatkan kreativitas.",
+            "Mempermudah berbagai pekerjaan."
+          ]
+        },
+        {
+          "tipe": "subjudul",
+          "teks": "⚠️ Dampak Negatif"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Terlalu lama menggunakan gadget.",
+            "Mengurangi waktu belajar dan beraktivitas.",
+            "Penyebaran informasi palsu.",
+            "Kecanduan internet atau game.",
+            "Berkurangnya interaksi langsung dengan orang lain."
+          ]
+        },
+        {
+          "tipe": "info",
+          "judul": "👉 Ingat",
+          "teks": "Teknologi bukan sesuatu yang harus dihindari. Kita perlu menggunakannya dengan bijak."
+        },
+        {
+          "tipe": "judul",
+          "teks": "E. Ancaman di Dunia Digital 🚨"
+        },
+        {
+          "tipe": "gambar",
+          "src": "images/materi/k6-bab3-ancaman.png",
+          "keterangan": "Contoh flowchart membuat es teh manis"
+        },
+        {
+          "tipe": "judul",
+          "teks": "F. Cara Aman di Dunia Digital 🛡️"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Ingat 5 langkah sederhana:"
+        },
+        {
+          "tipe": "list",
+          "item": [
+            "Jaga kata sandi: Jangan memberikannya kepada orang lain.",
+            "Lindungi data pribadi: Jangan sembarangan membagikan alamat, nomor telepon, foto dokumen, atau informasi pribadi.",
+            "Periksa informasi: Jangan langsung percaya atau menyebarkan berita.",
+            "Hati-hati dengan link: Jangan sembarangan membuka tautan dari orang atau sumber yang tidak dikenal.",
+            "Bersikap sopan: Gunakan bahasa yang baik dan hormati orang lain di internet."
+          ]
+        },
+        {
+          "tipe": "judul",
+          "teks": "G. Kesimpulan 🌟"
+        },
+        {
+          "tipe": "paragraf",
+          "teks": "Menjadi pengguna digital yang baik bukan hanya bisa menggunakan teknologi, tetapi juga tahu cara menggunakannya dengan aman, bijak, dan bertanggung jawab."
+        }
+      ],
+      "kuisRefleksi": [
+        {
+          "soal": "Apa arti dari literasi digital secara sederhana?",
+          "pilihan": [
+            "Hanya bisa bermain game online dengan lancar",
+            "Kemampuan menggunakan, memahami, dan memanfaatkan teknologi digital secara bijak, aman, dan bertanggung jawab",
+            "Pintar merakit komponen komputer dan handphone",
+            "Sering membuat video pendek di media sosial"
+          ],
+          "jawaban": 1
+        },
+        {
+          "soal": "Manakah di bawah ini yang merupakan salah satu dampak negatif dari penggunaan teknologi digital yang terlalu lama?",
+          "pilihan": [
+            "Belajar menjadi lebih mudah di mana saja",
+            "Mengurangi waktu belajar, beraktivitas fisik, dan berisiko kecanduan",
+            "Informasi dapat diperoleh dengan sangat cepat",
+            "Mempermudah komunikasi jarak jauh"
+          ],
+          "jawaban": 1
+        },
+        {
+          "soal": "Saat menerima informasi atau berita yang belum jelas kebenarannya di internet, sikap yang paling tepat sesuai dengan prinsip literasi digital adalah...",
+          "pilihan": [
+            "Langsung membagikannya ke semua grup WhatsApp",
+            "Mengabaikannya dan tidak peduli sama sekali",
+            "Memeriksa kebenaran informasinya terlebih dahulu sebelum percaya atau membagikannya",
+            "Mengubah isi beritanya agar lebih menarik"
+          ],
+          "jawaban": 2
+        }
+      ]
+    },
+
+
+    {
+      "id": "k6-b4",
+      "nomor": 4,
+      "judul": "Bab 4 (Segera Hadir)",
+      "aktif": false,
+      "gambarSampul": "",
+      "konten": [],
+      "kuisRefleksi": []
+    },
+
+
+    {
+      "id": "k6-b5",
+      "nomor": 5,
+      "judul": "Bab 5 (Segera Hadir)",
+      "aktif": false,
+      "gambarSampul": "",
+      "konten": [],
+      "kuisRefleksi": []
+    },
+
+
+    {
+      "id": "k6-b6",
+      "nomor": 6,
+      "judul": "Bab 6 (Segera Hadir)",
+      "aktif": false,
+      "gambarSampul": "",
+      "konten": [],
+      "kuisRefleksi": []
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 260 260">
+  <!-- Pola ikon tema koding & robot, warna sangat samar, ditile berulang sebagai background dashboard -->
+
+  <!-- simbol </> -->
+  <text x="14" y="46" font-family="Poppins, Arial, sans-serif" font-weight="800" font-size="34"
+        fill="#6C4CE8" fill-opacity="0.055" transform="rotate(-8 30 40)">&lt;/&gt;</text>
+
+  <!-- simbol { } -->
+  <text x="150" y="38" font-family="Poppins, Arial, sans-serif" font-weight="800" font-size="30"
+        fill="#FF7EB6" fill-opacity="0.06" transform="rotate(6 165 30)">{ }</text>
+
+  <!-- angka biner -->
+  <text x="190" y="130" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="20"
+        fill="#6C4CE8" fill-opacity="0.05" transform="rotate(-6 205 125)">01</text>
+  <text x="30" y="160" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="16"
+        fill="#FF7EB6" fill-opacity="0.05" transform="rotate(4 45 155)">10</text>
+
+  <!-- robot kecil sederhana -->
+  <g transform="translate(90,150) rotate(-4)" fill="#6C4CE8" fill-opacity="0.06">
+    <rect x="0" y="16" width="46" height="34" rx="10"/>
+    <rect x="8" y="0" width="30" height="22" rx="8"/>
+    <circle cx="16" cy="10" r="3"/>
+    <circle cx="30" cy="10" r="3"/>
+    <rect x="-8" y="24" width="8" height="6" rx="2"/>
+    <rect x="46" y="24" width="8" height="6" rx="2"/>
+    <rect x="10" y="50" width="8" height="10" rx="2"/>
+    <rect x="28" y="50" width="8" height="10" rx="2"/>
+  </g>
+
+  <!-- gear/roda gerigi kecil -->
+  <g transform="translate(210,190)" fill="#FF7EB6" fill-opacity="0.05">
+    <circle cx="0" cy="0" r="12"/>
+    <rect x="-2.5" y="-18" width="5" height="8"/>
+    <rect x="-2.5" y="10" width="5" height="8"/>
+    <rect x="-18" y="-2.5" width="8" height="5"/>
+    <rect x="10" y="-2.5" width="8" height="5"/>
+  </g>
+
+  <!-- bintang/kilau kecil -->
+  <text x="200" y="70" font-family="Poppins, Arial, sans-serif" font-size="18"
+        fill="#6C4CE8" fill-opacity="0.06">✦</text>
+  <text x="60" y="220" font-family="Poppins, Arial, sans-serif" font-size="16"
+        fill="#FF7EB6" fill-opacity="0.06">✦</text>
+</svg>

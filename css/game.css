@@ -1,0 +1,41 @@
+.hero-game {
+  background: linear-gradient(135deg,#FF7EB6 0%, #6C4CE8 100%);
+  border-radius: var(--r-xl);
+  padding: 30px 28px;
+  color: var(--putih);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+.hero-game h2 { color: var(--putih); margin-bottom: 4px; }
+.hero-game p { color: rgba(255,255,255,0.9); margin: 0; max-width: 420px; }
+.hero-game img { width: 110px; }
+
+.grid-misi { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.kartu-misi {
+  background: var(--putih);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-sm);
+  padding: 22px;
+  text-align: center;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.kartu-misi:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
+.kartu-misi .lencana {
+  width: 70px; height: 70px;
+  margin: 0 auto 12px;
+  border-radius: 50%;
+  background: var(--grad-oren);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 32px;
+  color: var(--putih);
+  box-shadow: var(--shadow-sm);
+}
+.kartu-misi h4 { font-size: 16px; margin-bottom: 4px; }
+.kartu-misi .status-misi { font-size: 12px; color: var(--abu-500); margin-bottom: 14px; }
+.kartu-misi .bintang-hasil { font-size: 18px; margin-bottom: 10px; }
+
+@media (max-width: 900px) { .grid-misi { grid-template-columns: 1fr; } }

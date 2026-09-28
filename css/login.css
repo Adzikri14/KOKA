@@ -1,0 +1,83 @@
+body.halaman-login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Warna dasar taruh langsung di body (bukan hanya lewat div .bg-gelombang
+     yang position:fixed) supaya tetap tampil di browser dalam-aplikasi
+     (WhatsApp/Instagram/dll) yang sering gagal me-render elemen fixed */
+  background: var(--grad-utama);
+}
+
+.login-wrap {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+}
+
+.login-brand {
+  color: var(--putih);
+  text-align: center;
+  max-width: 340px;
+}
+.login-brand img { width: 220px; margin: 0 auto 10px; }
+.login-brand h1 {
+  color: var(--putih);
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  text-shadow: 0 4px 0 rgba(0,0,0,0.15);
+}
+.login-brand .tagline {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--kuning-500);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.login-brand .subjudul {
+  margin-top: 14px;
+  color: var(--ungu-100);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.login-card {
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: var(--r-xl);
+  box-shadow: var(--shadow-lg);
+  padding: 38px 32px;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+}
+.login-card h2 { margin-bottom: 2px; font-size: 24px; }
+.login-card .sub { color: var(--abu-500); font-size: 14px; margin-bottom: 24px; font-weight: 600; }
+
+.login-card .btn { margin-top: 8px; font-size: 17px; padding: 16px 28px; }
+.login-card .btn:hover { transform: translateY(-2px) scale(1.02); }
+
+.login-footer-note {
+  margin-top: 18px;
+  font-size: 12px;
+  color: var(--abu-500);
+  font-weight: 600;
+}
+
+@media (max-width: 760px) {
+  .login-wrap { flex-direction: column; gap: 28px; }
+  .login-brand h1 { font-size: 44px; }
+}
