@@ -97,6 +97,7 @@ Chatbot belajar untuk siswa, memakai OpenAI lewat Google Apps Script (kunci API 
 - **Saklar utama**: Script Properties `KOKAI_AKTIF` di Apps Script (`tidak` = terkunci, `ya` = aktif). Tidak perlu deploy ulang.
 - Kotak KOKAI di Dashboard (setelah CP-TP) terkunci sampai diaktifkan; halaman: `html/kokai.html`, `js/kokai.js`, `css/kokai.css`.
 - Jatah per siswa/hari, batas panjang pertanyaan/jawaban, dan model diatur di Script Properties (lihat komentar di `apps-script/Code.gs`).
+- **Situs juri vs siswa**: pakai dua Apps Script terpisah. Script siswa `KOKAI_AKTIF` = `tidak` (terkunci); script juri `KOKAI_AKTIF` = `ya`. Tiap situs menunjuk ke script-nya lewat `APPS_SCRIPT_URL` di `js/config.js`.
 - Riwayat tanya-jawab & jumlah token tercatat di sheet **KOKAI**.
 
 ## 🚀 Cara Publikasikan (GitHub Pages, contoh gratis)
