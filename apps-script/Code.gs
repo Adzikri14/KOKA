@@ -29,7 +29,7 @@
  *    pada file js/config.js di proyek KOKA.
  */
 
-const SHEET_ID = "1NV4av7tC8Xo1uWcSNqyRzbbmurTD4djq16V0Y8og76c";
+const SHEET_ID = "1vVsbEKeqUS7A8-59cV_l9JlXXRhahh2zHJEt7_eF18s";
 const DRIVE_FOLDER_ID = "1Gr9Z9n6YHi2zJfM4crpFgrp4HorGp8do"; // hanya dipakai untuk upload file proyek
 
 /**
