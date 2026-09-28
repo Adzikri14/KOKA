@@ -6,5 +6,5 @@
    ========================================================================== */
 
 const KOKA_CONFIG = {
-  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbyK_jWDncRWlkNVs9L-1GSnZUQer_F04AeiILzM6-x0bUBm8ssIFqTcnijWouvCa6ME/exec"
+  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbzcJA92ljBb9dZk2PKMZz9g0AR3c3aV3fJIVEnSWLLLh2GeZHJcGqmX5KBdYgkbumxI-g/exec"
 };
