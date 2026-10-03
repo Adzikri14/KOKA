@@ -71,6 +71,7 @@
 .materi-detail-wrap {
   max-width: 780px;
   margin: 0 auto;
+  padding: 0 20px; /* jarak kiri-kanan di HP */
 }
 .blok-materi { margin-bottom: 20px; max-width: 100%; overflow-x: auto; }
 .blok-materi h3 { color: var(--ungu-700); font-size: 19px; margin-top: 26px; }
