@@ -140,6 +140,8 @@ body.halaman-app > .footer-koka {
   gap: 12px;
   transition: transform .15s ease, background .15s ease;
   border: 2px solid rgba(255,255,255,0.35);
+  justify-content: flex-start;
+  text-align: left;
 }
 .kartu-aksi-kecil:hover { transform: translateY(-3px); background: rgba(255,255,255,0.28); }
 .kartu-aksi-kecil .ikon {
