@@ -317,6 +317,8 @@ body.halaman-app > .footer-koka {
 
 @media (max-width: 760px) {
   .grid-menu { grid-template-columns: 1fr; }
-  .sambutan-box { flex-direction: column; text-align: center; }
+  .sambutan-box { flex-direction: column; text-align: left; }
+  .sambutan-atas { justify-content: flex-start; }
+  .sambutan-kiri { text-align: left; }
   .sambutan-kanan img { width: 90px; }
 }
