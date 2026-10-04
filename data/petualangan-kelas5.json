@@ -1,0 +1,691 @@
+{
+ "kelas": "5",
+ "bab": [
+  {
+   "id": "k5-b1",
+   "judul": "Berpikir Komputasional",
+   "badge": "🧠 Penjelajah Pikiran",
+   "misi": [
+    {
+     "nama": "Robot Koin",
+     "ikon": "🤖",
+     "robot": "k5-misi1",
+     "tujuan": "Game 1: susun panah robot, ambil 3 koin."
+    },
+    {
+     "nama": "Susun Blok Kode",
+     "ikon": "🧱",
+     "tujuan": "Game 2: susun blok kode sampai programnya jalan.",
+     "tahap": [
+      {
+       "tipe": "blok",
+       "judul": "Bantu ibu membuat jus!",
+       "blok": [
+        {
+         "ik": "🧼",
+         "t": "Cuci"
+        },
+        {
+         "ik": "🔪",
+         "t": "Potong"
+        },
+        {
+         "ik": "🥤",
+         "t": "Blender"
+        },
+        {
+         "ik": "🧃",
+         "t": "Tuang"
+        }
+       ],
+       "hasil": "🧃"
+      },
+      {
+       "tipe": "blok",
+       "judul": "Siap berangkat sekolah!",
+       "blok": [
+        {
+         "ik": "⏰",
+         "t": "Bangun"
+        },
+        {
+         "ik": "👕",
+         "t": "Seragam"
+        },
+        {
+         "ik": "👟",
+         "t": "Sepatu"
+        },
+        {
+         "ik": "🍳",
+         "t": "Sarapan"
+        },
+        {
+         "ik": "🏫",
+         "t": "Berangkat"
+        }
+       ],
+       "hasil": "🏫"
+      },
+      {
+       "tipe": "blok",
+       "judul": "Menyikat gigi!",
+       "blok": [
+        {
+         "ik": "🪥",
+         "t": "Ambil sikat"
+        },
+        {
+         "ik": "🧴",
+         "t": "Beri pasta"
+        },
+        {
+         "ik": "😁",
+         "t": "Sikat gigi"
+        },
+        {
+         "ik": "🚰",
+         "t": "Kumur"
+        }
+       ],
+       "hasil": "😁"
+      }
+     ]
+    },
+    {
+     "nama": "Detektif Bug",
+     "ikon": "🐞",
+     "tujuan": "Game 3: ketuk blok yang salah tempat.",
+     "tahap": [
+      {
+       "tipe": "bug",
+       "judul": "Ada bug di program berangkat sekolah!",
+       "blok": [
+        {
+         "ik": "⏰",
+         "t": "Bangun"
+        },
+        {
+         "ik": "👟",
+         "t": "Sepatu"
+        },
+        {
+         "ik": "👕",
+         "t": "Seragam"
+        },
+        {
+         "ik": "🍳",
+         "t": "Sarapan"
+        },
+        {
+         "ik": "🏫",
+         "t": "Berangkat"
+        }
+       ],
+       "salah": 1
+      },
+      {
+       "tipe": "bug",
+       "judul": "Ada bug di program jus!",
+       "blok": [
+        {
+         "ik": "🧼",
+         "t": "Cuci"
+        },
+        {
+         "ik": "🥤",
+         "t": "Blender"
+        },
+        {
+         "ik": "🔪",
+         "t": "Potong"
+        },
+        {
+         "ik": "🧃",
+         "t": "Tuang"
+        }
+       ],
+       "salah": 1
+      },
+      {
+       "tipe": "bug",
+       "judul": "Ada bug di program sikat gigi!",
+       "blok": [
+        {
+         "ik": "🪥",
+         "t": "Ambil sikat"
+        },
+        {
+         "ik": "😁",
+         "t": "Sikat gigi"
+        },
+        {
+         "ik": "🧴",
+         "t": "Beri pasta"
+        },
+        {
+         "ik": "🚰",
+         "t": "Kumur"
+        }
+       ],
+       "salah": 1
+      }
+     ]
+    },
+    {
+     "nama": "Kartu Pilar",
+     "ikon": "🃏",
+     "tujuan": "Game 4: balik kartu, cari pasangannya.",
+     "tahap": [
+      {
+       "tipe": "memori",
+       "judul": "Pasangkan gambar dengan pilarnya!",
+       "pasang": [
+        [
+         "🍰✂️",
+         "🧩 Dekomposisi"
+        ],
+        [
+         "📅🔁📅",
+         "🔁 Pola"
+        ],
+        [
+         "🗺️📍",
+         "🎯 Abstraksi"
+        ]
+       ]
+      },
+      {
+       "tipe": "memori",
+       "judul": "Cari pasangan yang tepat!",
+       "pasang": [
+        [
+         "🧹🧽🪟 dibagi",
+         "🧩 Dekomposisi"
+        ],
+        [
+         "1️⃣➡️2️⃣➡️3️⃣",
+         "📜 Algoritma"
+        ],
+        [
+         "🌅🏫 tiap Senin",
+         "🔁 Pola"
+        ]
+       ]
+      },
+      {
+       "tipe": "memori",
+       "judul": "Pasangan terakhir!",
+       "pasang": [
+        [
+         "🎂 resep",
+         "📜 Algoritma"
+        ],
+        [
+         "🔴🔵🔴🔵",
+         "🔁 Pola"
+        ],
+        [
+         "👤 nama & kelas saja",
+         "🎯 Abstraksi"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k5-b2",
+   "judul": "Pengenalan Pemrograman Dasar",
+   "badge": "💻 Programmer Cilik",
+   "misi": [
+    {
+     "nama": "Robot Koin",
+     "ikon": "🤖",
+     "robot": "k5-misi2",
+     "tujuan": "Game 1: susun panah robot, ambil 3 koin."
+    },
+    {
+     "nama": "Susun Blok Kode",
+     "ikon": "🧱",
+     "tujuan": "Game 2: susun blok kode sampai programnya jalan.",
+     "tahap": [
+      {
+       "tipe": "blok",
+       "judul": "Program Scratch: kucing berjalan!",
+       "blok": [
+        {
+         "ik": "🚩",
+         "t": "Klik bendera"
+        },
+        {
+         "ik": "🔢",
+         "t": "Skor = 0"
+        },
+        {
+         "ik": "🔁",
+         "t": "Ulangi 5x"
+        },
+        {
+         "ik": "➡️",
+         "t": "Gerak"
+        },
+        {
+         "ik": "⭐",
+         "t": "Skor + 1"
+        }
+       ],
+       "hasil": "🐱"
+      },
+      {
+       "tipe": "blok",
+       "judul": "Alur program: Input, Proses, Output",
+       "blok": [
+        {
+         "ik": "⌨️",
+         "t": "Input angka"
+        },
+        {
+         "ik": "⚙️",
+         "t": "Hitung"
+        },
+        {
+         "ik": "🖥️",
+         "t": "Tampil hasil"
+        }
+       ],
+       "hasil": "🖥️"
+      },
+      {
+       "tipe": "blok",
+       "judul": "Pseudocode bilangan genap",
+       "blok": [
+        {
+         "ik": "▶️",
+         "t": "MULAI"
+        },
+        {
+         "ik": "⌨️",
+         "t": "MASUKKAN angka"
+        },
+        {
+         "ik": "❓",
+         "t": "JIKA genap"
+        },
+        {
+         "ik": "🖥️",
+         "t": "TAMPILKAN"
+        },
+        {
+         "ik": "⏹️",
+         "t": "SELESAI"
+        }
+       ],
+       "hasil": "✅"
+      }
+     ]
+    },
+    {
+     "nama": "Detektif Bug",
+     "ikon": "🐞",
+     "tujuan": "Game 3: ketuk blok yang salah tempat.",
+     "tahap": [
+      {
+       "tipe": "bug",
+       "judul": "Ada bug di program kucing!",
+       "blok": [
+        {
+         "ik": "🚩",
+         "t": "Klik bendera"
+        },
+        {
+         "ik": "⏹️",
+         "t": "Berhenti"
+        },
+        {
+         "ik": "🔢",
+         "t": "Skor = 0"
+        },
+        {
+         "ik": "🔁",
+         "t": "Ulangi 5x"
+        },
+        {
+         "ik": "➡️",
+         "t": "Gerak"
+        }
+       ],
+       "salah": 1
+      },
+      {
+       "tipe": "bug",
+       "judul": "Ada bug di alur program!",
+       "blok": [
+        {
+         "ik": "⌨️",
+         "t": "Input angka"
+        },
+        {
+         "ik": "🖥️",
+         "t": "Tampil hasil"
+        },
+        {
+         "ik": "⚙️",
+         "t": "Hitung"
+        }
+       ],
+       "salah": 1
+      },
+      {
+       "tipe": "bug",
+       "judul": "Ada bug di pseudocode!",
+       "blok": [
+        {
+         "ik": "▶️",
+         "t": "MULAI"
+        },
+        {
+         "ik": "⌨️",
+         "t": "MASUKKAN angka"
+        },
+        {
+         "ik": "🖥️",
+         "t": "TAMPILKAN"
+        },
+        {
+         "ik": "❓",
+         "t": "JIKA genap"
+        },
+        {
+         "ik": "⏹️",
+         "t": "SELESAI"
+        }
+       ],
+       "salah": 2
+      }
+     ]
+    },
+    {
+     "nama": "Kartu Pilar",
+     "ikon": "🃏",
+     "tujuan": "Game 4: balik kartu, cari pasangannya.",
+     "tahap": [
+      {
+       "tipe": "memori",
+       "judul": "Kenali konsep pemrograman!",
+       "pasang": [
+        [
+         "🏆 skor",
+         "🔢 Variabel"
+        ],
+        [
+         "🔁🔁🔁",
+         "🔁 Perulangan"
+        ],
+        [
+         "☔ jika hujan",
+         "❓ Pengondisian"
+        ]
+       ]
+      },
+      {
+       "tipe": "memori",
+       "judul": "Input, Proses, Output!",
+       "pasang": [
+        [
+         "⌨️ ketik angka",
+         "📥 Input"
+        ],
+        [
+         "➕ jumlahkan",
+         "⚙️ Proses"
+        ],
+        [
+         "🖥️ hasil di layar",
+         "📤 Output"
+        ]
+       ]
+      },
+      {
+       "tipe": "memori",
+       "judul": "Kenali bagian Scratch!",
+       "pasang": [
+        [
+         "🎭 karakter",
+         "🐱 Sprite"
+        ],
+        [
+         "🧱 blok warna",
+         "🧩 Blok kode"
+        ],
+        [
+         "🎬 tempat hasil tampil",
+         "🖼️ Panggung"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k5-b3",
+   "judul": "Teknologi Digital dan Sistem Komputer",
+   "badge": "🌐 Penjaga Dunia Digital",
+   "misi": [
+    {
+     "nama": "Robot Koin",
+     "ikon": "🤖",
+     "robot": "k5-misi3",
+     "tujuan": "Game 1: susun panah robot, ambil 3 koin."
+    },
+    {
+     "nama": "Susun Blok Kode",
+     "ikon": "🧱",
+     "tujuan": "Game 2: susun blok kode sampai programnya jalan.",
+     "tahap": [
+      {
+       "tipe": "blok",
+       "judul": "Cara kerja komputer",
+       "blok": [
+        {
+         "ik": "⌨️",
+         "t": "Input"
+        },
+        {
+         "ik": "⚙️",
+         "t": "Proses"
+        },
+        {
+         "ik": "🖥️",
+         "t": "Output"
+        }
+       ],
+       "hasil": "🖥️"
+      },
+      {
+       "tipe": "blok",
+       "judul": "Mengirim pesan ke teman",
+       "blok": [
+        {
+         "ik": "📱",
+         "t": "Buka aplikasi"
+        },
+        {
+         "ik": "⌨️",
+         "t": "Ketik pesan"
+        },
+        {
+         "ik": "📤",
+         "t": "Kirim"
+        },
+        {
+         "ik": "✅",
+         "t": "Terkirim"
+        }
+       ],
+       "hasil": "💌"
+      },
+      {
+       "tipe": "blok",
+       "judul": "Ada pesan mencurigakan!",
+       "blok": [
+        {
+         "ik": "📩",
+         "t": "Terima pesan aneh"
+        },
+        {
+         "ik": "🚫",
+         "t": "Jangan klik"
+        },
+        {
+         "ik": "👨‍👩‍👧",
+         "t": "Lapor orang tua"
+        },
+        {
+         "ik": "🗑️",
+         "t": "Hapus pesan"
+        }
+       ],
+       "hasil": "🛡️"
+      }
+     ]
+    },
+    {
+     "nama": "Detektif Bug",
+     "ikon": "🐞",
+     "tujuan": "Game 3: ketuk blok yang salah tempat.",
+     "tahap": [
+      {
+       "tipe": "bug",
+       "judul": "Ada bug di cara kerja komputer!",
+       "blok": [
+        {
+         "ik": "⌨️",
+         "t": "Input"
+        },
+        {
+         "ik": "🖥️",
+         "t": "Output"
+        },
+        {
+         "ik": "⚙️",
+         "t": "Proses"
+        }
+       ],
+       "salah": 1
+      },
+      {
+       "tipe": "bug",
+       "judul": "Ada bug saat mengunduh aplikasi!",
+       "blok": [
+        {
+         "ik": "📱",
+         "t": "Lihat aplikasi"
+        },
+        {
+         "ik": "📥",
+         "t": "Unduh"
+        },
+        {
+         "ik": "👨‍👩‍👧",
+         "t": "Minta izin ortu"
+        },
+        {
+         "ik": "✅",
+         "t": "Pasang"
+        }
+       ],
+       "salah": 1
+      },
+      {
+       "tipe": "bug",
+       "judul": "Ada bug saat membuat akun!",
+       "blok": [
+        {
+         "ik": "📝",
+         "t": "Isi nama"
+        },
+        {
+         "ik": "🔑",
+         "t": "Buat sandi kuat"
+        },
+        {
+         "ik": "📢",
+         "t": "Bagikan sandi ke teman"
+        },
+        {
+         "ik": "✅",
+         "t": "Selesai"
+        }
+       ],
+       "salah": 2
+      }
+     ]
+    },
+    {
+     "nama": "Kartu Pilar",
+     "ikon": "🃏",
+     "tujuan": "Game 4: balik kartu, cari pasangannya.",
+     "tahap": [
+      {
+       "tipe": "memori",
+       "judul": "Perangkat komputer!",
+       "pasang": [
+        [
+         "⌨️ keyboard",
+         "📥 Input"
+        ],
+        [
+         "🖥️ monitor",
+         "📤 Output"
+        ],
+        [
+         "🧠 CPU",
+         "⚙️ Proses"
+        ]
+       ]
+      },
+      {
+       "tipe": "memori",
+       "judul": "Aman atau bahaya?",
+       "pasang": [
+        [
+         "🔑 sandi rahasia",
+         "✅ Aman"
+        ],
+        [
+         "📍 alamat di medsos",
+         "⚠️ Bahaya"
+        ],
+        [
+         "🔗 link tak dikenal",
+         "🚫 Jangan klik"
+        ]
+       ]
+      },
+      {
+       "tipe": "memori",
+       "judul": "Teknologi digital!",
+       "pasang": [
+        [
+         "📚 belajar online",
+         "✨ Manfaat"
+        ],
+        [
+         "🎮 kecanduan game",
+         "⚠️ Dampak buruk"
+        ],
+        [
+         "🤖 robot & AI",
+         "🧠 Teknologi digital"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
