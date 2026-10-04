@@ -112,6 +112,9 @@ async function muatMisi() {
     return;
   }
 
+  const tujuanBab = 'petualangan.html?bab=' + dataMisi.babTerkait;
+  document.querySelector('.hud-kiri a').href = tujuanBab;
+  document.querySelector('#overlay-hasil a.btn-oren').href = tujuanBab;
   document.getElementById('judul-misi-aktif').textContent = dataMisi.judul.toUpperCase();
 
   // Pilih varian denah berdasarkan nomor misi/bab, supaya bab 1, 2, 3, dst
@@ -132,6 +135,9 @@ function siapkanMedan(denah) {
       if (cellTypes[r][c] === 'C') koinCells.push({ r, c });
     }
   }
+  // Tiap misi hanya 3 koin (= 3 soal): koin ke-4 dst dihapus dari medan
+  koinCells.slice(3).forEach(k => { cellTypes[k.r][k.c] = '.'; });
+  koinCells = koinCells.slice(0, 3);
   koinTerjawab = koinCells.map(() => false);
   posisiSekarang = { ...posisiAwal };
 }
