@@ -978,88 +978,293 @@
       "babJudul": "Bab 3 — Literasi Digital dan Keamanan Informasi",
       "paket": {
         "A": [
-          {
+         {
             "id": "s1",
             "jenis": "pg",
-            "teks": "Kemampuan memahami dan menggunakan teknologi digital secara bijak disebut...",
+            "teks": "Rina menggunakan komputer untuk mengetik tugas sekolah. Komputer dapat menerima perintah, mengolah data, dan menampilkan hasil. Kumpulan komponen yang bekerja bersama untuk melakukan kegiatan tersebut disebut ....",
             "gambar": "",
-            "pilihan": [
-              "Literasi digital",
-              "Algoritma",
-              "Pemrograman",
-              "Dekomposisi"
-            ],
-            "jawaban": 0,
-            "bobot": 1
+            "pilihan": ["jaringan komputer", "sistem komputer", "perangkat digital", "teknologi informasi"],
+            "jawaban": 1,
+            "bobot": 2
           },
           {
             "id": "s2",
             "jenis": "pg",
-            "teks": "Perangkat yang berfungsi memasukkan data ke dalam komputer adalah...",
-            "gambar": "images/materi/k5-bab3-komputer.png",
-            "pilihan": [
-              "Keyboard",
-              "Monitor",
-              "Speaker",
-              "Printer"
-            ],
-            "jawaban": 0,
-            "bobot": 1
+            "teks": "Komputer membantu manusia menyelesaikan berbagai pekerjaan. Berikut ini yang merupakan manfaat sistem komputer adalah ....",
+            "gambar": "",
+            "pilihan": ["membuat pekerjaan menjadi lebih sulit", "memperlambat pengolahan data", "mempermudah pekerjaan manusia", "menghilangkan kebutuhan belajar"],
+            "jawaban": 2,
+            "bobot": 2
           },
           {
             "id": "s3",
-            "jenis": "pgk",
-            "teks": "Berikut ini termasuk perangkat INPUT komputer adalah... (pilih 2 jawaban)",
+            "jenis": "pg",
+            "teks": "Sebuah komputer dapat digunakan karena memiliki tiga komponen utama yang saling bekerja sama. Ketiga komponen tersebut adalah ....",
             "gambar": "",
-            "pilihan": [
-              "Keyboard",
-              "Monitor",
-              "Mouse",
-              "Speaker"
-            ],
-            "jawabanBenar": [
-              0,
-              2
-            ],
+            "pilihan": ["hardware, software, dan brainware", "monitor, keyboard, dan mouse", "input, internet, dan listrik", "aplikasi, dokumen, dan printer"],
+            "jawaban": 0,
             "bobot": 2
           },
           {
             "id": "s4",
+            "jenis": "pg",
+            "teks": "Budi menggunakan keyboard untuk mengetik dan monitor untuk melihat hasilnya. Keyboard dan monitor termasuk komponen ....",
+            "gambar": "",
+            "pilihan": ["software", "brainware", "hardware", "sistem operasi"],
+            "jawaban": 2,
+            "bobot": 2
+          },
+          {
+            "id": "s5",
+            "jenis": "pg",
+            "teks": "Siti ingin menggambar menggunakan komputer. Ia membuka aplikasi Paint untuk membuat gambar. Aplikasi Paint termasuk ....",
+            "gambar": "",
+            "pilihan": ["perangkat keras", "perangkat lunak", "perangkat penyimpanan", "pengguna komputer"],
+            "jawaban": 1,
+            "bobot": 2
+          },
+          {
+            "id": "s6",
+            "jenis": "pg",
+            "teks": "Komputer di laboratorium sekolah digunakan oleh guru dan siswa. Guru dan siswa yang mengoperasikan komputer disebut ....",
+            "gambar": "",
+            "pilihan": ["hardware", "software", "brainware", "output"],
+            "jawaban": 2,
+            "bobot": 2
+          },
+          {
+            "id": "s7",
+            "jenis": "pg",
+            "teks": "Andi ingin memasukkan huruf dan angka ke dalam komputer. Perangkat yang tepat digunakan untuk kegiatan tersebut adalah ....",
+            "gambar": "",
+            "pilihan": ["monitor", "printer", "keyboard", "speaker"],
+            "jawaban": 2,
+            "bobot": 2
+          },
+          {
+            "id": "s8",
+            "jenis": "pg",
+            "teks": "Ketika komputer menjalankan perintah dan mengolah data, komponen yang bertugas melakukan proses tersebut adalah ....",
+            "gambar": "",
+            "pilihan": ["CPU", "mouse", "monitor", "keyboard"],
+            "jawaban": 0,
+            "bobot": 2
+          },
+          {
+            "id": "s9",
+            "jenis": "pg",
+            "teks": "Setelah menyelesaikan tugas, Rani ingin menyimpan dokumennya agar dapat dibuka kembali. Perangkat yang dapat digunakan untuk menyimpan data adalah ....",
+            "gambar": "",
+            "pilihan": ["speaker", "flashdisk", "mikrofon", "webcam"],
+            "jawaban": 1,
+            "bobot": 2
+          },
+          {
+            "id": "s10",
+            "jenis": "pg",
+            "teks": "Komputer memiliki perangkat lunak yang mengatur kerja perangkat keras dan membantu menjalankan aplikasi. Perangkat lunak tersebut disebut ....",
+            "gambar": "",
+            "pilihan": ["sistem operasi", "perangkat input", "perangkat output", "perangkat penyimpanan"],
+            "jawaban": 0,
+            "bobot": 2
+          },
+          {
+            "id": "s11",
+            "jenis": "pgk",
+            "teks": "Komputer memiliki tiga komponen utama yang saling bekerja sama. Berikut yang termasuk komponen utama sistem komputer adalah .... (pilih 2 jawaban)",
+            "gambar": "",
+            "pilihan": ["Internet", "Software", "Hardware", "Monitor"],
+            "jawabanBenar": [1, 2],
+            "bobot": 2
+          },
+          {
+            "id": "s12",
+            "jenis": "pgk",
+            "teks": "Andi sedang menggunakan komputer untuk mengerjakan tugas. Perangkat yang termasuk kelompok input adalah .... (pilih 2 jawaban)",
+            "gambar": "",
+            "pilihan": ["Keyboard", "Monitor", "Mouse", "Printer"],
+            "jawabanBenar": [0, 2],
+            "bobot": 2
+          },
+          {
+            "id": "s13",
+            "jenis": "pgk",
+            "teks": "Setelah mengolah data, komputer menampilkan hasilnya kepada pengguna. Perangkat yang termasuk kelompok output adalah .... (pilih 2 jawaban)",
+            "gambar": "",
+            "pilihan": ["Speaker", "Keyboard", "Monitor", "Mikrofon"],
+            "jawabanBenar": [0, 3],
+            "bobot": 2
+          },
+          {
+            "id": "s14",
+            "jenis": "pgk",
+            "teks": "Rina ingin menyimpan dokumen agar dapat dibuka kembali. Perangkat yang dapat digunakan untuk menyimpan data adalah .... (pilih 2 jawaban)",
+            "gambar": "",
+            "pilihan": ["Flashdisk", "Printer", "Hard disk", "Mouse"],
+            "jawabanBenar": [0, 2],
+            "bobot": 2
+          },
+          {
+            "id": "s15",
+            "jenis": "pgk",
+            "teks": "Berikut ini yang termasuk contoh perangkat lunak (software) pada komputer adalah .... (pilih 2 jawaban)",
+            "gambar": "",
+            "pilihan": ["Microsoft Word", "Keyboard", "Paint", "Monitor"],
+            "jawabanBenar": [0, 2],
+            "bobot": 2
+          },
+          {
+            "id": "s16",
             "jenis": "benarsalah",
-            "teks": "Perhatikan pernyataan berikut tentang sistem komputer:",
+            "teks": "Rani sedang belajar menggunakan komputer di laboratorium sekolah. Ia mengetahui bahwa komputer memiliki beberapa komponen yang saling bekerja sama.",
             "pernyataan": [
               {
-                "teks": "Output adalah bagian komputer yang menampilkan hasil pengolahan data.",
+                "teks": "Hardware merupakan perangkat keras komputer yang dapat dilihat dan disentuh.",
                 "jawaban": true
               },
               {
-                "teks": "Kata sandi boleh dibagikan ke teman dekat asal dipercaya.",
+                "teks": "Software merupakan orang yang mengoperasikan komputer.",
                 "jawaban": false
               },
               {
-                "teks": "Proses (CPU) berfungsi mengolah data yang telah dimasukkan.",
+                "teks": "Brainware adalah manusia yang menggunakan atau mengoperasikan komputer.",
                 "jawaban": true
               }
             ],
             "bobot": 3
           },
           {
-            "id": "s5",
-            "jenis": "menjodohkan",
-            "teks": "Jodohkan bagian sistem komputer dengan fungsinya:",
-            "pasangan": [
+            "id": "s17",
+            "jenis": "benarsalah",
+            "teks": "Budi sedang mengetik tugas menggunakan komputer. Ia menggunakan beberapa perangkat untuk memasukkan dan menampilkan informasi.",
+            "pernyataan": [
               {
-                "kiri": "Input",
-                "kanan": "Memasukkan data ke komputer"
+                "teks": "Keyboard digunakan untuk memasukkan huruf dan angka.",
+                "jawaban": true
               },
               {
-                "kiri": "Proses",
-                "kanan": "Mengolah data yang dimasukkan"
+                "teks": "Monitor termasuk perangkat input karena digunakan untuk memasukkan data.",
+                "jawaban": false
               },
               {
-                "kiri": "Output",
-                "kanan": "Menampilkan hasil pengolahan data"
+                "teks": "Mouse digunakan untuk menggerakkan pointer pada layar komputer.",
+                "jawaban": true
               }
+            ],
+            "bobot": 3
+          },
+          {
+            "id": "s18",
+            "jenis": "benarsalah",
+            "teks": "Setelah mengerjakan tugas, Siti ingin mencetak dan menyimpan hasil pekerjaannya agar dapat digunakan kembali.",
+            "pernyataan": [
+              {
+                "teks": "Printer termasuk perangkat output karena menghasilkan cetakan.",
+                "jawaban": true
+              },
+              {
+                "teks": "Flashdisk digunakan untuk mengeluarkan suara dari komputer.",
+                "jawaban": false
+              },
+              {
+                "teks": "Hard disk dapat digunakan untuk menyimpan data.",
+                "jawaban": true
+              }
+            ],
+            "bobot": 3
+          },
+          {
+            "id": "s19",
+            "jenis": "benarsalah",
+            "teks": "Komputer di laboratorium sekolah digunakan untuk menjalankan berbagai aplikasi pembelajaran.",
+            "pernyataan": [
+              {
+                "teks": "CPU bertugas mengolah data dan menjalankan perintah.",
+                "jawaban": true
+              },
+              {
+                "teks": "Speaker termasuk perangkat proses karena mengolah data.",
+                "jawaban": false
+              },
+              {
+                "teks": "RAM membantu menyimpan data sementara saat komputer bekerja.",
+                "jawaban": true
+              }
+            ],
+            "bobot": 3
+          },
+          {
+            "id": "s20",
+            "jenis": "benarsalah",
+            "teks": "Andi menggunakan komputer untuk belajar, menggambar, dan mencari informasi. Komputer membutuhkan perangkat lunak agar dapat menjalankan berbagai kegiatan tersebut.",
+            "pernyataan": [
+              {
+                "teks": "Windows merupakan salah satu contoh sistem operasi.",
+                "jawaban": true
+              },
+              {
+                "teks": "Microsoft Word merupakan perangkat keras komputer.",
+                "jawaban": false
+              },
+              {
+                "teks": "Paint dapat digunakan untuk membuat dan mengedit gambar.",
+                "jawaban": true
+              }
+            ],
+            "bobot": 3
+          },
+          {
+            "id": "s21",
+            "jenis": "menjodohkan",
+            "teks": "Perhatikan fungsi komponen utama sistem komputer berikut! Jodohkan pernyataan dengan jawaban yang tepat:",
+            "pasangan": [
+              { "kiri": "Perangkat keras komputer", "kanan": "Hardware" },
+              { "kiri": "Perangkat lunak komputer", "kanan": "Software" },
+              { "kiri": "Orang yang mengoperasikan komputer", "kanan": "Brainware" }
+            ],
+            "bobot": 3
+          },
+          {
+            "id": "s22",
+            "jenis": "menjodohkan",
+            "teks": "Rina menggunakan beberapa perangkat untuk memasukkan data ke komputer. Jodohkan nama perangkat berikut dengan fungsinya!",
+            "pasangan": [
+              { "kiri": "Keyboard", "kanan": "Memasukkan huruf dan angka" },
+              { "kiri": "Mouse", "kanan": "Menggerakkan pointer" },
+              { "kiri": "Mikrofon", "kanan": "Memasukkan suara" }
+            ],
+            "bobot": 3
+          },
+          {
+            "id": "s23",
+            "jenis": "menjodohkan",
+            "teks": "Setelah data diolah, komputer menghasilkan informasi yang dapat dilihat atau didengar. Jodohkan perangkat berikut dengan fungsinya!",
+            "pasangan": [
+              { "kiri": "Monitor", "kanan": "Menampilkan gambar dan tulisan" },
+              { "kiri": "Printer", "kanan": "Mencetak dokumen ke kertas" },
+              { "kiri": "Speaker", "kanan": "Mengeluarkan suara" }
+            ],
+            "bobot": 3
+          },
+          {
+            "id": "s24",
+            "jenis": "menjodohkan",
+            "teks": "Komputer memiliki perangkat yang bertugas mengolah dan menyimpan data. Jodohkan perangkat berikut dengan fungsinya!",
+            "pasangan": [
+              { "kiri": "CPU", "kanan": "Mengolah data dan menjalankan perintah" },
+              { "kiri": "RAM", "kanan": "Menyimpan data sementara" },
+              { "kiri": "Flashdisk", "kanan": "Menyimpan data untuk digunakan kembali" }
+            ],
+            "bobot": 3
+          },
+          {
+            "id": "s25",
+            "jenis": "menjodohkan",
+            "teks": "Komputer membutuhkan sistem operasi dan aplikasi untuk membantu pekerjaan manusia. Jodohkan nama perangkat lunak berikut dengan kegunaannya!",
+            "pasangan": [
+              { "kiri": "Windows", "kanan": "Mengatur kerja komputer" },
+              { "kiri": "Microsoft Word", "kanan": "Membuat dan mengedit dokumen teks" },
+              { "kiri": "Paint", "kanan": "Membuat dan mengedit gambar" }
             ],
             "bobot": 3
           }
