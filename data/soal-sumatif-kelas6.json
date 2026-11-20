@@ -612,7 +612,328 @@
       "babId": "k6-b3",
       "babJudul": "Bab 3 — Literasi Digital dan Keamanan Informasi",
       "paket": {
-        "A": []
+        "A": [
+         {
+          "id": "s1",
+          "jenis": "pg",
+          "teks": "Teknologi digital mengalami perkembangan yang sangat pesat. Salah satu contoh perkembangan teknologi komunikasi adalah ....",
+          "gambar": "",
+          "pilihan": [
+            "Surat yang dikirim melalui merpati",
+            "Telepon pintar (smartphone)",
+            "Kentongan",
+            "Surat yang ditulis tangan"
+          ],
+          "jawaban": 1,
+          "bobot": 2
+        },
+        {
+          "id": "s2",
+          "jenis": "pg",
+          "teks": "Pada zaman dahulu, manusia menggunakan mesin ketik untuk membuat dokumen. Saat ini, dokumen dapat dibuat menggunakan ....",
+          "gambar": "",
+          "pilihan": [
+            "Komputer",
+            "Cangkul",
+            "Kompor",
+            "Jam dinding"
+          ],
+          "jawaban": 0,
+          "bobot": 2
+        },
+        {
+          "id": "s3",
+          "jenis": "pg",
+          "teks": "Salah satu manfaat perkembangan teknologi digital dalam bidang pendidikan adalah ....",
+          "gambar": "",
+          "pilihan": [
+            "Membuat siswa malas belajar",
+            "Mengurangi pengetahuan siswa",
+            "Memudahkan mencari sumber belajar",
+            "Menghilangkan kegiatan membaca"
+          ],
+          "jawaban": 2,
+          "bobot": 2
+        },
+        {
+          "id": "s4",
+          "jenis": "pg",
+          "teks": "Alat komunikasi yang memungkinkan seseorang melakukan panggilan video jarak jauh adalah ....",
+          "gambar": "",
+          "pilihan": [
+            "Radio",
+            "Televisi tabung",
+            "Mesin tik",
+            "Smartphone"
+          ],
+          "jawaban": 3,
+          "bobot": 2
+        },
+        {
+          "id": "s5",
+          "jenis": "pg",
+          "teks": "Internet merupakan teknologi yang memungkinkan manusia untuk ....",
+          "gambar": "",
+          "pilihan": [
+            "Mengirim dan menerima informasi dengan cepat",
+            "Memasak makanan secara otomatis",
+            "Mencuci pakaian secara manual",
+            "Menanam pohon tanpa alat"
+          ],
+          "jawaban": 0,
+          "bobot": 2
+        },
+        {
+          "id": "s6",
+          "jenis": "pg",
+          "teks": "Berikut ini yang merupakan contoh perubahan teknologi dari masa ke masa adalah ....",
+          "gambar": "",
+          "pilihan": [
+            "Lampu minyak menjadi lampu LED",
+            "Sepeda menjadi sepatu",
+            "Buku menjadi meja",
+            "Pensil menjadi penghapus"
+          ],
+          "jawaban": 0,
+          "bobot": 2
+        },
+        {
+          "id": "s7",
+          "jenis": "pg",
+          "teks": "Teknologi digital dalam bidang transportasi dapat ditemukan pada ....",
+          "gambar": "",
+          "pilihan": [
+            "Gerobak kayu",
+            "Aplikasi pemesanan kendaraan online",
+            "Becak tradisional",
+            "Sepeda tanpa mesin"
+          ],
+          "jawaban": 1,
+          "bobot": 2
+        },
+        {
+          "id": "s8",
+          "jenis": "pg",
+          "teks": "Salah satu dampak positif perkembangan teknologi digital adalah ....",
+          "gambar": "",
+          "pilihan": [
+            "Penyebaran berita bohong",
+            "Kecanduan bermain gim",
+            "Mempermudah pekerjaan manusia",
+            "Berkurangnya interaksi sosial"
+          ],
+          "jawaban": 2,
+          "bobot": 2
+        },
+        {
+          "id": "s9",
+          "jenis": "pg",
+          "teks": "Contoh penggunaan teknologi digital dalam bidang kesehatan adalah ....",
+          "gambar": "",
+          "pilihan": [
+            "Menggunakan aplikasi untuk konsultasi dokter secara online",
+            "Membeli obat tanpa aturan",
+            "Mengabaikan pemeriksaan kesehatan",
+            "Menggunakan alat tradisional untuk memasak"
+          ],
+          "jawaban": 0,
+          "bobot": 2
+        },
+        {
+          "id": "s10",
+          "jenis": "pg",
+          "teks": "Agar dapat menggunakan teknologi digital dengan baik, kita harus ....",
+          "gambar": "",
+          "pilihan": [
+            "Membagikan semua informasi pribadi",
+            "Menggunakan internet sepanjang hari",
+            "Mempercayai semua informasi di internet",
+            "Menggunakan teknologi secara bijak dan bertanggung jawab"
+          ],
+          "jawaban": 3,
+          "bobot": 2
+        }, 
+        {
+          "id": "s11",
+          "jenis": "pgk",
+          "teks": "Perkembangan teknologi digital memberikan banyak manfaat dalam kehidupan sehari-hari. Contoh manfaat teknologi digital adalah .... (Pilih 2 jawaban yang benar!)",
+          "gambar": "",
+          "pilihan": [
+            "Mempermudah komunikasi jarak jauh.",
+            "Mempermudah mencari informasi dan pengetahuan.",
+            "Menyebarkan berita bohong.",
+            "Menyebabkan kecanduan bermain gim."
+          ],
+          "jawabanBenar": [0, 1],
+          "bobot": 4
+        },
+        {
+          "id": "s12",
+          "jenis": "pgk",
+          "teks": "Berikut ini yang termasuk ancaman dalam penggunaan teknologi digital adalah .... (Pilih 2 jawaban yang benar!)",
+          "gambar": "",
+          "pilihan": [
+            "Pencurian data pribadi.",
+            "Mendapatkan informasi pelajaran.",
+            "Penipuan melalui internet.",
+            "Melakukan pembelajaran secara daring."
+          ],
+          "jawabanBenar": [0, 2],
+          "bobot": 4
+        },
+        {
+          "id": "s13",
+          "jenis": "pgk",
+          "teks": "Penggunaan teknologi digital secara berlebihan dapat menimbulkan dampak negatif, yaitu .... (Pilih 2 jawaban yang benar!)",
+          "gambar": "",
+          "pilihan": [
+            "Menambah wawasan pengetahuan.",
+            "Mengganggu kesehatan mata.",
+            "Menyebabkan kecanduan internet.",
+            "Mempermudah pekerjaan manusia."
+          ],
+          "jawabanBenar": [1, 2],
+          "bobot": 4
+        },
+        {
+          "id": "s14",
+          "jenis": "pgk",
+          "teks": "Contoh perkembangan teknologi digital dalam berbagai bidang kehidupan ditunjukkan oleh .... (Pilih 2 jawaban yang benar!)",
+          "gambar": "",
+          "pilihan": [
+            "Pembayaran menggunakan uang elektronik.",
+            "Mengirim surat menggunakan merpati.",
+            "Belajar melalui kelas online.",
+            "Menggunakan kentongan untuk berkomunikasi."
+          ],
+          "jawabanBenar": [0, 2],
+          "bobot": 4
+        },
+        {
+          "id": "s15",
+          "jenis": "pgk",
+          "teks": "Agar terhindar dari ancaman teknologi digital, kita harus melakukan tindakan yang tepat, yaitu .... (Pilih 2 jawaban yang benar!)",
+          "gambar": "",
+          "pilihan": [
+            "Membagikan kata sandi kepada teman.",
+            "Menggunakan kata sandi yang kuat.",
+            "Membuka semua tautan yang dikirim orang asing.",
+            "Tidak membagikan data pribadi sembarangan."
+          ],
+          "jawabanBenar": [1, 3],
+          "bobot": 4
+        },
+        {
+          "id": "s16",
+          "jenis": "benarsalah",
+          "teks": "Tentukan Benar atau Salah untuk pernyataan berikut mengenai perkembangan teknologi digital!",
+          "pernyataan": [
+            { "teks": "Teknologi digital berkembang dari waktu ke waktu.", "jawaban": true },
+            { "teks": "Smartphone dapat digunakan untuk berkomunikasi jarak jauh.", "jawaban": true },
+            { "teks": "Mesin tik merupakan teknologi komunikasi digital modern.", "jawaban": false }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": "s17",
+          "jenis": "benarsalah",
+          "teks": "Tentukan Benar atau Salah untuk pernyataan berikut mengenai manfaat teknologi digital!",
+          "pernyataan": [
+            { "teks": "Internet dapat membantu siswa mencari materi pelajaran.", "jawaban": true },
+            { "teks": "Teknologi digital mempersulit manusia dalam berkomunikasi.", "jawaban": false },
+            { "teks": "Pembayaran digital dapat mempermudah transaksi.", "jawaban": true }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": "s18",
+          "jenis": "benarsalah",
+          "teks": "Tentukan Benar atau Salah untuk pernyataan berikut mengenai ancaman teknologi digital!",
+          "pernyataan": [
+            { "teks": "Penipuan online merupakan salah satu ancaman digital.", "jawaban": true },
+            { "teks": "Membagikan kata sandi kepada orang lain dapat membahayakan keamanan akun.", "jawaban": true },
+            { "teks": "Semua informasi di internet pasti benar.", "jawaban": false }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": "s19",
+          "jenis": "benarsalah",
+          "teks": "Tentukan Benar atau Salah untuk pernyataan berikut mengenai dampak negatif teknologi digital!",
+          "pernyataan": [
+            { "teks": "Bermain gim secara berlebihan dapat menyebabkan kecanduan.", "jawaban": true },
+            { "teks": "Menggunakan gawai terlalu lama dapat mengganggu kesehatan mata.", "jawaban": true },
+            { "teks": "Penggunaan internet secara berlebihan selalu memberikan dampak positif.", "jawaban": false }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": "s20",
+          "jenis": "benarsalah",
+          "teks": "Tentukan Benar atau Salah untuk pernyataan berikut mengenai penggunaan teknologi digital yang bijak!",
+          "pernyataan": [
+            { "teks": "Kita harus menjaga kerahasiaan data pribadi.", "jawaban": true },
+            { "teks": "Kita boleh langsung membuka tautan dari orang yang tidak dikenal.", "jawaban": false },
+            { "teks": "Kita harus memeriksa kebenaran informasi sebelum membagikannya.", "jawaban": true }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": "s21",
+          "jenis": "menjodohkan",
+          "teks": "Jodohkan setiap pernyataan berikut dengan jawaban yang tepat mengenai perkembangan teknologi digital!",
+          "pasangan": [
+            { "kiri": "Alat komunikasi untuk mengirim pesan secara cepat", "kanan": "Aplikasi pesan instan" },
+            { "kiri": "Alat untuk mengetik dan mengolah dokumen", "kanan": "Komputer" },
+            { "kiri": "Alat komunikasi modern yang dapat digunakan untuk video call", "kanan": "Smartphone" }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": "s22",
+          "jenis": "menjodohkan",
+          "teks": "Jodohkan setiap pernyataan berikut dengan jawaban yang tepat mengenai manfaat teknologi digital!",
+          "pasangan": [
+            { "kiri": "Mencari informasi melalui jaringan internet", "kanan": "Mesin pencari" },
+            { "kiri": "Melakukan kegiatan belajar melalui internet", "kanan": "Belajar online" },
+            { "kiri": "Melakukan pembayaran tanpa uang tunai", "kanan": "Pembayaran digital" }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": "s23",
+          "jenis": "menjodohkan",
+          "teks": "Jodohkan setiap pernyataan berikut dengan jawaban yang tepat mengenai ancaman teknologi digital!",
+          "pasangan": [
+            { "kiri": "Mengambil data pribadi seseorang tanpa izin", "kanan": "Pencurian data" },
+            { "kiri": "Memberikan informasi palsu untuk menyesatkan orang lain", "kanan": "Berita bohong" },
+            { "kiri": "Mengelabui orang agar memberikan uang melalui internet", "kanan": "Penipuan online" }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": "s24",
+          "jenis": "menjodohkan",
+          "teks": "Jodohkan setiap pernyataan berikut dengan jawaban yang tepat mengenai dampak negatif teknologi digital!",
+          "pasangan": [
+            { "kiri": "Terlalu sering bermain gim hingga sulit berhenti", "kanan": "Kecanduan gim" },
+            { "kiri": "Terlalu lama menatap layar gawai", "kanan": "Gangguan kesehatan mata" },
+            { "kiri": "Kurangnya komunikasi langsung dengan orang sekitar", "kanan": "Berkurangnya interaksi sosial" }
+          ],
+          "bobot": 6
+        },
+        {
+          "id": "s25",
+          "jenis": "menjodohkan",
+          "teks": "Jodohkan setiap pernyataan berikut dengan jawaban yang tepat mengenai penggunaan teknologi digital yang bijak!",
+          "pasangan": [
+            { "kiri": "Tidak memberikan kata sandi kepada orang lain", "kanan": "Menjaga privasi" },
+            { "kiri": "Memastikan berita benar sebelum membagikannya", "kanan": "Memeriksa informasi" },
+            { "kiri": "Menggunakan internet sesuai kebutuhan", "kanan": "Bijak menggunakan internet" }
+          ],
+          "bobot": 6
+        }
+        ]
       }
     }
   ]
